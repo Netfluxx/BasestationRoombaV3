@@ -1,0 +1,24 @@
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  if (Serial.available() > 0) {
+    String receivedString = Serial.readStringUntil('\n'); // Read until semicolon character
+    delay(10);
+    if(receivedString == "forward"){
+      Serial.println("f");
+    }else if(receivedString == "backwards"){
+      Serial.println("b");
+    }else if(receivedString == "right"){
+      Serial.println("r");
+    }else if(receivedString == "left"){
+      Serial.println("l");
+    }else if(receivedString == "stop"){
+      Serial.println("s");
+    }else{
+      Serial.println("#");
+    }
+  }
+  delay(10);
+}
