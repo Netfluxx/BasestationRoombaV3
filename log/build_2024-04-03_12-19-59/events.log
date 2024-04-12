@@ -1,0 +1,243 @@
+[0.000000] (-) TimerEvent: {}
+[0.000330] (microver) JobQueued: {'identifier': 'microver', 'dependencies': OrderedDict()}
+[0.000425] (rover_input_pkg) JobQueued: {'identifier': 'rover_input_pkg', 'dependencies': OrderedDict()}
+[0.000491] (microver) JobStarted: {'identifier': 'microver'}
+[0.017628] (rover_input_pkg) JobStarted: {'identifier': 'rover_input_pkg'}
+[0.031180] (microver) JobProgress: {'identifier': 'microver', 'progress': 'cmake'}
+[0.032852] (microver) JobProgress: {'identifier': 'microver', 'progress': 'build'}
+[0.035022] (microver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arno/microver_ws/build/microver', '--', '-j8', '-l8'], 'cwd': '/home/arno/microver_ws/build/microver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arno'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arno'), ('OLDPWD', '/home/arno/microver_ws/rover_input_pkg'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('MANAGERPID', '1830'), ('SYSTEMD_EXEC_PID', '2029'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3544'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arno/microver_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arno'), ('JOURNAL_STREAM', '8:34112'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arno'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/laptopal:@/tmp/.ICE-unix/2000,unix/laptopal:/tmp/.ICE-unix/2000'), ('INVOCATION_ID', '2e3ea3148d3a408b9ea1e384cfb363f5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MRWPL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arno/microver_ws/install/rover_input_pkg:/home/arno/microver_ws/install/microver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:557c100f-f267-45e1-abc6-50ef65bce833'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arno/microver_ws/build/microver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arno/microver_ws/install/rover_input_pkg:/home/arno/microver_ws/install/microver:/opt/ros/humble')]), 'shell': False}
+[0.047161] (rover_input_pkg) JobProgress: {'identifier': 'rover_input_pkg', 'progress': 'cmake'}
+[0.049129] (rover_input_pkg) JobProgress: {'identifier': 'rover_input_pkg', 'progress': 'build'}
+[0.050057] (rover_input_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arno/microver_ws/build/rover_input_pkg', '--', '-j8', '-l8'], 'cwd': '/home/arno/microver_ws/build/rover_input_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arno'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arno'), ('OLDPWD', '/home/arno/microver_ws/rover_input_pkg'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('MANAGERPID', '1830'), ('SYSTEMD_EXEC_PID', '2029'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3544'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arno/microver_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arno'), ('JOURNAL_STREAM', '8:34112'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arno'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/laptopal:@/tmp/.ICE-unix/2000,unix/laptopal:/tmp/.ICE-unix/2000'), ('INVOCATION_ID', '2e3ea3148d3a408b9ea1e384cfb363f5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MRWPL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arno/microver_ws/install/rover_input_pkg:/home/arno/microver_ws/install/microver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:557c100f-f267-45e1-abc6-50ef65bce833'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arno/microver_ws/build/rover_input_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arno/microver_ws/install/rover_input_pkg:/home/arno/microver_ws/install/microver:/opt/ros/humble')]), 'shell': False}
+[0.097828] (-) TimerEvent: {}
+[0.163555] (microver) CommandEnded: {'returncode': 0}
+[0.198032] (-) TimerEvent: {}
+[0.198754] (rover_input_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target input_node_v2\x1b[0m\n'}
+[0.229681] (microver) JobProgress: {'identifier': 'microver', 'progress': 'install'}
+[0.260444] (microver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arno/microver_ws/build/microver'], 'cwd': '/home/arno/microver_ws/build/microver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arno'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arno'), ('OLDPWD', '/home/arno/microver_ws/rover_input_pkg'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('MANAGERPID', '1830'), ('SYSTEMD_EXEC_PID', '2029'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3544'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arno/microver_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arno'), ('JOURNAL_STREAM', '8:34112'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arno'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/laptopal:@/tmp/.ICE-unix/2000,unix/laptopal:/tmp/.ICE-unix/2000'), ('INVOCATION_ID', '2e3ea3148d3a408b9ea1e384cfb363f5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MRWPL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arno/microver_ws/install/rover_input_pkg:/home/arno/microver_ws/install/microver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:557c100f-f267-45e1-abc6-50ef65bce833'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arno/microver_ws/build/microver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arno/microver_ws/install/rover_input_pkg:/home/arno/microver_ws/install/microver:/opt/ros/humble')]), 'shell': False}
+[0.262640] (rover_input_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/input_node_v2.dir/src/input_node_v2.cpp.o\x1b[0m\n'}
+[0.284023] (microver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.285673] (microver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.287173] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/config/empty.yaml\n'}
+[0.288111] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/config/gazebo_params.yaml\n'}
+[0.288863] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/config/my_controllers.yaml\n'}
+[0.289691] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/description/gazebo_control.xacro\n'}
+[0.290339] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/description/inertial_macros.xacro\n'}
+[0.290904] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/description/robot.urdf.xacro\n'}
+[0.291547] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/description/robot_core.xacro\n'}
+[0.292253] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/description/ros2_control.xacro\n'}
+[0.292775] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/launch/launch_sim.launch.py\n'}
+[0.293185] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/launch/rsp.launch.py\n'}
+[0.293595] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/worlds/empty.world\n'}
+[0.294206] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/ament_index/resource_index/package_run_dependencies/microver\n'}
+[0.294779] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/ament_index/resource_index/parent_prefix_path/microver\n'}
+[0.295254] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/environment/ament_prefix_path.sh\n'}
+[0.296392] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/environment/ament_prefix_path.dsv\n'}
+[0.297136] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/environment/path.sh\n'}
+[0.297931] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/environment/path.dsv\n'}
+[0.298375] (-) TimerEvent: {}
+[0.298939] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/local_setup.bash\n'}
+[0.299568] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/local_setup.sh\n'}
+[0.300347] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/local_setup.zsh\n'}
+[0.301049] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/local_setup.dsv\n'}
+[0.301699] (microver) StdoutLine: {'line': b'-- Symlinking: /home/arno/microver_ws/install/microver/share/microver/package.dsv\n'}
+[0.326733] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/ament_index/resource_index/packages/microver\n'}
+[0.327453] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/cmake/microverConfig.cmake\n'}
+[0.328148] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/cmake/microverConfig-version.cmake\n'}
+[0.328777] (microver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/package.xml\n'}
+[0.334902] (microver) CommandEnded: {'returncode': 0}
+[0.398591] (-) TimerEvent: {}
+[0.455546] (microver) JobEnded: {'identifier': 'microver', 'rc': 0}
+[0.498771] (-) TimerEvent: {}
+[0.599427] (-) TimerEvent: {}
+[0.700057] (-) TimerEvent: {}
+[0.800901] (-) TimerEvent: {}
+[0.901469] (-) TimerEvent: {}
+[1.001988] (-) TimerEvent: {}
+[1.102664] (-) TimerEvent: {}
+[1.203268] (-) TimerEvent: {}
+[1.303750] (-) TimerEvent: {}
+[1.404249] (-) TimerEvent: {}
+[1.504772] (-) TimerEvent: {}
+[1.605365] (-) TimerEvent: {}
+[1.706025] (-) TimerEvent: {}
+[1.806706] (-) TimerEvent: {}
+[1.907277] (-) TimerEvent: {}
+[2.007816] (-) TimerEvent: {}
+[2.108412] (-) TimerEvent: {}
+[2.209039] (-) TimerEvent: {}
+[2.309624] (-) TimerEvent: {}
+[2.410209] (-) TimerEvent: {}
+[2.510809] (-) TimerEvent: {}
+[2.611479] (-) TimerEvent: {}
+[2.712146] (-) TimerEvent: {}
+[2.812798] (-) TimerEvent: {}
+[2.913440] (-) TimerEvent: {}
+[3.014038] (-) TimerEvent: {}
+[3.114677] (-) TimerEvent: {}
+[3.215455] (-) TimerEvent: {}
+[3.316367] (-) TimerEvent: {}
+[3.417041] (-) TimerEvent: {}
+[3.517657] (-) TimerEvent: {}
+[3.618237] (-) TimerEvent: {}
+[3.718848] (-) TimerEvent: {}
+[3.819482] (-) TimerEvent: {}
+[3.920024] (-) TimerEvent: {}
+[4.020592] (-) TimerEvent: {}
+[4.121250] (-) TimerEvent: {}
+[4.221905] (-) TimerEvent: {}
+[4.322514] (-) TimerEvent: {}
+[4.423125] (-) TimerEvent: {}
+[4.523816] (-) TimerEvent: {}
+[4.624434] (-) TimerEvent: {}
+[4.725084] (-) TimerEvent: {}
+[4.825704] (-) TimerEvent: {}
+[4.926341] (-) TimerEvent: {}
+[5.026909] (-) TimerEvent: {}
+[5.127466] (-) TimerEvent: {}
+[5.228253] (-) TimerEvent: {}
+[5.329114] (-) TimerEvent: {}
+[5.429853] (-) TimerEvent: {}
+[5.530467] (-) TimerEvent: {}
+[5.631015] (-) TimerEvent: {}
+[5.731496] (-) TimerEvent: {}
+[5.831955] (-) TimerEvent: {}
+[5.932499] (-) TimerEvent: {}
+[6.033039] (-) TimerEvent: {}
+[6.133548] (-) TimerEvent: {}
+[6.234117] (-) TimerEvent: {}
+[6.334844] (-) TimerEvent: {}
+[6.435403] (-) TimerEvent: {}
+[6.535986] (-) TimerEvent: {}
+[6.636791] (-) TimerEvent: {}
+[6.737601] (-) TimerEvent: {}
+[6.838228] (-) TimerEvent: {}
+[6.938981] (-) TimerEvent: {}
+[7.039742] (-) TimerEvent: {}
+[7.140414] (-) TimerEvent: {}
+[7.241111] (-) TimerEvent: {}
+[7.341763] (-) TimerEvent: {}
+[7.442412] (-) TimerEvent: {}
+[7.543038] (-) TimerEvent: {}
+[7.643642] (-) TimerEvent: {}
+[7.744276] (-) TimerEvent: {}
+[7.845025] (-) TimerEvent: {}
+[7.945648] (-) TimerEvent: {}
+[8.046191] (-) TimerEvent: {}
+[8.146741] (-) TimerEvent: {}
+[8.247392] (-) TimerEvent: {}
+[8.348015] (-) TimerEvent: {}
+[8.448752] (-) TimerEvent: {}
+[8.549466] (-) TimerEvent: {}
+[8.650060] (-) TimerEvent: {}
+[8.750660] (-) TimerEvent: {}
+[8.851257] (-) TimerEvent: {}
+[8.951848] (-) TimerEvent: {}
+[9.052395] (-) TimerEvent: {}
+[9.153088] (-) TimerEvent: {}
+[9.253785] (-) TimerEvent: {}
+[9.354491] (-) TimerEvent: {}
+[9.455171] (-) TimerEvent: {}
+[9.555877] (-) TimerEvent: {}
+[9.656578] (-) TimerEvent: {}
+[9.757250] (-) TimerEvent: {}
+[9.857947] (-) TimerEvent: {}
+[9.958639] (-) TimerEvent: {}
+[10.059349] (-) TimerEvent: {}
+[10.159913] (-) TimerEvent: {}
+[10.260446] (-) TimerEvent: {}
+[10.361078] (-) TimerEvent: {}
+[10.461733] (-) TimerEvent: {}
+[10.562383] (-) TimerEvent: {}
+[10.663088] (-) TimerEvent: {}
+[10.763839] (-) TimerEvent: {}
+[10.864541] (-) TimerEvent: {}
+[10.965180] (-) TimerEvent: {}
+[11.065832] (-) TimerEvent: {}
+[11.166466] (-) TimerEvent: {}
+[11.267070] (-) TimerEvent: {}
+[11.367740] (-) TimerEvent: {}
+[11.468405] (-) TimerEvent: {}
+[11.569050] (-) TimerEvent: {}
+[11.669678] (-) TimerEvent: {}
+[11.770302] (-) TimerEvent: {}
+[11.870949] (-) TimerEvent: {}
+[11.971601] (-) TimerEvent: {}
+[12.072264] (-) TimerEvent: {}
+[12.172848] (-) TimerEvent: {}
+[12.273626] (-) TimerEvent: {}
+[12.374391] (-) TimerEvent: {}
+[12.475122] (-) TimerEvent: {}
+[12.575916] (-) TimerEvent: {}
+[12.676682] (-) TimerEvent: {}
+[12.777291] (-) TimerEvent: {}
+[12.877865] (-) TimerEvent: {}
+[12.978448] (-) TimerEvent: {}
+[13.079030] (-) TimerEvent: {}
+[13.179804] (-) TimerEvent: {}
+[13.280419] (-) TimerEvent: {}
+[13.381157] (-) TimerEvent: {}
+[13.481790] (-) TimerEvent: {}
+[13.582462] (-) TimerEvent: {}
+[13.683212] (-) TimerEvent: {}
+[13.783831] (-) TimerEvent: {}
+[13.884463] (-) TimerEvent: {}
+[13.985111] (-) TimerEvent: {}
+[14.085744] (-) TimerEvent: {}
+[14.186497] (-) TimerEvent: {}
+[14.287117] (-) TimerEvent: {}
+[14.387853] (-) TimerEvent: {}
+[14.476785] (rover_input_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable input_node_v2\x1b[0m\n'}
+[14.488026] (-) TimerEvent: {}
+[14.588662] (-) TimerEvent: {}
+[14.689524] (-) TimerEvent: {}
+[14.790213] (-) TimerEvent: {}
+[14.890818] (-) TimerEvent: {}
+[14.991477] (-) TimerEvent: {}
+[15.092122] (-) TimerEvent: {}
+[15.192783] (-) TimerEvent: {}
+[15.293416] (-) TimerEvent: {}
+[15.394096] (-) TimerEvent: {}
+[15.494921] (-) TimerEvent: {}
+[15.595746] (-) TimerEvent: {}
+[15.696393] (-) TimerEvent: {}
+[15.797028] (-) TimerEvent: {}
+[15.897681] (-) TimerEvent: {}
+[15.998328] (-) TimerEvent: {}
+[16.098991] (-) TimerEvent: {}
+[16.199716] (-) TimerEvent: {}
+[16.300375] (-) TimerEvent: {}
+[16.401112] (-) TimerEvent: {}
+[16.501769] (-) TimerEvent: {}
+[16.602511] (-) TimerEvent: {}
+[16.703242] (-) TimerEvent: {}
+[16.804019] (-) TimerEvent: {}
+[16.904772] (-) TimerEvent: {}
+[16.952894] (rover_input_pkg) StdoutLine: {'line': b'[100%] Built target input_node_v2\n'}
+[16.989103] (rover_input_pkg) CommandEnded: {'returncode': 0}
+[17.004999] (-) TimerEvent: {}
+[17.073293] (rover_input_pkg) JobProgress: {'identifier': 'rover_input_pkg', 'progress': 'install'}
+[17.076143] (rover_input_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arno/microver_ws/build/rover_input_pkg'], 'cwd': '/home/arno/microver_ws/build/rover_input_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arno'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arno'), ('OLDPWD', '/home/arno/microver_ws/rover_input_pkg'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('MANAGERPID', '1830'), ('SYSTEMD_EXEC_PID', '2029'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3544'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arno/microver_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arno'), ('JOURNAL_STREAM', '8:34112'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arno'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/laptopal:@/tmp/.ICE-unix/2000,unix/laptopal:/tmp/.ICE-unix/2000'), ('INVOCATION_ID', '2e3ea3148d3a408b9ea1e384cfb363f5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MRWPL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arno/microver_ws/install/rover_input_pkg:/home/arno/microver_ws/install/microver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:557c100f-f267-45e1-abc6-50ef65bce833'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arno/microver_ws/build/rover_input_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arno/microver_ws/install/rover_input_pkg:/home/arno/microver_ws/install/microver:/opt/ros/humble')]), 'shell': False}
+[17.102172] (rover_input_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.104040] (rover_input_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.105220] (rover_input_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/lib/rover_input_pkg/input_node_v2\n'}
+[17.105749] (-) TimerEvent: {}
+[17.106568] (rover_input_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/ament_index/resource_index/package_run_dependencies/rover_input_pkg\n'}
+[17.107164] (rover_input_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/ament_index/resource_index/parent_prefix_path/rover_input_pkg\n'}
+[17.108059] (rover_input_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/environment/ament_prefix_path.sh\n'}
+[17.108651] (rover_input_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/environment/ament_prefix_path.dsv\n'}
+[17.109325] (rover_input_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/environment/path.sh\n'}
+[17.110094] (rover_input_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/environment/path.dsv\n'}
+[17.110689] (rover_input_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/local_setup.bash\n'}
+[17.111228] (rover_input_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/local_setup.sh\n'}
+[17.111844] (rover_input_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/local_setup.zsh\n'}
+[17.112496] (rover_input_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/local_setup.dsv\n'}
+[17.112953] (rover_input_pkg) StdoutLine: {'line': b'-- Symlinking: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/package.dsv\n'}
+[17.143924] (rover_input_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/ament_index/resource_index/packages/rover_input_pkg\n'}
+[17.145027] (rover_input_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/cmake/rover_input_pkgConfig.cmake\n'}
+[17.145866] (rover_input_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/cmake/rover_input_pkgConfig-version.cmake\n'}
+[17.146822] (rover_input_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/package.xml\n'}
+[17.153300] (rover_input_pkg) CommandEnded: {'returncode': 0}
+[17.206004] (-) TimerEvent: {}
+[17.274055] (rover_input_pkg) JobEnded: {'identifier': 'rover_input_pkg', 'rc': 0}
+[17.276616] (-) EventReactorShutdown: {}

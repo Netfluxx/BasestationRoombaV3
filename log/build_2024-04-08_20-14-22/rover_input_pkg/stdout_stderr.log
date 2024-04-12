@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target input_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/input_node.dir/src/input_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable input_node[0m
+/usr/bin/ld: CMakeFiles/input_node.dir/src/input_node.cpp.o: warning: relocation against `stdscr' in read-only section `.text._ZN9InputNode10captureKeyEc[_ZN9InputNode10captureKeyEc]'
+/usr/bin/ld: CMakeFiles/input_node.dir/src/input_node.cpp.o: in function `InputNode::~InputNode()':
+input_node.cpp:(.text._ZN9InputNodeD2Ev[_ZN9InputNodeD5Ev]+0x36): undefined reference to `endwin'
+/usr/bin/ld: CMakeFiles/input_node.dir/src/input_node.cpp.o: in function `InputNode::captureKey(char)':
+input_node.cpp:(.text._ZN9InputNode10captureKeyEc[_ZN9InputNode10captureKeyEc]+0x25): undefined reference to `initscr'
+/usr/bin/ld: input_node.cpp:(.text._ZN9InputNode10captureKeyEc[_ZN9InputNode10captureKeyEc]+0x2a): undefined reference to `cbreak'
+/usr/bin/ld: input_node.cpp:(.text._ZN9InputNode10captureKeyEc[_ZN9InputNode10captureKeyEc]+0x2f): undefined reference to `noecho'
+/usr/bin/ld: input_node.cpp:(.text._ZN9InputNode10captureKeyEc[_ZN9InputNode10captureKeyEc]+0x36): undefined reference to `stdscr'
+/usr/bin/ld: input_node.cpp:(.text._ZN9InputNode10captureKeyEc[_ZN9InputNode10captureKeyEc]+0x43): undefined reference to `keypad'
+/usr/bin/ld: input_node.cpp:(.text._ZN9InputNode10captureKeyEc[_ZN9InputNode10captureKeyEc]+0x4f): undefined reference to `stdscr'
+/usr/bin/ld: input_node.cpp:(.text._ZN9InputNode10captureKeyEc[_ZN9InputNode10captureKeyEc]+0x57): undefined reference to `wgetch'
+/usr/bin/ld: input_node.cpp:(.text._ZN9InputNode10captureKeyEc[_ZN9InputNode10captureKeyEc]+0xe8): undefined reference to `endwin'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/input_node.dir/build.make:159: input_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/input_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

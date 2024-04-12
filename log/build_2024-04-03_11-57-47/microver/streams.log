@@ -1,0 +1,45 @@
+[0.038s] Invoking command in '/home/arno/microver_ws/build/microver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/arno/microver_ws/src/microver -DCMAKE_INSTALL_PREFIX=/home/arno/microver_ws/install/microver
+[0.108s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.520s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.560s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.830s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.876s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.881s] -- Added test 'lint_cmake' to check CMake code style
+[0.884s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.901s] -- Added test 'xmllint' to check XML markup files
+[0.906s] -- Configuring done
+[0.917s] -- Generating done
+[0.920s] -- Build files have been written to: /home/arno/microver_ws/build/microver
+[0.929s] Invoked command in '/home/arno/microver_ws/build/microver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/arno/microver_ws/src/microver -DCMAKE_INSTALL_PREFIX=/home/arno/microver_ws/install/microver
+[0.934s] Invoking command in '/home/arno/microver_ws/build/microver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arno/microver_ws/build/microver -- -j8 -l8
+[1.054s] Invoked command in '/home/arno/microver_ws/build/microver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arno/microver_ws/build/microver -- -j8 -l8
+[1.174s] Invoking command in '/home/arno/microver_ws/build/microver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/arno/microver_ws/build/microver
+[1.216s] -- Install configuration: ""
+[1.218s] -- Execute custom install script
+[1.220s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/config/empty.yaml
+[1.220s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/config/gazebo_params.yaml
+[1.221s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/config/my_controllers.yaml
+[1.222s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/description/gazebo_control.xacro
+[1.223s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/description/inertial_macros.xacro
+[1.223s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/description/robot.urdf.xacro
+[1.224s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/description/robot_core.xacro
+[1.224s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/description/ros2_control.xacro
+[1.226s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/launch/launch_sim.launch.py
+[1.226s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/launch/rsp.launch.py
+[1.227s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/worlds/empty.world
+[1.228s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/ament_index/resource_index/package_run_dependencies/microver
+[1.229s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/ament_index/resource_index/parent_prefix_path/microver
+[1.230s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/environment/ament_prefix_path.sh
+[1.230s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/environment/ament_prefix_path.dsv
+[1.231s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/environment/path.sh
+[1.238s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/environment/path.dsv
+[1.238s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/local_setup.bash
+[1.239s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/local_setup.sh
+[1.241s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/local_setup.zsh
+[1.242s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/local_setup.dsv
+[1.242s] -- Symlinking: /home/arno/microver_ws/install/microver/share/microver/package.dsv
+[1.277s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/ament_index/resource_index/packages/microver
+[1.278s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/cmake/microverConfig.cmake
+[1.279s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/cmake/microverConfig-version.cmake
+[1.280s] -- Up-to-date symlink: /home/arno/microver_ws/install/microver/share/microver/package.xml
+[1.289s] Invoked command in '/home/arno/microver_ws/build/microver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/arno/microver_ws/build/microver

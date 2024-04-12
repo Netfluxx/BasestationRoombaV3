@@ -1,0 +1,204 @@
+[3.151s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[3.151s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f75e75b3d30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f75e75b38e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f75e75b38e0>>)
+[3.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.308s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/arno/microver_ws'
+[3.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.346s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.346s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.346s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.347s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.347s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.347s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.347s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(rover_input_pkg) by extensions ['ignore', 'ignore_ament_install']
+[3.348s] Level 1:colcon.colcon_core.package_identification:_identify(rover_input_pkg) by extension 'ignore'
+[3.349s] Level 1:colcon.colcon_core.package_identification:_identify(rover_input_pkg) by extension 'ignore_ament_install'
+[3.349s] Level 1:colcon.colcon_core.package_identification:_identify(rover_input_pkg) by extensions ['colcon_pkg']
+[3.349s] Level 1:colcon.colcon_core.package_identification:_identify(rover_input_pkg) by extension 'colcon_pkg'
+[3.349s] Level 1:colcon.colcon_core.package_identification:_identify(rover_input_pkg) by extensions ['colcon_meta']
+[3.349s] Level 1:colcon.colcon_core.package_identification:_identify(rover_input_pkg) by extension 'colcon_meta'
+[3.349s] Level 1:colcon.colcon_core.package_identification:_identify(rover_input_pkg) by extensions ['ros']
+[3.349s] Level 1:colcon.colcon_core.package_identification:_identify(rover_input_pkg) by extension 'ros'
+[3.357s] DEBUG:colcon.colcon_core.package_identification:Package 'rover_input_pkg' with type 'ros.ament_cmake' and name 'rover_input_pkg'
+[3.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.357s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/microver) by extensions ['ignore', 'ignore_ament_install']
+[3.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/microver) by extension 'ignore'
+[3.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/microver) by extension 'ignore_ament_install'
+[3.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/microver) by extensions ['colcon_pkg']
+[3.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/microver) by extension 'colcon_pkg'
+[3.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/microver) by extensions ['colcon_meta']
+[3.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/microver) by extension 'colcon_meta'
+[3.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/microver) by extensions ['ros']
+[3.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/microver) by extension 'ros'
+[3.370s] DEBUG:colcon.colcon_core.package_identification:Package 'src/microver' with type 'ros.ament_cmake' and name 'microver'
+[3.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.663s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.663s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.742s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/arno/microver_ws/install
+[3.780s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/arno/microver_ws/rover_input_pkg/install
+[3.821s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 332 installed packages in /opt/ros/humble
+[3.825s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.126s] Level 5:colcon.colcon_core.verb:set package 'microver' build argument 'cmake_args' from command line to 'None'
+[4.126s] Level 5:colcon.colcon_core.verb:set package 'microver' build argument 'cmake_target' from command line to 'None'
+[4.126s] Level 5:colcon.colcon_core.verb:set package 'microver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.126s] Level 5:colcon.colcon_core.verb:set package 'microver' build argument 'cmake_clean_cache' from command line to 'False'
+[4.127s] Level 5:colcon.colcon_core.verb:set package 'microver' build argument 'cmake_clean_first' from command line to 'False'
+[4.127s] Level 5:colcon.colcon_core.verb:set package 'microver' build argument 'cmake_force_configure' from command line to 'False'
+[4.127s] Level 5:colcon.colcon_core.verb:set package 'microver' build argument 'ament_cmake_args' from command line to 'None'
+[4.127s] Level 5:colcon.colcon_core.verb:set package 'microver' build argument 'catkin_cmake_args' from command line to 'None'
+[4.127s] Level 5:colcon.colcon_core.verb:set package 'microver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.127s] DEBUG:colcon.colcon_core.verb:Building package 'microver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arno/microver_ws/build/microver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arno/microver_ws/install/microver', 'merge_install': False, 'path': '/home/arno/microver_ws/src/microver', 'symlink_install': True, 'test_result_base': None}
+[4.163s] Level 5:colcon.colcon_core.verb:set package 'rover_input_pkg' build argument 'cmake_args' from command line to 'None'
+[4.163s] Level 5:colcon.colcon_core.verb:set package 'rover_input_pkg' build argument 'cmake_target' from command line to 'None'
+[4.163s] Level 5:colcon.colcon_core.verb:set package 'rover_input_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.163s] Level 5:colcon.colcon_core.verb:set package 'rover_input_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[4.163s] Level 5:colcon.colcon_core.verb:set package 'rover_input_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[4.163s] Level 5:colcon.colcon_core.verb:set package 'rover_input_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[4.163s] Level 5:colcon.colcon_core.verb:set package 'rover_input_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[4.163s] Level 5:colcon.colcon_core.verb:set package 'rover_input_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[4.163s] Level 5:colcon.colcon_core.verb:set package 'rover_input_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.163s] DEBUG:colcon.colcon_core.verb:Building package 'rover_input_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arno/microver_ws/build/rover_input_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arno/microver_ws/install/rover_input_pkg', 'merge_install': False, 'path': '/home/arno/microver_ws/rover_input_pkg', 'symlink_install': True, 'test_result_base': None}
+[4.197s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.232s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.232s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arno/microver_ws/src/microver' with build type 'ament_cmake'
+[4.232s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arno/microver_ws/src/microver'
+[4.275s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.276s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.466s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arno/microver_ws/rover_input_pkg' with build type 'ament_cmake'
+[4.467s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arno/microver_ws/rover_input_pkg'
+[4.521s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.521s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arno/microver_ws/build/microver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/microver_ws/build/microver -- -j8 -l8
+[4.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arno/microver_ws/build/rover_input_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/microver_ws/build/rover_input_pkg -- -j8 -l8
+[4.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arno/microver_ws/build/microver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/microver_ws/build/microver -- -j8 -l8
+[4.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arno/microver_ws/build/microver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arno/microver_ws/build/microver
+[4.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arno/microver_ws/build/rover_input_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/microver_ws/build/rover_input_pkg -- -j8 -l8
+[5.026s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(microver)
+[5.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arno/microver_ws/build/microver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arno/microver_ws/build/microver
+[5.101s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/microver' for CMake module files
+[5.103s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/microver' for CMake config files
+[5.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('microver', 'cmake_prefix_path')
+[5.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arno/microver_ws/install/microver/share/microver/hook/cmake_prefix_path.ps1'
+[5.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arno/microver_ws/install/microver/share/microver/hook/cmake_prefix_path.dsv'
+[5.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arno/microver_ws/install/microver/share/microver/hook/cmake_prefix_path.sh'
+[5.164s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/microver/bin'
+[5.164s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/microver/lib/pkgconfig/microver.pc'
+[5.165s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/microver/lib/python3.10/site-packages'
+[5.165s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/microver/bin'
+[5.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/microver_ws/install/microver/share/microver/package.ps1'
+[5.216s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arno/microver_ws/install/microver/share/microver/package.dsv'
+[5.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/microver_ws/install/microver/share/microver/package.sh'
+[5.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/microver_ws/install/microver/share/microver/package.bash'
+[5.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/microver_ws/install/microver/share/microver/package.zsh'
+[5.223s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arno/microver_ws/install/microver/share/colcon-core/packages/microver)
+[5.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arno/microver_ws/build/rover_input_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arno/microver_ws/build/rover_input_pkg
+[5.344s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(microver)
+[5.407s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/microver' for CMake module files
+[5.408s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/microver' for CMake config files
+[5.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('microver', 'cmake_prefix_path')
+[5.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arno/microver_ws/install/microver/share/microver/hook/cmake_prefix_path.ps1'
+[5.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arno/microver_ws/install/microver/share/microver/hook/cmake_prefix_path.dsv'
+[5.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arno/microver_ws/install/microver/share/microver/hook/cmake_prefix_path.sh'
+[5.472s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/microver/bin'
+[5.472s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/microver/lib/pkgconfig/microver.pc'
+[5.473s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/microver/lib/python3.10/site-packages'
+[5.474s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/microver/bin'
+[5.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/microver_ws/install/microver/share/microver/package.ps1'
+[5.534s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arno/microver_ws/install/microver/share/microver/package.dsv'
+[5.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/microver_ws/install/microver/share/microver/package.sh'
+[5.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/microver_ws/install/microver/share/microver/package.bash'
+[5.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/microver_ws/install/microver/share/microver/package.zsh'
+[5.539s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arno/microver_ws/install/microver/share/colcon-core/packages/microver)
+[5.542s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rover_input_pkg)
+[5.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arno/microver_ws/build/rover_input_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arno/microver_ws/build/rover_input_pkg
+[5.610s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/rover_input_pkg' for CMake module files
+[5.611s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/rover_input_pkg' for CMake config files
+[5.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_input_pkg', 'cmake_prefix_path')
+[5.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/hook/cmake_prefix_path.ps1'
+[5.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/hook/cmake_prefix_path.dsv'
+[5.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/hook/cmake_prefix_path.sh'
+[5.671s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/rover_input_pkg/lib'
+[5.672s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/rover_input_pkg/bin'
+[5.672s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/rover_input_pkg/lib/pkgconfig/rover_input_pkg.pc'
+[5.673s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/rover_input_pkg/lib/python3.10/site-packages'
+[5.673s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/rover_input_pkg/bin'
+[5.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/package.ps1'
+[5.727s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/package.dsv'
+[5.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/package.sh'
+[5.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/package.bash'
+[5.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/package.zsh'
+[5.731s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arno/microver_ws/install/rover_input_pkg/share/colcon-core/packages/rover_input_pkg)
+[5.870s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rover_input_pkg)
+[5.943s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/rover_input_pkg' for CMake module files
+[5.945s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/rover_input_pkg' for CMake config files
+[5.946s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_input_pkg', 'cmake_prefix_path')
+[6.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/hook/cmake_prefix_path.ps1'
+[6.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/hook/cmake_prefix_path.dsv'
+[6.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/hook/cmake_prefix_path.sh'
+[6.016s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/rover_input_pkg/lib'
+[6.017s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/rover_input_pkg/bin'
+[6.017s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/rover_input_pkg/lib/pkgconfig/rover_input_pkg.pc'
+[6.018s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/rover_input_pkg/lib/python3.10/site-packages'
+[6.019s] Level 1:colcon.colcon_core.environment:checking '/home/arno/microver_ws/install/rover_input_pkg/bin'
+[6.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/package.ps1'
+[6.087s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/package.dsv'
+[6.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/package.sh'
+[6.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/package.bash'
+[6.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/package.zsh'
+[6.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arno/microver_ws/install/rover_input_pkg/share/colcon-core/packages/rover_input_pkg)
+[6.094s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.096s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.096s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.097s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.182s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.183s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.183s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.219s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.285s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arno/microver_ws/install/local_setup.ps1'
+[6.288s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arno/microver_ws/install/_local_setup_util_ps1.py'
+[6.293s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arno/microver_ws/install/setup.ps1'
+[6.359s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arno/microver_ws/install/local_setup.sh'
+[6.361s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arno/microver_ws/install/_local_setup_util_sh.py'
+[6.363s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arno/microver_ws/install/setup.sh'
+[6.429s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arno/microver_ws/install/local_setup.bash'
+[6.430s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arno/microver_ws/install/setup.bash'
+[6.498s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arno/microver_ws/install/local_setup.zsh'
+[6.499s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arno/microver_ws/install/setup.zsh'

@@ -1,0 +1,15 @@
+[0.016s] Invoking command in '/home/arno/microver_ws/build/rover_input_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/microver_ws/build/rover_input_pkg -- -j8 -l8
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target input_node[0m
+[0.096s] [ 50%] [32mBuilding CXX object CMakeFiles/input_node.dir/src/input_node.cpp.o[0m
+[3.244s] [01m[K/home/arno/microver_ws/rover_input_pkg/src/input_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.245s] [01m[K/home/arno/microver_ws/rover_input_pkg/src/input_node.cpp:114:21:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KInputNode::captureKey()[m[K’
+[3.245s]   114 |     [01;31m[Knode->captureKey()[m[K; // Call captureInput method
+[3.245s]       |     [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+[3.245s] [01m[K/home/arno/microver_ws/rover_input_pkg/src/input_node.cpp:30:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid InputNode::captureKey(char)[m[K’
+[3.245s]    30 |     void [01;36m[KcaptureKey[m[K(char key) {
+[3.245s]       |          [01;36m[K^~~~~~~~~~[m[K
+[3.253s] [01m[K/home/arno/microver_ws/rover_input_pkg/src/input_node.cpp:30:10:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[4.466s] gmake[2]: *** [CMakeFiles/input_node.dir/build.make:76: CMakeFiles/input_node.dir/src/input_node.cpp.o] Error 1
+[4.466s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/input_node.dir/all] Error 2
+[4.466s] gmake: *** [Makefile:146: all] Error 2
+[4.469s] Invoked command in '/home/arno/microver_ws/build/rover_input_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/microver_ws/build/rover_input_pkg -- -j8 -l8

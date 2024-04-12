@@ -1,0 +1,49 @@
+[0.080s] Invoking command in '/home/arno/microver_ws/build/rover_input_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/microver_ws/build/rover_input_pkg -- -j8 -l8
+[0.102s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.257s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.266s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.301s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.303s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.310s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.339s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.406s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.407s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.535s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.727s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.804s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.804s] -- Configured cppcheck include dirs: 
+[0.804s] -- Configured cppcheck exclude dirs and/or files: 
+[0.805s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.807s] -- Added test 'lint_cmake' to check CMake code style
+[0.808s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.814s] -- Added test 'uncrustify' to check C / C++ code style
+[0.814s] -- Configured uncrustify additional arguments: 
+[0.816s] -- Added test 'xmllint' to check XML markup files
+[0.817s] -- Configuring done
+[0.876s] -- Generating done
+[0.877s] -- Build files have been written to: /home/arno/microver_ws/build/rover_input_pkg
+[0.910s] [ 50%] [32mBuilding CXX object CMakeFiles/input_node_v2.dir/src/input_node_v2.cpp.o[0m
+[5.281s] [100%] [32m[1mLinking CXX executable input_node_v2[0m
+[5.867s] [100%] Built target input_node_v2
+[5.876s] Invoked command in '/home/arno/microver_ws/build/rover_input_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/microver_ws/build/rover_input_pkg -- -j8 -l8
+[5.898s] Invoking command in '/home/arno/microver_ws/build/rover_input_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arno/microver_ws/build/rover_input_pkg
+[5.904s] -- Install configuration: ""
+[5.904s] -- Execute custom install script
+[5.905s] -- Symlinking: /home/arno/microver_ws/install/rover_input_pkg/lib/rover_input_pkg/input_node_v2
+[5.912s] -- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/ament_index/resource_index/package_run_dependencies/rover_input_pkg
+[5.912s] -- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/ament_index/resource_index/parent_prefix_path/rover_input_pkg
+[5.912s] -- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/environment/ament_prefix_path.sh
+[5.912s] -- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/environment/ament_prefix_path.dsv
+[5.912s] -- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/environment/path.sh
+[5.912s] -- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/environment/path.dsv
+[5.912s] -- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/local_setup.bash
+[5.913s] -- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/local_setup.sh
+[5.913s] -- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/local_setup.zsh
+[5.913s] -- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/local_setup.dsv
+[5.913s] -- Symlinking: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/package.dsv
+[5.921s] -- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/ament_index/resource_index/packages/rover_input_pkg
+[5.921s] -- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/cmake/rover_input_pkgConfig.cmake
+[5.921s] -- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/cmake/rover_input_pkgConfig-version.cmake
+[5.921s] -- Up-to-date symlink: /home/arno/microver_ws/install/rover_input_pkg/share/rover_input_pkg/package.xml
+[5.923s] Invoked command in '/home/arno/microver_ws/build/rover_input_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arno/microver_ws/build/rover_input_pkg

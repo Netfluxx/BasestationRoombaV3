@@ -1,0 +1,22 @@
+[0.019s] Invoking command in '/home/arno/microver_ws/build/rover_input_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/microver_ws/build/rover_input_pkg -- -j8 -l8
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target input_node[0m
+[0.092s] [ 50%] [32mBuilding CXX object CMakeFiles/input_node.dir/src/input_node.cpp.o[0m
+[6.472s] [100%] [32m[1mLinking CXX executable input_node[0m
+[6.691s] /usr/bin/ld: CMakeFiles/input_node.dir/src/input_node.cpp.o: warning: relocation against `stdscr' in read-only section `.text._ZN9InputNode10captureKeyEc[_ZN9InputNode10captureKeyEc]'
+[6.712s] /usr/bin/ld: CMakeFiles/input_node.dir/src/input_node.cpp.o: in function `InputNode::~InputNode()':
+[6.712s] input_node.cpp:(.text._ZN9InputNodeD2Ev[_ZN9InputNodeD5Ev]+0x36): undefined reference to `endwin'
+[6.712s] /usr/bin/ld: CMakeFiles/input_node.dir/src/input_node.cpp.o: in function `InputNode::captureKey(char)':
+[6.713s] input_node.cpp:(.text._ZN9InputNode10captureKeyEc[_ZN9InputNode10captureKeyEc]+0x25): undefined reference to `initscr'
+[6.713s] /usr/bin/ld: input_node.cpp:(.text._ZN9InputNode10captureKeyEc[_ZN9InputNode10captureKeyEc]+0x2a): undefined reference to `cbreak'
+[6.713s] /usr/bin/ld: input_node.cpp:(.text._ZN9InputNode10captureKeyEc[_ZN9InputNode10captureKeyEc]+0x2f): undefined reference to `noecho'
+[6.713s] /usr/bin/ld: input_node.cpp:(.text._ZN9InputNode10captureKeyEc[_ZN9InputNode10captureKeyEc]+0x36): undefined reference to `stdscr'
+[6.713s] /usr/bin/ld: input_node.cpp:(.text._ZN9InputNode10captureKeyEc[_ZN9InputNode10captureKeyEc]+0x43): undefined reference to `keypad'
+[6.713s] /usr/bin/ld: input_node.cpp:(.text._ZN9InputNode10captureKeyEc[_ZN9InputNode10captureKeyEc]+0x4f): undefined reference to `stdscr'
+[6.713s] /usr/bin/ld: input_node.cpp:(.text._ZN9InputNode10captureKeyEc[_ZN9InputNode10captureKeyEc]+0x57): undefined reference to `wgetch'
+[6.714s] /usr/bin/ld: input_node.cpp:(.text._ZN9InputNode10captureKeyEc[_ZN9InputNode10captureKeyEc]+0xe8): undefined reference to `endwin'
+[6.732s] /usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+[6.736s] collect2: error: ld returned 1 exit status
+[6.738s] gmake[2]: *** [CMakeFiles/input_node.dir/build.make:159: input_node] Error 1
+[6.739s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/input_node.dir/all] Error 2
+[6.739s] gmake: *** [Makefile:146: all] Error 2
+[6.742s] Invoked command in '/home/arno/microver_ws/build/rover_input_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/microver_ws/build/rover_input_pkg -- -j8 -l8

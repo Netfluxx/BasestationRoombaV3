@@ -1,0 +1,4 @@
+Invoking command in '/home/arno/microver/rover_input_pkg/build/rover_input_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/microver/rover_input_pkg/build/rover_input_pkg -- -j8 -l8
+Invoked command in '/home/arno/microver/rover_input_pkg/build/rover_input_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/microver/rover_input_pkg/build/rover_input_pkg -- -j8 -l8
+Invoking command in '/home/arno/microver/rover_input_pkg/build/rover_input_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arno/microver/rover_input_pkg/build/rover_input_pkg
+Invoked command in '/home/arno/microver/rover_input_pkg/build/rover_input_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arno/microver/rover_input_pkg/build/rover_input_pkg

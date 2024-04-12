@@ -1,0 +1,6 @@
+Invoking command in '/home/arno/microver_ws/build/microver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/arno/microver_ws/src/microver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arno/microver_ws/install/microver
+Invoked command in '/home/arno/microver_ws/build/microver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/arno/microver_ws/src/microver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arno/microver_ws/install/microver
+Invoking command in '/home/arno/microver_ws/build/microver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arno/microver_ws/build/microver -- -j8 -l8
+Invoked command in '/home/arno/microver_ws/build/microver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arno/microver_ws/build/microver -- -j8 -l8
+Invoking command in '/home/arno/microver_ws/build/microver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/arno/microver_ws/build/microver
+Invoked command in '/home/arno/microver_ws/build/microver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/arno/microver_ws/build/microver

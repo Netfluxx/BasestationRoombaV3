@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target input_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/input_node.dir/src/input_node.cpp.o[0m
+[01m[K/home/arno/microver_ws/rover_input_pkg/src/input_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/arno/microver_ws/rover_input_pkg/src/input_node.cpp:114:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class InputNode[m[K’ {aka ‘[01m[Kclass InputNode[m[K’} has no member named ‘[01m[KcaptureInput[m[K’
+  114 |     node->[01;31m[KcaptureInput[m[K(); // Call captureInput method
+      |           [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/input_node.dir/build.make:76: CMakeFiles/input_node.dir/src/input_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/input_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
