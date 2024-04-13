@@ -1,3 +1,4 @@
+#credit to Josh Newans of Articulated Robotics for the original CMakeLists.txt file
 cmake_minimum_required(VERSION 3.5)
 project(microver)
 
