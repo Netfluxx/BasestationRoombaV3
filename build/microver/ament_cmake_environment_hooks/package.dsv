@@ -1,0 +1,4 @@
+source;share/microver/local_setup.bash
+source;share/microver/local_setup.dsv
+source;share/microver/local_setup.sh
+source;share/microver/local_setup.zsh

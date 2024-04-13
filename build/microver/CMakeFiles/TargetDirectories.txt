@@ -1,0 +1,9 @@
+/home/arno/BasestationRoombaV3/build/microver/CMakeFiles/uninstall.dir
+/home/arno/BasestationRoombaV3/build/microver/CMakeFiles/microver_uninstall.dir
+/home/arno/BasestationRoombaV3/build/microver/CMakeFiles/test.dir
+/home/arno/BasestationRoombaV3/build/microver/CMakeFiles/edit_cache.dir
+/home/arno/BasestationRoombaV3/build/microver/CMakeFiles/rebuild_cache.dir
+/home/arno/BasestationRoombaV3/build/microver/CMakeFiles/list_install_components.dir
+/home/arno/BasestationRoombaV3/build/microver/CMakeFiles/install.dir
+/home/arno/BasestationRoombaV3/build/microver/CMakeFiles/install/local.dir
+/home/arno/BasestationRoombaV3/build/microver/CMakeFiles/install/strip.dir
