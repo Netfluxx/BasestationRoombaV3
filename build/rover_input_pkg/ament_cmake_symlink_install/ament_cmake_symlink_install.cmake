@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/arno/microver_ws/install/rover_input_pkg/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/arno/BasestationRoombaV3/install/rover_input_pkg/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/arno/microver_ws/install/rover_input_pkg/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/arno/BasestationRoombaV3/install/rover_input_pkg/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/arno/microver_ws/install/rover_input_pkg/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/arno/BasestationRoombaV3/install/rover_input_pkg/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/arno/microver_ws/install/rover_input_pkg/${destination}")
+      set(destination "/home/arno/BasestationRoombaV3/install/rover_input_pkg/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,46 +311,46 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "input_node" "DESTINATION" "lib/rover_input_pkg")
-include("/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rover_input_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/arno/microver_ws/rover_input_pkg" FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rover_input_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rover_input_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/arno/BasestationRoombaV3/rover_input_pkg" FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rover_input_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rover_input_pkg" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/arno/microver_ws/rover_input_pkg" FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rover_input_pkg" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rover_input_pkg" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/arno/BasestationRoombaV3/rover_input_pkg" FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rover_input_pkg" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/rover_input_pkg/environment")
-ament_cmake_symlink_install_files("/home/arno/microver_ws/rover_input_pkg" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/rover_input_pkg/environment")
+ament_cmake_symlink_install_files("/home/arno/BasestationRoombaV3/rover_input_pkg" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/rover_input_pkg/environment")
 
-# install(FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rover_input_pkg/environment")
-ament_cmake_symlink_install_files("/home/arno/microver_ws/rover_input_pkg" FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rover_input_pkg/environment")
+# install(FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rover_input_pkg/environment")
+ament_cmake_symlink_install_files("/home/arno/BasestationRoombaV3/rover_input_pkg" FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/rover_input_pkg/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/rover_input_pkg/environment")
-ament_cmake_symlink_install_files("/home/arno/microver_ws/rover_input_pkg" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/rover_input_pkg/environment")
+ament_cmake_symlink_install_files("/home/arno/BasestationRoombaV3/rover_input_pkg" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/rover_input_pkg/environment")
 
-# install(FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rover_input_pkg/environment")
-ament_cmake_symlink_install_files("/home/arno/microver_ws/rover_input_pkg" FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rover_input_pkg/environment")
+# install(FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rover_input_pkg/environment")
+ament_cmake_symlink_install_files("/home/arno/BasestationRoombaV3/rover_input_pkg" FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/rover_input_pkg/environment")
 
-# install(FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rover_input_pkg")
-ament_cmake_symlink_install_files("/home/arno/microver_ws/rover_input_pkg" FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rover_input_pkg")
+# install(FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rover_input_pkg")
+ament_cmake_symlink_install_files("/home/arno/BasestationRoombaV3/rover_input_pkg" FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/rover_input_pkg")
 
-# install(FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rover_input_pkg")
-ament_cmake_symlink_install_files("/home/arno/microver_ws/rover_input_pkg" FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rover_input_pkg")
+# install(FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rover_input_pkg")
+ament_cmake_symlink_install_files("/home/arno/BasestationRoombaV3/rover_input_pkg" FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/rover_input_pkg")
 
-# install(FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rover_input_pkg")
-ament_cmake_symlink_install_files("/home/arno/microver_ws/rover_input_pkg" FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rover_input_pkg")
+# install(FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rover_input_pkg")
+ament_cmake_symlink_install_files("/home/arno/BasestationRoombaV3/rover_input_pkg" FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/rover_input_pkg")
 
-# install(FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rover_input_pkg")
-ament_cmake_symlink_install_files("/home/arno/microver_ws/rover_input_pkg" FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rover_input_pkg")
+# install(FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rover_input_pkg")
+ament_cmake_symlink_install_files("/home/arno/BasestationRoombaV3/rover_input_pkg" FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/rover_input_pkg")
 
-# install(FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rover_input_pkg")
-ament_cmake_symlink_install_files("/home/arno/microver_ws/rover_input_pkg" FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rover_input_pkg")
+# install(FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rover_input_pkg")
+ament_cmake_symlink_install_files("/home/arno/BasestationRoombaV3/rover_input_pkg" FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/rover_input_pkg")
 
-# install(FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_index/share/ament_index/resource_index/packages/rover_input_pkg" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/arno/microver_ws/rover_input_pkg" FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_index/share/ament_index/resource_index/packages/rover_input_pkg" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_index/share/ament_index/resource_index/packages/rover_input_pkg" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/arno/BasestationRoombaV3/rover_input_pkg" FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_index/share/ament_index/resource_index/packages/rover_input_pkg" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_core/rover_input_pkgConfig.cmake" "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_core/rover_input_pkgConfig-version.cmake" "DESTINATION" "share/rover_input_pkg/cmake")
-ament_cmake_symlink_install_files("/home/arno/microver_ws/rover_input_pkg" FILES "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_core/rover_input_pkgConfig.cmake" "/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_core/rover_input_pkgConfig-version.cmake" "DESTINATION" "share/rover_input_pkg/cmake")
+# install(FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_core/rover_input_pkgConfig.cmake" "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_core/rover_input_pkgConfig-version.cmake" "DESTINATION" "share/rover_input_pkg/cmake")
+ament_cmake_symlink_install_files("/home/arno/BasestationRoombaV3/rover_input_pkg" FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_core/rover_input_pkgConfig.cmake" "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_core/rover_input_pkgConfig-version.cmake" "DESTINATION" "share/rover_input_pkg/cmake")
 
-# install(FILES "/home/arno/microver_ws/rover_input_pkg/package.xml" "DESTINATION" "share/rover_input_pkg")
-ament_cmake_symlink_install_files("/home/arno/microver_ws/rover_input_pkg" FILES "/home/arno/microver_ws/rover_input_pkg/package.xml" "DESTINATION" "share/rover_input_pkg")
+# install(FILES "/home/arno/BasestationRoombaV3/rover_input_pkg/package.xml" "DESTINATION" "share/rover_input_pkg")
+ament_cmake_symlink_install_files("/home/arno/BasestationRoombaV3/rover_input_pkg" FILES "/home/arno/BasestationRoombaV3/rover_input_pkg/package.xml" "DESTINATION" "share/rover_input_pkg")

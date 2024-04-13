@@ -1,0 +1,2 @@
+Invoking command in '/home/arno/BasestationRoombaV3/build/rover_input_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/arno/BasestationRoombaV3/rover_input_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arno/BasestationRoombaV3/install/rover_input_pkg
+Invoked command in '/home/arno/BasestationRoombaV3/build/rover_input_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/arno/BasestationRoombaV3/rover_input_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arno/BasestationRoombaV3/install/rover_input_pkg

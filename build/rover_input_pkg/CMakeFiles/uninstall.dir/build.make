@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/arno/microver_ws/rover_input_pkg
+CMAKE_SOURCE_DIR = /home/arno/BasestationRoombaV3/rover_input_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/arno/microver_ws/build/rover_input_pkg
+CMAKE_BINARY_DIR = /home/arno/BasestationRoombaV3/build/rover_input_pkg
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/arno/microver_ws/build/rover_input_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arno/microver_ws/rover_input_pkg /home/arno/microver_ws/rover_input_pkg /home/arno/microver_ws/build/rover_input_pkg /home/arno/microver_ws/build/rover_input_pkg /home/arno/microver_ws/build/rover_input_pkg/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/arno/BasestationRoombaV3/build/rover_input_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/arno/BasestationRoombaV3/rover_input_pkg /home/arno/BasestationRoombaV3/rover_input_pkg /home/arno/BasestationRoombaV3/build/rover_input_pkg /home/arno/BasestationRoombaV3/build/rover_input_pkg /home/arno/BasestationRoombaV3/build/rover_input_pkg/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

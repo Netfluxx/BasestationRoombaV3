@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://ros.org/wiki/xacro"> 
+    
+    <xacro:property name="MAX_SPEED" value="0.5" />
+    <xacro:property name="MIN_SPEED" value="0.1" />
+
+    <xacro:property name="WHEEL_RADIUS" value="0.15" />
+    <xacro:property name="WHEEL_WIDTH" value="0.15" />
+    <xacro:property name="WHEELBASE" value="0.5" />
+    <xacro:property name="HEIGHT" value="0.5" />
+    <xacro:property name="LENGTH" value="0.5" />
+    <xacro:property name="WIDTH" value="0.5" />
+    <xacro:property name="LEG_WIDTH" value="0.5" />
+    <xacro:property name="LEG_HEIGHT" value="0.5" />
+    <xacro:property name="LEG_LENGTH" value="0.5" />
+    
+
+</robot>

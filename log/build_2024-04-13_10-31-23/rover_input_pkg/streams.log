@@ -1,0 +1,72 @@
+[0.008s] Invoking command in '/home/arno/BasestationRoombaV3/build/rover_input_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/arno/BasestationRoombaV3/rover_input_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arno/BasestationRoombaV3/install/rover_input_pkg
+[0.086s] -- The C compiler identification is GNU 11.4.0
+[0.162s] -- The CXX compiler identification is GNU 11.4.0
+[0.169s] -- Detecting C compiler ABI info
+[0.225s] -- Detecting C compiler ABI info - done
+[0.232s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.232s] -- Detecting C compile features
+[0.233s] -- Detecting C compile features - done
+[0.236s] -- Detecting CXX compiler ABI info
+[0.301s] -- Detecting CXX compiler ABI info - done
+[0.308s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.308s] -- Detecting CXX compile features
+[0.309s] -- Detecting CXX compile features - done
+[0.311s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.448s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.506s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.533s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.579s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.584s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.593s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.609s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.630s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.700s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.703s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.789s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.812s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.854s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.864s] -- Looking for pthread.h
+[0.933s] -- Looking for pthread.h - found
+[0.933s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.991s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.992s] -- Found Threads: TRUE  
+[1.192s] -- Found Curses: /usr/lib/x86_64-linux-gnu/libcurses.so  
+[1.195s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.280s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.280s] -- Configured cppcheck include dirs: 
+[1.280s] -- Configured cppcheck exclude dirs and/or files: 
+[1.281s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.283s] -- Added test 'lint_cmake' to check CMake code style
+[1.284s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.291s] -- Added test 'uncrustify' to check C / C++ code style
+[1.291s] -- Configured uncrustify additional arguments: 
+[1.292s] -- Added test 'xmllint' to check XML markup files
+[1.293s] -- Configuring done
+[1.301s] -- Generating done
+[1.302s] -- Build files have been written to: /home/arno/BasestationRoombaV3/build/rover_input_pkg
+[1.312s] Invoked command in '/home/arno/BasestationRoombaV3/build/rover_input_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/arno/BasestationRoombaV3/rover_input_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arno/BasestationRoombaV3/install/rover_input_pkg
+[1.312s] Invoking command in '/home/arno/BasestationRoombaV3/build/rover_input_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/BasestationRoombaV3/build/rover_input_pkg -- -j8 -l8
+[1.351s] [ 50%] [32mBuilding CXX object CMakeFiles/input_node.dir/src/input_node.cpp.o[0m
+[5.244s] [100%] [32m[1mLinking CXX executable input_node[0m
+[5.442s] [100%] Built target input_node
+[5.452s] Invoked command in '/home/arno/BasestationRoombaV3/build/rover_input_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/BasestationRoombaV3/build/rover_input_pkg -- -j8 -l8
+[5.480s] Invoking command in '/home/arno/BasestationRoombaV3/build/rover_input_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arno/BasestationRoombaV3/build/rover_input_pkg
+[5.486s] -- Install configuration: ""
+[5.486s] -- Execute custom install script
+[5.486s] -- Symlinking: /home/arno/BasestationRoombaV3/install/rover_input_pkg/lib/rover_input_pkg/input_node
+[5.494s] -- Symlinking: /home/arno/BasestationRoombaV3/install/rover_input_pkg/share/ament_index/resource_index/package_run_dependencies/rover_input_pkg
+[5.501s] -- Symlinking: /home/arno/BasestationRoombaV3/install/rover_input_pkg/share/ament_index/resource_index/parent_prefix_path/rover_input_pkg
+[5.508s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/rover_input_pkg/share/rover_input_pkg/environment/ament_prefix_path.sh
+[5.508s] -- Symlinking: /home/arno/BasestationRoombaV3/install/rover_input_pkg/share/rover_input_pkg/environment/ament_prefix_path.dsv
+[5.516s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/rover_input_pkg/share/rover_input_pkg/environment/path.sh
+[5.516s] -- Symlinking: /home/arno/BasestationRoombaV3/install/rover_input_pkg/share/rover_input_pkg/environment/path.dsv
+[5.523s] -- Symlinking: /home/arno/BasestationRoombaV3/install/rover_input_pkg/share/rover_input_pkg/local_setup.bash
+[5.530s] -- Symlinking: /home/arno/BasestationRoombaV3/install/rover_input_pkg/share/rover_input_pkg/local_setup.sh
+[5.538s] -- Symlinking: /home/arno/BasestationRoombaV3/install/rover_input_pkg/share/rover_input_pkg/local_setup.zsh
+[5.547s] -- Symlinking: /home/arno/BasestationRoombaV3/install/rover_input_pkg/share/rover_input_pkg/local_setup.dsv
+[5.554s] -- Symlinking: /home/arno/BasestationRoombaV3/install/rover_input_pkg/share/rover_input_pkg/package.dsv
+[5.562s] -- Symlinking: /home/arno/BasestationRoombaV3/install/rover_input_pkg/share/ament_index/resource_index/packages/rover_input_pkg
+[5.569s] -- Symlinking: /home/arno/BasestationRoombaV3/install/rover_input_pkg/share/rover_input_pkg/cmake/rover_input_pkgConfig.cmake
+[5.576s] -- Symlinking: /home/arno/BasestationRoombaV3/install/rover_input_pkg/share/rover_input_pkg/cmake/rover_input_pkgConfig-version.cmake
+[5.583s] -- Symlinking: /home/arno/BasestationRoombaV3/install/rover_input_pkg/share/rover_input_pkg/package.xml
+[5.592s] Invoked command in '/home/arno/BasestationRoombaV3/build/rover_input_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arno/BasestationRoombaV3/build/rover_input_pkg

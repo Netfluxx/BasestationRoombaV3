@@ -1,8 +1,8 @@
-# Install script for directory: /home/arno/microver_ws/rover_input_pkg
+# Install script for directory: /home/arno/BasestationRoombaV3/rover_input_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/arno/microver_ws/install/rover_input_pkg")
+  set(CMAKE_INSTALL_PREFIX "/home/arno/BasestationRoombaV3/install/rover_input_pkg")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/arno/microver_ws/build/rover_input_pkg/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/arno/microver_ws/build/rover_input_pkg/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/arno/BasestationRoombaV3/build/rover_input_pkg/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

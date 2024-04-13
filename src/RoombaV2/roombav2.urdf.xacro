@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="roombav2">
+
+    <xacro:include filename="constants.xacro" />
+    <xacro:include filename="inertial_macros.xacro" />
+
+    <material name="black">
+        <color rgba="0 0 0 1"/>
+    </material>
+    <material name="white">
+        <color rgba="1 1 1 1"/>
+    </material>
+    <material name="blue">
+        <color rgba="0.2 0.2 1 1"/>
+    </material>
+
+
+    <!-- ####################### LINKS ########################## -->
+
+    <!-- the base link is in the middle of both back wheels -->
+    <link name="base_link">
+    </link>
+
+    <link name="chassis">
+        <visual>
+            <geometry>
+                <box size="${LENGTH} ${WIDTH} ${HEIGHT}"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="${LENGTH} ${WIDTH} ${HEIGHT}"/>
+            </geometry>
+        </collision>
+    </link>
+
+                                    <!-- LEG LINKS -->
+
+    <link name="back_left_leg_link">
+        <visual>
+            <geometry>
+                <box size="${LEG_LENGTH} ${LEG_WIDTH} ${LEG_HEIGHT}"/>
+            </geometry>
+            <origin xyz="0 ${((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2}"/>
+            <material name="black"/>
+        </visual>
+    </link>
+
+    <link name="back_right_leg_link">
+        <visual>
+            <geometry>
+                <box size="${LEG_LENGTH} ${LEG_WIDTH} ${LEG_HEIGHT}"/>
+            </geometry>
+            <origin xyz="0 ${-((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2}"/>
+            <material name="black"/>
+        </visual>
+    </link>
+
+    <link name="front_left_leg_link">
+        <visual>
+            <geometry>
+                <box size="${LEG_LENGTH} ${LEG_WIDTH} ${LEG_HEIGHT}"/>
+            </geometry>
+            <origin xyz="${LENGTH - LEG_LENGTH} ${((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2}"/>
+            <material name="black"/>
+        </visual>
+    </link>
+
+    <link name="front_right_leg_link">
+        <visual>
+            <geometry>
+                <box size="${LEG_LENGTH} ${LEG_WIDTH} ${LEG_HEIGHT}"/>
+            </geometry>
+            <origin xyz="${LENGTH - LEG_LENGTH} ${-((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2}"/>
+            <material name="black"/>
+        </visual>
+    </link>
+
+                                    <!-- WHEEL LINKS -->
+
+
+    <link name="front_left_wheel_link">
+        <visual>
+            <geometry>
+                <cylinder radius="${WHEEL_RADIUS}" length="${WHEEL_WIDTH}"/>
+            </geometry>
+            <material name="blue"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="${WHEEL_RADIUS}" length="${WHEEL_WIDTH}"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="front_right_wheel_link">
+        <visual>
+            <geometry>
+                <cylinder radius="${WHEEL_RADIUS}" length="${WHEEL_WIDTH}"/>
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="${WHEEL_RADIUS}" length="${WHEEL_WIDTH}"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="back_left_wheel_link">
+        <visual>
+            <geometry>
+                <cylinder radius="${WHEEL_RADIUS}" length="${WHEEL_WIDTH}"/>
+            </geometry>
+            <origin xyz="0 ${-((WIDTH/2) + WHEEL_WIDTH)} 0" rpy="0 0 0" />
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="${WHEEL_RADIUS}" length="${WHEEL_WIDTH}"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <link name="back_right_wheel_link">
+        <visual>
+            <geometry>
+                <cylinder radius="${WHEEL_RADIUS}" length="${WHEEL_WIDTH}"/>
+            </geometry>
+            <origin xyz="0 ${-((WIDTH/2) + WHEEL_WIDTH)} 0" rpy="0 0 0" />
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="${WHEEL_RADIUS}" length="${WHEEL_WIDTH}"/>
+            </geometry>
+        </collision>
+    </link>
+
+
+
+    <!-- ####################### JOINTS ########################## -->
+
+
+    <joint name="chassis_joint" type="fixed">
+        <origin xyz="0 0 ${HEIGHT/2}" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="chassis" />
+        
+
+    <joint name="front_left_wheel_joint" type="continuous">
+        <!-- Add joint properties for the front left wheel -->
+        <!-- ... -->
+        <origin xyz="0 ${WIDTH/2} 0" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="front_left_wheel_link" />
+    </joint>
+
+    <joint name="front_right_wheel_joint" type="continuous">
+        <!-- Add joint properties for the front left wheel -->
+        <!-- ... -->
+        <origin xyz="0 ${-WIDTH/2} 0" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="front_left_wheel_link" />
+    </joint>
+
+    <joint name="back_left_wheel_joint" type="continuous">
+        <!-- Add joint properties for the front left wheel -->
+        <!-- ... -->
+        <origin xyz="0 ${-WIDTH/2} 0" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="front_left_wheel_link" />
+    </joint>
+
+    <joint name="back_right_wheel_joint" type="continuous">
+        <!-- Add joint properties for the front left wheel -->
+        <!-- ... -->
+        <origin xyz="0 ${-WIDTH/2} 0" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="front_left_wheel_link" />
+    </joint>
+
+</robot>
