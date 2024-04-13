@@ -1,4 +1,4 @@
-# Install script for directory: /home/arno/BasestationRoombaV3/rover_input_pkg
+# Install script for directory: /home/arno/BasestationRoombaV3/src/rover_input_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

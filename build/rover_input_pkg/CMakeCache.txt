@@ -509,7 +509,7 @@ rover_input_pkg_BINARY_DIR:STATIC=/home/arno/BasestationRoombaV3/build/rover_inp
 rover_input_pkg_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-rover_input_pkg_SOURCE_DIR:STATIC=/home/arno/BasestationRoombaV3/rover_input_pkg
+rover_input_pkg_SOURCE_DIR:STATIC=/home/arno/BasestationRoombaV3/src/rover_input_pkg
 
 //The directory containing a CMake configuration file for spdlog.
 spdlog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/spdlog
@@ -621,7 +621,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/arno/BasestationRoombaV3/rover_input_pkg
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/arno/BasestationRoombaV3/src/rover_input_pkg
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
