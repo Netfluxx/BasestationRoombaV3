@@ -14,6 +14,10 @@
     <xacro:property name="LEG_WIDTH" value="0.5" />
     <xacro:property name="LEG_HEIGHT" value="0.5" />
     <xacro:property name="LEG_LENGTH" value="0.5" />
+
+    <xacro:property name="MASS" value="3" />
+    <xacro:property name="WHEEL_MASS" value="3" />
+    <xacro:property name="LEG_MASS" value="0.2" />
     
 
 </robot>
