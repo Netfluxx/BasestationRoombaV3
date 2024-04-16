@@ -36,31 +36,31 @@
         <child link="chassis" />
     </joint>
 
-    <!-- WHEEL JOINTS -->
+                                        <!-- WHEEL JOINTS -->
 
     <joint name="front_left_wheel_joint" type="continuous">
-        <origin xyz="${LENGTH - LEG_LENGTH} ${((WIDTH/2) + LEG_WIDTH + (WHEEL_WIDTH/2))} 0" rpy="-${pi/2} 0 0" />
+        <origin xyz="${LENGTH - LEG_LENGTH} ${((WIDTH/2) + LEG_WIDTH + (WHEEL_WIDTH/2))} ${WHEEL_RADIUS}" rpy="-${pi/2} 0 0" />
         <parent link="base_link" />
         <child link="front_left_wheel_link" />
         <axis xyz="0 0 1"/>
     </joint>
 
     <joint name="front_right_wheel_joint" type="continuous">
-        <origin xyz="${LENGTH - LEG_LENGTH} ${-((WIDTH/2) + LEG_WIDTH + (WHEEL_WIDTH/2))} 0" rpy="${pi/2} 0 0" />
+        <origin xyz="${LENGTH - LEG_LENGTH} ${-((WIDTH/2) + LEG_WIDTH + (WHEEL_WIDTH/2))} ${WHEEL_RADIUS}" rpy="${pi/2} 0 0" />
         <parent link="base_link" />
         <child link="front_right_wheel_link" />
         <axis xyz="0 0 -1"/>
     </joint>
 
     <joint name="back_left_wheel_joint" type="continuous">
-        <origin xyz="0 ${((WIDTH/2) + LEG_WIDTH + (WHEEL_WIDTH/2))} 0" rpy="-${pi/2} 0 0" />
+        <origin xyz="0 ${((WIDTH/2) + LEG_WIDTH + (WHEEL_WIDTH/2))} ${WHEEL_RADIUS}" rpy="-${pi/2} 0 0" />
         <parent link="base_link" />
         <child link="back_left_wheel_link" />
         <axis xyz="0 0 1"/>
     </joint>
 
     <joint name="back_right_wheel_joint" type="continuous">
-        <origin xyz="0 ${-((WIDTH/2) + LEG_WIDTH + (WHEEL_WIDTH/2))} 0" rpy="${pi/2} 0 0" />
+        <origin xyz="0 ${-((WIDTH/2) + LEG_WIDTH + (WHEEL_WIDTH/2))} ${WHEEL_RADIUS}" rpy="${pi/2} 0 0" />
         <parent link="base_link" />
         <child link="back_right_wheel_link" />
         <axis xyz="0 0 -1"/>
@@ -70,25 +70,25 @@
 
 
     <joint name="back_left_leg_joint" type="fixed">
-        <origin xyz="0 ${((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2}" rpy="0 0 0" />
+        <origin xyz="0 ${((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2 + WHEEL_RADIUS}" rpy="0 0 0" />
         <parent link="base_link" />
         <child link="back_left_leg_link" />
     </joint>
 
     <joint name="back_right_leg_joint" type="fixed">
-        <origin xyz="0 ${-((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2}" rpy="0 0 0" />
+        <origin xyz="0 ${-((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2 + WHEEL_RADIUS}" rpy="0 0 0" />
         <parent link="base_link" />
         <child link="back_right_leg_link" />
     </joint>
 
     <joint name="front_left_leg_joint" type="fixed">
-        <origin xyz="${LENGTH - LEG_LENGTH} ${((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2}" rpy="0 0 0" />
+        <origin xyz="${LENGTH - LEG_LENGTH} ${((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2 + WHEEL_RADIUS}" rpy="0 0 0" />
         <parent link="base_link" />
         <child link="front_left_leg_link" />
     </joint>
 
     <joint name="front_right_leg_joint" type="fixed">
-        <origin xyz="${LENGTH - LEG_LENGTH} ${-((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2}"
+        <origin xyz="${LENGTH - LEG_LENGTH} ${-((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2 + WHEEL_RADIUS}"
             rpy="0 0 0" />
         <parent link="base_link" />
         <child link="front_right_leg_link" />
@@ -102,17 +102,17 @@
             <geometry>
                 <box size="${LENGTH} ${WIDTH} ${HEIGHT}" />
             </geometry>
-            <origin xyz="${LENGTH/2 - LEG_LENGTH/2} 0 ${LEG_HEIGHT - HEIGHT/2}" rpy="0 0 0"/>
+            <origin xyz="${LENGTH/2 - LEG_LENGTH/2} 0 ${LEG_HEIGHT - HEIGHT/2 + WHEEL_RADIUS}" rpy="0 0 0"/>
             <material name="black" />
         </visual>
         <collision>
             <geometry>
                 <box size="${LENGTH} ${WIDTH} ${HEIGHT}" />
             </geometry>
-            <origin xyz="${LENGTH/2 - LEG_LENGTH/2} 0 ${LEG_HEIGHT - HEIGHT/2}" rpy="0 0 0"/>
+            <origin xyz="${LENGTH/2 - LEG_LENGTH/2} 0 ${LEG_HEIGHT - HEIGHT/2 + WHEEL_RADIUS}" rpy="0 0 0"/>
         </collision>
         <xacro:inertial_box mass="${MASS}" x="${LENGTH}" y="${WIDTH}" z="${HEIGHT}">
-            <origin xyz="${LENGTH/2 - LEG_LENGTH/2} 0 ${LEG_HEIGHT - HEIGHT/2}" rpy="0 0 0"/>
+            <origin xyz="${LENGTH/2 - LEG_LENGTH/2} 0 ${LEG_HEIGHT - HEIGHT/2 + WHEEL_RADIUS}" rpy="0 0 0"/>
         </xacro:inertial_box>
     </link>
 
@@ -205,7 +205,7 @@
             </geometry>
         </collision>
         <xacro:inertial_cylinder mass="${WHEEL_MASS}" length="${WHEEL_WIDTH}" radius="${WHEEL_RADIUS}">
-            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <origin xyz="0 0 0"/>
         </xacro:inertial_cylinder>
     </link>
 
@@ -214,6 +214,7 @@
             <geometry>
                 <cylinder radius="${WHEEL_RADIUS}" length="${WHEEL_WIDTH}" />
             </geometry>
+            <material name="blue" />
         </visual>
         <collision>
             <geometry>
@@ -221,7 +222,7 @@
             </geometry>
         </collision>
         <xacro:inertial_cylinder mass="${WHEEL_MASS}" length="${WHEEL_WIDTH}" radius="${WHEEL_RADIUS}">
-            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <origin xyz="0 0 0"/>
         </xacro:inertial_cylinder>
     </link>
 
@@ -230,6 +231,7 @@
             <geometry>
                 <cylinder radius="${WHEEL_RADIUS}" length="${WHEEL_WIDTH}" />
             </geometry>
+            <material name="blue" />
         </visual>
         <collision>
             <geometry>
@@ -237,7 +239,7 @@
             </geometry>
         </collision>
         <xacro:inertial_cylinder mass="${WHEEL_MASS}" length="${WHEEL_WIDTH}" radius="${WHEEL_RADIUS}">
-            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <origin xyz="0 0 0"/>
         </xacro:inertial_cylinder>
     </link>
 
@@ -246,6 +248,7 @@
             <geometry>
                 <cylinder radius="${WHEEL_RADIUS}" length="${WHEEL_WIDTH}" />
             </geometry>
+            <material name="blue" />
         </visual>
         <collision>
             <geometry>
@@ -253,7 +256,7 @@
             </geometry>
         </collision>
         <xacro:inertial_cylinder mass="${WHEEL_MASS}" length="${WHEEL_WIDTH}" radius="${WHEEL_RADIUS}">
-            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <origin xyz="0 0 0"/>
         </xacro:inertial_cylinder>
     </link>
 
