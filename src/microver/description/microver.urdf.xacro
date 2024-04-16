@@ -18,6 +18,13 @@
 
     <!-- the base link located in the middle of the line between the center of both back wheels -->
     <link name="base_link">
+        <visual>
+            <geometry>
+                <cylinder length="0.003" radius="0.003"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <material name="white" />
+        </visual>
     </link>
 
 
@@ -60,7 +67,7 @@
         <axis xyz="0 0 -1"/>
     </joint>
 
-    <!-- LEG JOINTS = FIXED -->
+                                <!-- LEG JOINTS = FIXED -->
 
 
     <joint name="back_left_leg_joint" type="fixed">
@@ -96,7 +103,7 @@
             <geometry>
                 <box size="${LENGTH} ${WIDTH} ${HEIGHT}" />
             </geometry>
-            <origin xyz="${LENGTH/2} 0 ${HEIGHT/2}" rpy="0 0 0"/>
+            <origin xyz="${LENGTH/2} 0 ${LEG_HEIGHT - HEIGHT/2}" rpy="0 0 0"/>
             <material name="black" />
         </visual>
         <collision>
@@ -111,23 +118,23 @@
     </link>
 
                                         <!-- LEG LINKS -->
+
+
     <!-- need to add inertias for the legs -->
     <link name="back_left_leg_link">
         <visual>
             <geometry>
                 <box size="${LEG_LENGTH} ${LEG_WIDTH} ${LEG_HEIGHT}" />
             </geometry>
-            <origin xyz="0 ${((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2}" />
             <material name="black" />
         </visual>
         <collision>
             <geometry>
                 <box size="${LEG_LENGTH} ${LEG_WIDTH} ${LEG_HEIGHT}" />
             </geometry>
-            <origin xyz="0 ${((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2}" />
         </collision>
         <xacro:inertial_box mass="${LEG_MASS}" x="${LEG_LENGTH}" y="${LEG_WIDTH}" z="${LEG_HEIGHT}">
-            <origin xyz="0 ${((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2}" />
+            <origin xyz="0 0 0" />
         </xacro:inertial_box>
     </link>
 
@@ -136,17 +143,15 @@
             <geometry>
                 <box size="${LEG_LENGTH} ${LEG_WIDTH} ${LEG_HEIGHT}" />
             </geometry>
-            <origin xyz="0 ${-((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2}" />
             <material name="black" />
         </visual>
         <collision>
             <geometry>
                 <box size="${LEG_LENGTH} ${LEG_WIDTH} ${LEG_HEIGHT}" />
             </geometry>
-            <origin xyz="0 ${-((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2}" />
         </collision>
         <xacro:inertial_box mass="${LEG_MASS}" x="${LEG_LENGTH}" y="${LEG_WIDTH}" z="${LEG_HEIGHT}">
-            <origin xyz="0 ${-((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2}" />
+            <origin xyz="0 0 0" />
         </xacro:inertial_box>
     </link>
 
@@ -155,17 +160,15 @@
             <geometry>
                 <box size="${LEG_LENGTH} ${LEG_WIDTH} ${LEG_HEIGHT}" />
             </geometry>
-            <origin xyz="${LENGTH - LEG_LENGTH} ${((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2}" />
             <material name="black" />
         </visual>
         <collision>
             <geometry>
                 <box size="${LEG_LENGTH} ${LEG_WIDTH} ${LEG_HEIGHT}" />
             </geometry>
-            <origin xyz="${LENGTH - LEG_LENGTH} ${((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2}" />
         </collision>
         <xacro:inertial_box mass="${LEG_MASS}" x="${LEG_LENGTH}" y="${LEG_WIDTH}" z="${LEG_HEIGHT}">
-            <origin xyz="${LENGTH - LEG_LENGTH} ${((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2}" />
+            <origin xyz="0 0 0" />
         </xacro:inertial_box>
         
     </link>
@@ -175,17 +178,15 @@
             <geometry>
                 <box size="${LEG_LENGTH} ${LEG_WIDTH} ${LEG_HEIGHT}" />
             </geometry>
-            <origin xyz="${LENGTH - LEG_LENGTH} ${-((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2}" />
             <material name="black" />
         </visual>
         <collision>
             <geometry>
                 <box size="${LEG_LENGTH} ${LEG_WIDTH} ${LEG_HEIGHT}" />
             </geometry>
-            <origin xyz="${LENGTH - LEG_LENGTH} ${-((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2}" />
         </collision>
         <xacro:inertial_box mass="${LEG_MASS}" x="${LEG_LENGTH}" y="${LEG_WIDTH}" z="${LEG_HEIGHT}">
-            <origin xyz="${LENGTH - LEG_LENGTH} ${-((WIDTH/2)+(LEG_WIDTH/2))} ${LEG_HEIGHT/2}" />
+            <origin xyz="0 0 0" />
         </xacro:inertial_box>
     </link>
 
