@@ -1,0 +1,29 @@
+[0.019s] Invoking command in '/home/arno/BasestationRoombaV3/build/microver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/BasestationRoombaV3/build/microver -- -j8 -l8
+[0.069s] Invoked command in '/home/arno/BasestationRoombaV3/build/microver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/BasestationRoombaV3/build/microver -- -j8 -l8
+[0.107s] Invoking command in '/home/arno/BasestationRoombaV3/build/microver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arno/BasestationRoombaV3/build/microver
+[0.116s] -- Install configuration: ""
+[0.117s] -- Execute custom install script
+[0.117s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/description/constants.xacro
+[0.117s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/description/inertial_macros.xacro
+[0.117s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/description/microver.urdf.xacro
+[0.118s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/description/microver_sim_gazebo.xacro
+[0.118s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/launch/gazebo_sim.launch.py
+[0.118s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/launch/launch_sim.launch.py
+[0.118s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/launch/rsp.launch.py
+[0.118s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/launch/view_microver.sh
+[0.119s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/ament_index/resource_index/package_run_dependencies/microver
+[0.119s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/ament_index/resource_index/parent_prefix_path/microver
+[0.119s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/environment/ament_prefix_path.sh
+[0.119s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/environment/ament_prefix_path.dsv
+[0.119s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/environment/path.sh
+[0.120s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/environment/path.dsv
+[0.120s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/local_setup.bash
+[0.120s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/local_setup.sh
+[0.120s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/local_setup.zsh
+[0.120s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/local_setup.dsv
+[0.120s] -- Symlinking: /home/arno/BasestationRoombaV3/install/microver/share/microver/package.dsv
+[0.133s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/ament_index/resource_index/packages/microver
+[0.133s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/cmake/microverConfig.cmake
+[0.134s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/cmake/microverConfig-version.cmake
+[0.134s] -- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/package.xml
+[0.136s] Invoked command in '/home/arno/BasestationRoombaV3/build/microver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arno/BasestationRoombaV3/build/microver

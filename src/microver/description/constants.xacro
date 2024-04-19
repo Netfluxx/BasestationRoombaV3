@@ -22,4 +22,6 @@
     <xacro:property name="LEG_LENGTH"   value="0.05" />    
     <xacro:property name="LEG_MASS"     value="0.1"  />
     
+    <xacro:property name="MU1"     value="0.1"  />
+    <xacro:property name="MU2"     value="0.1"  />
 </robot>

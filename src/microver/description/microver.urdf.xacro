@@ -3,6 +3,7 @@
 
     <xacro:include filename="constants.xacro" />
     <xacro:include filename="inertial_macros.xacro" />
+    <xacro:include filename="gazebo_control.xacro" />
 
     <material name="black">
         <color rgba="0 0 0 1" />
@@ -13,6 +14,11 @@
     <material name="blue">
         <color rgba="0.2 0.2 1 1" />
     </material>
+
+    <material name="purple">
+        <color rgba="0.62 0.12 0.94 1" />
+    </material>
+
 
 
     <!-- the base link located in the middle of the line between the center of both back wheels -->
@@ -43,6 +49,8 @@
         <parent link="base_link" />
         <child link="front_left_wheel_link" />
         <axis xyz="0 0 1"/>
+        <limit effort="100" velocity="100"/>
+        <dynamics damping="0.1" friction="0.1"/>
     </joint>
 
     <joint name="front_right_wheel_joint" type="continuous">
@@ -50,6 +58,8 @@
         <parent link="base_link" />
         <child link="front_right_wheel_link" />
         <axis xyz="0 0 -1"/>
+        <limit effort="100" velocity="100"/>
+        <dynamics damping="0.1" friction="0.1"/>
     </joint>
 
     <joint name="back_left_wheel_joint" type="continuous">
@@ -57,6 +67,8 @@
         <parent link="base_link" />
         <child link="back_left_wheel_link" />
         <axis xyz="0 0 1"/>
+        <limit effort="100" velocity="100"/>
+        <dynamics damping="0.1" friction="0.1"/>
     </joint>
 
     <joint name="back_right_wheel_joint" type="continuous">
@@ -64,6 +76,8 @@
         <parent link="base_link" />
         <child link="back_right_wheel_link" />
         <axis xyz="0 0 -1"/>
+        <limit effort="100" velocity="100"/>
+        <dynamics damping="0.1" friction="0.1"/>
     </joint>
 
                                 <!-- LEG JOINTS = FIXED -->
@@ -116,6 +130,8 @@
         </xacro:inertial_box>
     </link>
 
+    
+
                                         <!-- LEG LINKS -->
 
 
@@ -137,6 +153,9 @@
         </xacro:inertial_box>
     </link>
 
+    
+
+
     <link name="back_right_leg_link">
         <visual>
             <geometry>
@@ -153,6 +172,8 @@
             <origin xyz="0 0 0" />
         </xacro:inertial_box>
     </link>
+
+    
 
     <link name="front_left_leg_link">
         <visual>
@@ -172,6 +193,8 @@
         
     </link>
 
+    
+
     <link name="front_right_leg_link">
         <visual>
             <geometry>
@@ -189,6 +212,8 @@
         </xacro:inertial_box>
     </link>
 
+    
+
                                         <!-- WHEEL LINKS -->
 
 
@@ -197,7 +222,7 @@
             <geometry>
                 <cylinder radius="${WHEEL_RADIUS}" length="${WHEEL_WIDTH}" />
             </geometry>
-            <material name="blue" />
+            <material name="purple" />
         </visual>
         <collision>
             <geometry>
@@ -208,13 +233,15 @@
             <origin xyz="0 0 0"/>
         </xacro:inertial_cylinder>
     </link>
+
+    
 
     <link name="front_right_wheel_link">
         <visual>
             <geometry>
                 <cylinder radius="${WHEEL_RADIUS}" length="${WHEEL_WIDTH}" />
             </geometry>
-            <material name="blue" />
+            <material name="purple" />
         </visual>
         <collision>
             <geometry>
@@ -225,13 +252,15 @@
             <origin xyz="0 0 0"/>
         </xacro:inertial_cylinder>
     </link>
+
+    
 
     <link name="back_left_wheel_link">
         <visual>
             <geometry>
                 <cylinder radius="${WHEEL_RADIUS}" length="${WHEEL_WIDTH}" />
             </geometry>
-            <material name="blue" />
+            <material name="purple" />
         </visual>
         <collision>
             <geometry>
@@ -242,13 +271,15 @@
             <origin xyz="0 0 0"/>
         </xacro:inertial_cylinder>
     </link>
+
+    
 
     <link name="back_right_wheel_link">
         <visual>
             <geometry>
                 <cylinder radius="${WHEEL_RADIUS}" length="${WHEEL_WIDTH}" />
             </geometry>
-            <material name="blue" />
+            <material name="purple" />
         </visual>
         <collision>
             <geometry>
@@ -260,5 +291,53 @@
         </xacro:inertial_cylinder>
     </link>
 
+    
 
+
+                                                <!-- Gazebo -->
+
+
+    <gazebo reference="chassis">
+        <material>Gazebo/Black</material>
+    </gazebo>
+
+    <gazebo reference="back_left_leg_link">
+        <material>Gazebo/Black</material>
+    </gazebo>
+
+    <gazebo reference="back_right_leg_link">
+        <material>Gazebo/Black</material>
+    </gazebo>
+
+    <gazebo reference="front_left_leg_link">
+        <material>Gazebo/Black</material>
+    </gazebo>
+
+    <gazebo reference="front_right_leg_link">
+        <material>Gazebo/Black</material>
+    </gazebo>
+
+    <gazebo reference="front_left_wheel_link">
+        <material>Gazebo/Purple</material>
+        <mu1 value="${MU1}" />
+        <mu2 value="${MU2}" />
+    </gazebo>
+
+    <gazebo reference="front_right_wheel_link">
+        <material>Gazebo/Purple</material>
+        <mu1 value="${MU1}" />
+        <mu2 value="${MU2}" />
+    </gazebo>
+
+    <gazebo reference="back_left_wheel_link">
+        <material>Gazebo/Purple</material>
+        <mu1 value="${MU1}" />
+        <mu2 value="${MU2}" />
+    </gazebo>
+
+    <gazebo reference="back_right_wheel_link">
+        <material>Gazebo/Purple</material>
+        <mu1 value="${MU1}" />
+        <mu2 value="${MU2}" />
+    </gazebo>
 </robot>

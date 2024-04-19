@@ -1,0 +1,36 @@
+-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/arno/BasestationRoombaV3/build/microver
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/description/constants.xacro
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/description/inertial_macros.xacro
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/description/microver.gazebo
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/description/microver.urdf.xacro
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/launch/gazebo_sim.launch.py
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/launch/launch_sim.launch.py
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/launch/rsp.launch.py
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/launch/view_microver.sh
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/ament_index/resource_index/package_run_dependencies/microver
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/ament_index/resource_index/parent_prefix_path/microver
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/environment/path.sh
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/environment/path.dsv
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/local_setup.bash
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/local_setup.sh
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/local_setup.zsh
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/local_setup.dsv
+-- Symlinking: /home/arno/BasestationRoombaV3/install/microver/share/microver/package.dsv
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/ament_index/resource_index/packages/microver
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/cmake/microverConfig.cmake
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/cmake/microverConfig-version.cmake
+-- Up-to-date symlink: /home/arno/BasestationRoombaV3/install/microver/share/microver/package.xml
