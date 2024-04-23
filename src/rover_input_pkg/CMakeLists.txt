@@ -14,12 +14,13 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 find_package(Curses REQUIRED)
 
-add_executable(input_node src/input_node.cpp)
-ament_target_dependencies(input_node rclcpp std_msgs)
+add_executable(input_node_v2 src/input_node_v2.cpp)
+ament_target_dependencies(input_node_v2 rclcpp std_msgs geometry_msgs)
 
-target_link_libraries(input_node
+target_link_libraries(input_node_v2
   ${CURSES_LIBRARIES}
 )
 
@@ -31,7 +32,7 @@ if(BUILD_TESTING)
 endif()
 
 install(TARGETS
-  input_node
+  input_node_v2
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

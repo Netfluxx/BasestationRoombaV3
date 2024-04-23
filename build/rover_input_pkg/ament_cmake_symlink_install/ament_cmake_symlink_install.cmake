@@ -310,7 +310,7 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "input_node" "DESTINATION" "lib/rover_input_pkg")
+# install("TARGETS" "input_node_v2" "DESTINATION" "lib/rover_input_pkg")
 include("/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rover_input_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

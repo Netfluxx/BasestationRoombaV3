@@ -198,41 +198,41 @@ rover_input_pkg_uninstall/fast:
 .PHONY : rover_input_pkg_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named input_node
+# Target rules for targets named input_node_v2
 
 # Build rule for target.
-input_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 input_node
-.PHONY : input_node
+input_node_v2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 input_node_v2
+.PHONY : input_node_v2
 
 # fast build rule for target.
-input_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_node.dir/build.make CMakeFiles/input_node.dir/build
-.PHONY : input_node/fast
+input_node_v2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_node_v2.dir/build.make CMakeFiles/input_node_v2.dir/build
+.PHONY : input_node_v2/fast
 
-src/input_node.o: src/input_node.cpp.o
-.PHONY : src/input_node.o
+src/input_node_v2.o: src/input_node_v2.cpp.o
+.PHONY : src/input_node_v2.o
 
 # target to build an object file
-src/input_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_node.dir/build.make CMakeFiles/input_node.dir/src/input_node.cpp.o
-.PHONY : src/input_node.cpp.o
+src/input_node_v2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_node_v2.dir/build.make CMakeFiles/input_node_v2.dir/src/input_node_v2.cpp.o
+.PHONY : src/input_node_v2.cpp.o
 
-src/input_node.i: src/input_node.cpp.i
-.PHONY : src/input_node.i
+src/input_node_v2.i: src/input_node_v2.cpp.i
+.PHONY : src/input_node_v2.i
 
 # target to preprocess a source file
-src/input_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_node.dir/build.make CMakeFiles/input_node.dir/src/input_node.cpp.i
-.PHONY : src/input_node.cpp.i
+src/input_node_v2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_node_v2.dir/build.make CMakeFiles/input_node_v2.dir/src/input_node_v2.cpp.i
+.PHONY : src/input_node_v2.cpp.i
 
-src/input_node.s: src/input_node.cpp.s
-.PHONY : src/input_node.s
+src/input_node_v2.s: src/input_node_v2.cpp.s
+.PHONY : src/input_node_v2.s
 
 # target to generate assembly for a file
-src/input_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_node.dir/build.make CMakeFiles/input_node.dir/src/input_node.cpp.s
-.PHONY : src/input_node.cpp.s
+src/input_node_v2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_node_v2.dir/build.make CMakeFiles/input_node_v2.dir/src/input_node_v2.cpp.s
+.PHONY : src/input_node_v2.cpp.s
 
 # Help Target
 help:
@@ -249,10 +249,10 @@ help:
 	@echo "... test"
 	@echo "... rover_input_pkg_uninstall"
 	@echo "... uninstall"
-	@echo "... input_node"
-	@echo "... src/input_node.o"
-	@echo "... src/input_node.i"
-	@echo "... src/input_node.s"
+	@echo "... input_node_v2"
+	@echo "... src/input_node_v2.o"
+	@echo "... src/input_node_v2.i"
+	@echo "... src/input_node_v2.s"
 .PHONY : help
 
 

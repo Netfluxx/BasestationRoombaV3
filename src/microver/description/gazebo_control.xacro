@@ -15,10 +15,10 @@
             <right_joint>back_right_wheel_joint</right_joint>
 
             <wheel_separation>${WIDTH + (2*LEG_WIDTH) + WHEEL_WIDTH}</wheel_separation>
-            <wheel_separation>${WIDTH + (2*LEG_WIDTH) + WHEEL_WIDTH}</wheel_separation>
+            <!-- <wheel_separation>${WIDTH + (2*LEG_WIDTH) + WHEEL_WIDTH}</wheel_separation> -->
 
             <wheel_diameter>${2*WHEEL_RADIUS}</wheel_diameter>
-            <wheel_diameter>${2*WHEEL_RADIUS}</wheel_diameter>
+            <!-- <wheel_diameter>${2*WHEEL_RADIUS}</wheel_diameter> -->
 
             <max_wheel_torque>5</max_wheel_torque>
             <max_wheel_acceleration>5.0</max_wheel_acceleration>
@@ -34,6 +34,5 @@
         </plugin>
 
     </gazebo>
-
 
 </robot>

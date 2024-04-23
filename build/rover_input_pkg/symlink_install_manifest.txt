@@ -1,4 +1,4 @@
-/home/arno/BasestationRoombaV3/install/rover_input_pkg/lib/rover_input_pkg/input_node
+/home/arno/BasestationRoombaV3/install/rover_input_pkg/lib/rover_input_pkg/input_node_v2
 /home/arno/BasestationRoombaV3/install/rover_input_pkg/share/ament_index/resource_index/package_run_dependencies/rover_input_pkg
 /home/arno/BasestationRoombaV3/install/rover_input_pkg/share/ament_index/resource_index/parent_prefix_path/rover_input_pkg
 /home/arno/BasestationRoombaV3/install/rover_input_pkg/share/rover_input_pkg/environment/ament_prefix_path.sh

@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/arno/BasestationRoombaV3/build/rover_input_pkg
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/input_node.dir/all
+all: CMakeFiles/input_node_v2.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,7 +73,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/rover_input_pkg_uninstall.dir/clean
-clean: CMakeFiles/input_node.dir/clean
+clean: CMakeFiles/input_node_v2.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -129,30 +129,30 @@ CMakeFiles/rover_input_pkg_uninstall.dir/clean:
 .PHONY : CMakeFiles/rover_input_pkg_uninstall.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/input_node.dir
+# Target rules for target CMakeFiles/input_node_v2.dir
 
 # All Build rule for target.
-CMakeFiles/input_node.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_node.dir/build.make CMakeFiles/input_node.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_node.dir/build.make CMakeFiles/input_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arno/BasestationRoombaV3/build/rover_input_pkg/CMakeFiles --progress-num=1,2 "Built target input_node"
-.PHONY : CMakeFiles/input_node.dir/all
+CMakeFiles/input_node_v2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_node_v2.dir/build.make CMakeFiles/input_node_v2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_node_v2.dir/build.make CMakeFiles/input_node_v2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/arno/BasestationRoombaV3/build/rover_input_pkg/CMakeFiles --progress-num=1,2 "Built target input_node_v2"
+.PHONY : CMakeFiles/input_node_v2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/input_node.dir/rule: cmake_check_build_system
+CMakeFiles/input_node_v2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arno/BasestationRoombaV3/build/rover_input_pkg/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/input_node.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/input_node_v2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/arno/BasestationRoombaV3/build/rover_input_pkg/CMakeFiles 0
-.PHONY : CMakeFiles/input_node.dir/rule
+.PHONY : CMakeFiles/input_node_v2.dir/rule
 
 # Convenience name for target.
-input_node: CMakeFiles/input_node.dir/rule
-.PHONY : input_node
+input_node_v2: CMakeFiles/input_node_v2.dir/rule
+.PHONY : input_node_v2
 
 # clean rule for target.
-CMakeFiles/input_node.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_node.dir/build.make CMakeFiles/input_node.dir/clean
-.PHONY : CMakeFiles/input_node.dir/clean
+CMakeFiles/input_node_v2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/input_node_v2.dir/build.make CMakeFiles/input_node_v2.dir/clean
+.PHONY : CMakeFiles/input_node_v2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
