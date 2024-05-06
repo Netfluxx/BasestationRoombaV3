@@ -31,19 +31,19 @@ public:
             switch (ch) {
                 case 'w':
                     user_input = "forward";
-                    vel_msg.linear.x = 1.0;
+                    vel_msg.linear.x = 3.0;
                     break;
                 case 'a':
                     user_input = "left";
-                    vel_msg.angular.z = 1.0;
+                    vel_msg.angular.z = 3.0;
                     break;
                 case 's':
                     user_input = "backwards";
-                    vel_msg.linear.x = -1.0;
+                    vel_msg.linear.x = -3.0;
                     break;
                 case 'd':
                     user_input = "right";
-                    vel_msg.angular.z = -1.0;
+                    vel_msg.angular.z = -3.0;
                     break;
                 default:
                     user_input = "stopit";

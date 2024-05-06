@@ -10,7 +10,7 @@
     <xacro:property name="WHEEL_RADIUS" value="0.04" />
     <xacro:property name="WHEEL_WIDTH"  value="0.05"  />
     <xacro:property name="WHEELBASE"    value="0.5"  />
-    <xacro:property name="WHEEL_MASS"   value="0.3"  />
+    <xacro:property name="WHEEL_MASS"   value="0.45"  />
 
     <xacro:property name="HEIGHT"       value="0.05" />
     <xacro:property name="LENGTH"       value="0.3"  />
@@ -22,6 +22,6 @@
     <xacro:property name="LEG_LENGTH"   value="0.05" />    
     <xacro:property name="LEG_MASS"     value="0.1"  />
     
-    <xacro:property name="MU1"     value="0.1"  />
-    <xacro:property name="MU2"     value="0.1"  />
+    <xacro:property name="MU1"     value="0.3"  />
+    <xacro:property name="MU2"     value="0.3"  />
 </robot>
