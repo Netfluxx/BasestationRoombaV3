@@ -43,15 +43,6 @@ void receiveEvent(int howMany){
     byte command = Wire.read();
     executeCommand(command);
   }
-  // while (Wire.available()){
-  //   byte command = Wire.read();
-  //   if(command == CMD_ERR){
-  //     executeCommand(prev_command);
-  //   }else{
-  //     executeCommand(command);
-  //     prev_command = command;
-  //   }
-  // }
 }
 
 void executeCommand(byte command){
