@@ -22,13 +22,13 @@ const byte CMD_ERR = 0xff;
 void setup() {
   Wire.begin();
   Serial.begin(9600);
-  delay(3000);
+  //delay(3000);
 }
 
 void loop() {
   if (Serial.available() > 0) {
     String received_str = Serial.readStringUntil('\n');
-    delay(10);
+    //delay(10);
     command = CMD_ERR;
 
     if(received_str == "forward"){
@@ -43,7 +43,7 @@ void loop() {
     }else if(received_str == "left"){
       Serial.println("l");
       command = CMD_LEFT;
-    }else if(received_str == "stop"){
+    }else if(received_str == "stopit"){
       Serial.println("s");
       command = CMD_STOP;
     }else{
@@ -53,9 +53,9 @@ void loop() {
   
   
     for(int slave_index=1; slave_index<5; slave_index++){
-      if(slave_index!=1){  //for debugging with only one slave
-        continue;
-      }
+      //if(slave_index!=1){  //for debugging with only one slave
+      //  continue;
+      //}
       switch(slave_index){
         case 1:
           slave_addr = SLAVE_1;
@@ -64,11 +64,11 @@ void loop() {
           slave_addr = SLAVE_2;
           break;
         case 3:
-          slave_addr = SLAVE_3:
+          slave_addr = SLAVE_3;
           break;
         case 4:
           slave_addr = SLAVE_4;
-          break
+          break;
         default:
           break;
       }
@@ -76,13 +76,13 @@ void loop() {
       Wire.write(command);
       Wire.endTransmission();
 
-      Wire.requestFrom(slave_addr, 1);
-      if (Wire.available()) {
-        byte state = Wire.read();
+      //Wire.requestFrom(slave_addr, 1);
+      //if (Wire.available()) {
+      //  byte state = Wire.read();
         //feed it back to the raspberry pi
-      }else{
+      //}else{
         //error
-      }
+      //}
     }
     command = CMD_ERR;
   }
