@@ -1,0 +1,43 @@
+[0.031s] Invoking command in '/home/arno/BasestationRoombaV3/build/alphamat': /usr/bin/cmake /home/arno/BasestationRoombaV3/src/camera/opencv_contrib/modules/alphamat -DCMAKE_INSTALL_PREFIX=/home/arno/BasestationRoombaV3/install/alphamat
+[0.055s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.055s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.055s]   contain a literal, direct call to the project() command.  Add a line of
+[0.057s]   code such as
+[0.058s] 
+[0.059s]     project(ProjectName)
+[0.059s] 
+[0.059s]   near the top of the file, but after cmake_minimum_required().
+[0.059s] 
+[0.059s]   CMake is pretending there is a "project(Project)" command on the first
+[0.060s]   line.
+[0.060s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.060s] [0m
+[0.195s] -- The C compiler identification is GNU 11.4.0
+[0.340s] -- The CXX compiler identification is GNU 11.4.0
+[0.361s] -- Detecting C compiler ABI info
+[0.510s] -- Detecting C compiler ABI info - done
+[0.539s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.540s] -- Detecting C compile features
+[0.542s] -- Detecting C compile features - done
+[0.552s] -- Detecting CXX compiler ABI info
+[0.736s] -- Detecting CXX compiler ABI info - done
+[0.783s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.783s] -- Detecting CXX compile features
+[0.783s] -- Detecting CXX compile features - done
+[0.783s] [31mCMake Error at CMakeLists.txt:3 (ocv_module_disable):
+[0.783s]   Unknown CMake command "ocv_module_disable".
+[0.783s] 
+[0.783s] [0m
+[0.784s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.784s]   No cmake_minimum_required command is present.  A line of code such as
+[0.784s] 
+[0.784s]     cmake_minimum_required(VERSION 3.22)
+[0.784s] 
+[0.784s]   should be added at the top of the file.  The version specified may be lower
+[0.784s]   if you wish to support older CMake versions for this project.  For more
+[0.784s]   information run "cmake --help-policy CMP0000".
+[0.784s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.784s] [0m
+[0.784s] -- Module opencv_alphamat disabled because the following dependencies are not found: Eigen
+[0.785s] -- Configuring incomplete, errors occurred!
+[0.785s] See also "/home/arno/BasestationRoombaV3/build/alphamat/CMakeFiles/CMakeOutput.log".

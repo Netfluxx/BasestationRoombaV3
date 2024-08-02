@@ -1,1 +1,2 @@
-/home/arno/BasestationRoombaV3/build/rover_input_pkg/ament_cmake_environment_hooks/local_setup.dsv
+source;share/rover_input_pkg/environment/ament_prefix_path.sh
+source;share/rover_input_pkg/environment/path.sh

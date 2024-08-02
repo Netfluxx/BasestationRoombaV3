@@ -1,0 +1,42 @@
+[0.032s] Invoking command in '/home/arno/BasestationRoombaV3/build/cannops': /usr/bin/cmake /home/arno/BasestationRoombaV3/src/camera/opencv_contrib/modules/cannops -DCMAKE_INSTALL_PREFIX=/home/arno/BasestationRoombaV3/install/cannops
+[0.054s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.055s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.055s]   contain a literal, direct call to the project() command.  Add a line of
+[0.055s]   code such as
+[0.055s] 
+[0.055s]     project(ProjectName)
+[0.055s] 
+[0.056s]   near the top of the file, but after cmake_minimum_required().
+[0.056s] 
+[0.056s]   CMake is pretending there is a "project(Project)" command on the first
+[0.056s]   line.
+[0.056s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.057s] [0m
+[0.180s] -- The C compiler identification is GNU 11.4.0
+[0.318s] -- The CXX compiler identification is GNU 11.4.0
+[0.339s] -- Detecting C compiler ABI info
+[0.483s] -- Detecting C compiler ABI info - done
+[0.511s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.512s] -- Detecting C compile features
+[0.513s] -- Detecting C compile features - done
+[0.538s] -- Detecting CXX compiler ABI info
+[0.706s] -- Detecting CXX compiler ABI info - done
+[0.740s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.743s] -- Detecting CXX compile features
+[0.747s] [31mCMake Error at CMakeLists.txt:2 (ocv_module_disable):
+[0.749s]   Unknown CMake command "ocv_module_disable".
+[0.749s] 
+[0.751s] [0m
+[0.751s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.751s]   No cmake_minimum_required command is present.  A line of code such as
+[0.751s] 
+[0.752s]     cmake_minimum_required(VERSION 3.22)
+[0.752s] 
+[0.752s]   should be added at the top of the file.  The version specified may be lower
+[0.752s]   if you wish to support older CMake versions for this project.  For more
+[0.752s]   information run "cmake --help-policy CMP0000".
+[0.753s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.753s] [0m
+[0.755s] -- Detecting CXX compile features - done
+[0.755s] -- Configuring incomplete, errors occurred!
+[0.756s] See also "/home/arno/BasestationRoombaV3/build/cannops/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,558 @@
+[0.036s] Invoking command in '/home/arno/BasestationRoombaV3/build/OpenCV': /usr/bin/cmake /home/arno/BasestationRoombaV3/src/camera/opencv -DCMAKE_INSTALL_PREFIX=/home/arno/BasestationRoombaV3/install/OpenCV
+[0.080s] -- 'Release' build type is used by default. Use CMAKE_BUILD_TYPE to specify build type (Release or Debug)
+[0.272s] -- The CXX compiler identification is GNU 11.4.0
+[0.369s] -- The C compiler identification is GNU 11.4.0
+[0.386s] -- Detecting CXX compiler ABI info
+[0.574s] -- Detecting CXX compiler ABI info - done
+[0.598s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.600s] -- Detecting CXX compile features
+[0.601s] -- Detecting CXX compile features - done
+[0.609s] -- Detecting C compiler ABI info
+[0.766s] -- Detecting C compiler ABI info - done
+[0.793s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.793s] -- Detecting C compile features
+[0.793s] -- Detecting C compile features - done
+[0.794s] -- Detected processor: x86_64
+[0.899s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.2") 
+[0.918s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable exact version "3.10.12") 
+[1.187s] -- Looking for ccache - not found
+[1.187s] -- Performing Test HAVE_CXX_FSIGNED_CHAR
+[1.258s] -- Performing Test HAVE_CXX_FSIGNED_CHAR - Success
+[1.258s] -- Performing Test HAVE_C_FSIGNED_CHAR
+[1.317s] -- Performing Test HAVE_C_FSIGNED_CHAR - Success
+[1.317s] -- Performing Test HAVE_CXX_W
+[1.383s] -- Performing Test HAVE_CXX_W - Success
+[1.383s] -- Performing Test HAVE_C_W
+[1.438s] -- Performing Test HAVE_C_W - Success
+[1.438s] -- Performing Test HAVE_CXX_WALL
+[1.509s] -- Performing Test HAVE_CXX_WALL - Success
+[1.509s] -- Performing Test HAVE_C_WALL
+[1.572s] -- Performing Test HAVE_C_WALL - Success
+[1.572s] -- Performing Test HAVE_CXX_WRETURN_TYPE
+[1.639s] -- Performing Test HAVE_CXX_WRETURN_TYPE - Success
+[1.639s] -- Performing Test HAVE_C_WRETURN_TYPE
+[1.694s] -- Performing Test HAVE_C_WRETURN_TYPE - Success
+[1.694s] -- Performing Test HAVE_CXX_WNON_VIRTUAL_DTOR
+[1.767s] -- Performing Test HAVE_CXX_WNON_VIRTUAL_DTOR - Success
+[1.767s] -- Performing Test HAVE_C_WNON_VIRTUAL_DTOR
+[1.828s] -- Performing Test HAVE_C_WNON_VIRTUAL_DTOR - Failed
+[1.828s] -- Performing Test HAVE_CXX_WADDRESS
+[1.895s] -- Performing Test HAVE_CXX_WADDRESS - Success
+[1.895s] -- Performing Test HAVE_C_WADDRESS
+[1.955s] -- Performing Test HAVE_C_WADDRESS - Success
+[1.955s] -- Performing Test HAVE_CXX_WSEQUENCE_POINT
+[2.027s] -- Performing Test HAVE_CXX_WSEQUENCE_POINT - Success
+[2.027s] -- Performing Test HAVE_C_WSEQUENCE_POINT
+[2.083s] -- Performing Test HAVE_C_WSEQUENCE_POINT - Success
+[2.083s] -- Performing Test HAVE_CXX_WFORMAT
+[2.151s] -- Performing Test HAVE_CXX_WFORMAT - Success
+[2.151s] -- Performing Test HAVE_C_WFORMAT
+[2.207s] -- Performing Test HAVE_C_WFORMAT - Success
+[2.208s] -- Performing Test HAVE_CXX_WFORMAT_SECURITY
+[2.288s] -- Performing Test HAVE_CXX_WFORMAT_SECURITY - Success
+[2.288s] -- Performing Test HAVE_C_WFORMAT_SECURITY
+[2.347s] -- Performing Test HAVE_C_WFORMAT_SECURITY - Success
+[2.347s] -- Performing Test HAVE_CXX_WMISSING_DECLARATIONS
+[2.421s] -- Performing Test HAVE_CXX_WMISSING_DECLARATIONS - Success
+[2.421s] -- Performing Test HAVE_C_WMISSING_DECLARATIONS
+[2.480s] -- Performing Test HAVE_C_WMISSING_DECLARATIONS - Success
+[2.480s] -- Performing Test HAVE_CXX_WMISSING_PROTOTYPES
+[2.558s] -- Performing Test HAVE_CXX_WMISSING_PROTOTYPES - Failed
+[2.558s] -- Performing Test HAVE_C_WMISSING_PROTOTYPES
+[2.616s] -- Performing Test HAVE_C_WMISSING_PROTOTYPES - Success
+[2.617s] -- Performing Test HAVE_CXX_WSTRICT_PROTOTYPES
+[2.686s] -- Performing Test HAVE_CXX_WSTRICT_PROTOTYPES - Failed
+[2.687s] -- Performing Test HAVE_C_WSTRICT_PROTOTYPES
+[2.746s] -- Performing Test HAVE_C_WSTRICT_PROTOTYPES - Success
+[2.746s] -- Performing Test HAVE_CXX_WUNDEF
+[2.814s] -- Performing Test HAVE_CXX_WUNDEF - Success
+[2.814s] -- Performing Test HAVE_C_WUNDEF
+[2.872s] -- Performing Test HAVE_C_WUNDEF - Success
+[2.872s] -- Performing Test HAVE_CXX_WINIT_SELF
+[2.946s] -- Performing Test HAVE_CXX_WINIT_SELF - Success
+[2.946s] -- Performing Test HAVE_C_WINIT_SELF
+[3.006s] -- Performing Test HAVE_C_WINIT_SELF - Success
+[3.006s] -- Performing Test HAVE_CXX_WPOINTER_ARITH
+[3.081s] -- Performing Test HAVE_CXX_WPOINTER_ARITH - Success
+[3.081s] -- Performing Test HAVE_C_WPOINTER_ARITH
+[3.136s] -- Performing Test HAVE_C_WPOINTER_ARITH - Success
+[3.137s] -- Performing Test HAVE_CXX_WSHADOW
+[3.214s] -- Performing Test HAVE_CXX_WSHADOW - Success
+[3.214s] -- Performing Test HAVE_C_WSHADOW
+[3.273s] -- Performing Test HAVE_C_WSHADOW - Success
+[3.274s] -- Performing Test HAVE_CXX_WSIGN_PROMO
+[3.346s] -- Performing Test HAVE_CXX_WSIGN_PROMO - Success
+[3.346s] -- Performing Test HAVE_C_WSIGN_PROMO
+[3.405s] -- Performing Test HAVE_C_WSIGN_PROMO - Failed
+[3.405s] -- Performing Test HAVE_CXX_WUNINITIALIZED
+[3.473s] -- Performing Test HAVE_CXX_WUNINITIALIZED - Success
+[3.474s] -- Performing Test HAVE_C_WUNINITIALIZED
+[3.537s] -- Performing Test HAVE_C_WUNINITIALIZED - Success
+[3.537s] -- Performing Test HAVE_CXX_WSUGGEST_OVERRIDE
+[3.603s] -- Performing Test HAVE_CXX_WSUGGEST_OVERRIDE - Success
+[3.603s] -- Performing Test HAVE_C_WSUGGEST_OVERRIDE
+[3.665s] -- Performing Test HAVE_C_WSUGGEST_OVERRIDE - Failed
+[3.665s] -- Performing Test HAVE_CXX_WNO_DELETE_NON_VIRTUAL_DTOR
+[3.735s] -- Performing Test HAVE_CXX_WNO_DELETE_NON_VIRTUAL_DTOR - Success
+[3.735s] -- Performing Test HAVE_C_WNO_DELETE_NON_VIRTUAL_DTOR
+[3.796s] -- Performing Test HAVE_C_WNO_DELETE_NON_VIRTUAL_DTOR - Failed
+[3.796s] -- Performing Test HAVE_CXX_WNO_UNNAMED_TYPE_TEMPLATE_ARGS
+[3.869s] -- Performing Test HAVE_CXX_WNO_UNNAMED_TYPE_TEMPLATE_ARGS - Failed
+[3.869s] -- Performing Test HAVE_C_WNO_UNNAMED_TYPE_TEMPLATE_ARGS
+[3.926s] -- Performing Test HAVE_C_WNO_UNNAMED_TYPE_TEMPLATE_ARGS - Failed
+[3.926s] -- Performing Test HAVE_CXX_WNO_COMMENT
+[3.998s] -- Performing Test HAVE_CXX_WNO_COMMENT - Success
+[3.998s] -- Performing Test HAVE_C_WNO_COMMENT
+[4.056s] -- Performing Test HAVE_C_WNO_COMMENT - Success
+[4.056s] -- Performing Test HAVE_CXX_WIMPLICIT_FALLTHROUGH_3
+[4.126s] -- Performing Test HAVE_CXX_WIMPLICIT_FALLTHROUGH_3 - Success
+[4.126s] -- Performing Test HAVE_C_WIMPLICIT_FALLTHROUGH_3
+[4.183s] -- Performing Test HAVE_C_WIMPLICIT_FALLTHROUGH_3 - Success
+[4.183s] -- Performing Test HAVE_CXX_WNO_STRICT_OVERFLOW
+[4.259s] -- Performing Test HAVE_CXX_WNO_STRICT_OVERFLOW - Success
+[4.260s] -- Performing Test HAVE_C_WNO_STRICT_OVERFLOW
+[4.316s] -- Performing Test HAVE_C_WNO_STRICT_OVERFLOW - Success
+[4.316s] -- Performing Test HAVE_CXX_FDIAGNOSTICS_SHOW_OPTION
+[4.389s] -- Performing Test HAVE_CXX_FDIAGNOSTICS_SHOW_OPTION - Success
+[4.389s] -- Performing Test HAVE_C_FDIAGNOSTICS_SHOW_OPTION
+[4.448s] -- Performing Test HAVE_C_FDIAGNOSTICS_SHOW_OPTION - Success
+[4.448s] -- Performing Test HAVE_CXX_WNO_LONG_LONG
+[4.523s] -- Performing Test HAVE_CXX_WNO_LONG_LONG - Success
+[4.523s] -- Performing Test HAVE_C_WNO_LONG_LONG
+[4.582s] -- Performing Test HAVE_C_WNO_LONG_LONG - Success
+[4.582s] -- Performing Test HAVE_CXX_PTHREAD
+[4.650s] -- Performing Test HAVE_CXX_PTHREAD - Success
+[4.650s] -- Performing Test HAVE_C_PTHREAD
+[4.711s] -- Performing Test HAVE_C_PTHREAD - Success
+[4.711s] -- Performing Test HAVE_CXX_FOMIT_FRAME_POINTER
+[4.778s] -- Performing Test HAVE_CXX_FOMIT_FRAME_POINTER - Success
+[4.778s] -- Performing Test HAVE_C_FOMIT_FRAME_POINTER
+[4.834s] -- Performing Test HAVE_C_FOMIT_FRAME_POINTER - Success
+[4.834s] -- Performing Test HAVE_CXX_FFUNCTION_SECTIONS
+[4.909s] -- Performing Test HAVE_CXX_FFUNCTION_SECTIONS - Success
+[4.909s] -- Performing Test HAVE_C_FFUNCTION_SECTIONS
+[4.965s] -- Performing Test HAVE_C_FFUNCTION_SECTIONS - Success
+[4.965s] -- Performing Test HAVE_CXX_FDATA_SECTIONS
+[5.037s] -- Performing Test HAVE_CXX_FDATA_SECTIONS - Success
+[5.038s] -- Performing Test HAVE_C_FDATA_SECTIONS
+[5.094s] -- Performing Test HAVE_C_FDATA_SECTIONS - Success
+[5.096s] -- Performing Test HAVE_CXX_MSSE (check file: cmake/checks/cpu_sse.cpp)
+[5.217s] -- Performing Test HAVE_CXX_MSSE - Success
+[5.218s] -- Performing Test HAVE_CXX_MSSE2 (check file: cmake/checks/cpu_sse2.cpp)
+[5.308s] -- Performing Test HAVE_CXX_MSSE2 - Success
+[5.309s] -- Performing Test HAVE_CXX_MSSE3 (check file: cmake/checks/cpu_sse3.cpp)
+[5.412s] -- Performing Test HAVE_CXX_MSSE3 - Success
+[5.413s] -- Performing Test HAVE_CXX_MSSSE3 (check file: cmake/checks/cpu_ssse3.cpp)
+[5.507s] -- Performing Test HAVE_CXX_MSSSE3 - Success
+[5.508s] -- Performing Test HAVE_CXX_MSSE4_1 (check file: cmake/checks/cpu_sse41.cpp)
+[5.621s] -- Performing Test HAVE_CXX_MSSE4_1 - Success
+[5.622s] -- Performing Test HAVE_CXX_MPOPCNT (check file: cmake/checks/cpu_popcnt.cpp)
+[5.688s] -- Performing Test HAVE_CXX_MPOPCNT - Success
+[5.689s] -- Performing Test HAVE_CXX_MSSE4_2 (check file: cmake/checks/cpu_sse42.cpp)
+[5.797s] -- Performing Test HAVE_CXX_MSSE4_2 - Success
+[5.798s] -- Performing Test HAVE_CXX_MF16C (check file: cmake/checks/cpu_fp16.cpp)
+[6.339s] -- Performing Test HAVE_CXX_MF16C - Success
+[6.339s] -- Performing Test HAVE_CXX_MFMA
+[6.405s] -- Performing Test HAVE_CXX_MFMA - Success
+[6.405s] -- Performing Test HAVE_CXX_MAVX (check file: cmake/checks/cpu_avx.cpp)
+[6.893s] -- Performing Test HAVE_CXX_MAVX - Success
+[6.893s] -- Performing Test HAVE_CXX_MAVX2 (check file: cmake/checks/cpu_avx2.cpp)
+[7.357s] -- Performing Test HAVE_CXX_MAVX2 - Success
+[7.357s] -- Performing Test HAVE_CXX_MAVX512F (check file: cmake/checks/cpu_avx512.cpp)
+[7.732s] -- Performing Test HAVE_CXX_MAVX512F - Success
+[7.732s] -- Performing Test HAVE_CXX_MAVX512F_MAVX512CD (check file: cmake/checks/cpu_avx512common.cpp)
+[8.194s] -- Performing Test HAVE_CXX_MAVX512F_MAVX512CD - Success
+[8.195s] -- Performing Test HAVE_CXX_MAVX512F_MAVX512CD_MAVX512VL_MAVX512BW_MAVX512DQ (check file: cmake/checks/cpu_avx512skx.cpp)
+[8.572s] -- Performing Test HAVE_CXX_MAVX512F_MAVX512CD_MAVX512VL_MAVX512BW_MAVX512DQ - Success
+[8.574s] -- Performing Test HAVE_CPU_BASELINE_FLAGS
+[8.642s] -- Performing Test HAVE_CPU_BASELINE_FLAGS - Success
+[8.645s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_SSE4_1
+[8.711s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_SSE4_1 - Success
+[8.714s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_SSE4_2
+[8.781s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_SSE4_2 - Success
+[8.783s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_FP16
+[8.855s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_FP16 - Success
+[8.858s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX
+[8.929s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX - Success
+[8.932s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX2
+[9.012s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX2 - Success
+[9.017s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX512_SKX
+[9.099s] -- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX512_SKX - Success
+[9.100s] -- Performing Test HAVE_CXX_FVISIBILITY_HIDDEN
+[9.165s] -- Performing Test HAVE_CXX_FVISIBILITY_HIDDEN - Success
+[9.165s] -- Performing Test HAVE_C_FVISIBILITY_HIDDEN
+[9.222s] -- Performing Test HAVE_C_FVISIBILITY_HIDDEN - Success
+[9.223s] -- Performing Test HAVE_CXX_FVISIBILITY_INLINES_HIDDEN
+[9.294s] -- Performing Test HAVE_CXX_FVISIBILITY_INLINES_HIDDEN - Success
+[9.294s] -- Performing Test HAVE_C_FVISIBILITY_INLINES_HIDDEN
+[9.355s] -- Performing Test HAVE_C_FVISIBILITY_INLINES_HIDDEN - Failed
+[9.355s] -- Performing Test HAVE_LINK_AS_NEEDED
+[9.419s] -- Performing Test HAVE_LINK_AS_NEEDED - Success
+[9.419s] -- Performing Test HAVE_LINK_NO_UNDEFINED
+[9.489s] -- Performing Test HAVE_LINK_NO_UNDEFINED - Success
+[9.496s] -- Looking for pthread.h
+[9.576s] -- Looking for pthread.h - found
+[9.577s] -- Looking for posix_memalign
+[9.643s] -- Looking for posix_memalign - found
+[9.643s] -- Looking for malloc.h
+[9.713s] -- Looking for malloc.h - found
+[9.714s] -- Looking for memalign
+[9.788s] -- Looking for memalign - found
+[9.805s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found suitable version "1.2.11", minimum required is "1.2.3") 
+[9.853s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[9.861s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[9.864s] -- Found WebP: /usr/lib/x86_64-linux-gnu/libwebp.so  
+[9.872s] -- The imported target "openjpip" references the file
+[9.872s]    "/usr/lib/x86_64-linux-gnu/libopenjpip.so.2.4.0"
+[9.872s] but this file does not exist.  Possible reasons include:
+[9.872s] * The file was deleted, renamed, or moved to another location.
+[9.872s] * An install or uninstall procedure did not complete successfully.
+[9.872s] * The installation package was faulty and contained
+[9.872s]    "/usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGTargets.cmake"
+[9.872s] but not all the files it references.
+[9.872s] 
+[9.872s] -- The imported target "opj_decompress" references the file
+[9.873s]    "/usr/bin/opj_decompress"
+[9.873s] but this file does not exist.  Possible reasons include:
+[9.873s] * The file was deleted, renamed, or moved to another location.
+[9.873s] * An install or uninstall procedure did not complete successfully.
+[9.873s] * The installation package was faulty and contained
+[9.873s]    "/usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGTargets.cmake"
+[9.873s] but not all the files it references.
+[9.873s] 
+[9.873s] -- The imported target "opj_compress" references the file
+[9.873s]    "/usr/bin/opj_compress"
+[9.873s] but this file does not exist.  Possible reasons include:
+[9.873s] * The file was deleted, renamed, or moved to another location.
+[9.873s] * An install or uninstall procedure did not complete successfully.
+[9.873s] * The installation package was faulty and contained
+[9.874s]    "/usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGTargets.cmake"
+[9.874s] but not all the files it references.
+[9.874s] 
+[9.874s] -- The imported target "opj_dump" references the file
+[9.874s]    "/usr/bin/opj_dump"
+[9.874s] but this file does not exist.  Possible reasons include:
+[9.874s] * The file was deleted, renamed, or moved to another location.
+[9.874s] * An install or uninstall procedure did not complete successfully.
+[9.874s] * The installation package was faulty and contained
+[9.874s]    "/usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGTargets.cmake"
+[9.874s] but not all the files it references.
+[9.874s] 
+[9.874s] -- The imported target "opj_jpip_addxml" references the file
+[9.874s]    "/usr/bin/opj_jpip_addxml"
+[9.874s] but this file does not exist.  Possible reasons include:
+[9.875s] * The file was deleted, renamed, or moved to another location.
+[9.875s] * An install or uninstall procedure did not complete successfully.
+[9.875s] * The installation package was faulty and contained
+[9.875s]    "/usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGTargets.cmake"
+[9.875s] but not all the files it references.
+[9.875s] 
+[9.875s] -- The imported target "opj_server" references the file
+[9.875s]    "/usr/bin/opj_server"
+[9.875s] but this file does not exist.  Possible reasons include:
+[9.875s] * The file was deleted, renamed, or moved to another location.
+[9.875s] * An install or uninstall procedure did not complete successfully.
+[9.875s] * The installation package was faulty and contained
+[9.875s]    "/usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGTargets.cmake"
+[9.876s] but not all the files it references.
+[9.876s] 
+[9.876s] -- The imported target "opj_dec_server" references the file
+[9.876s]    "/usr/bin/opj_dec_server"
+[9.876s] but this file does not exist.  Possible reasons include:
+[9.876s] * The file was deleted, renamed, or moved to another location.
+[9.876s] * An install or uninstall procedure did not complete successfully.
+[9.876s] * The installation package was faulty and contained
+[9.876s]    "/usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGTargets.cmake"
+[9.876s] but not all the files it references.
+[9.876s] 
+[9.876s] -- The imported target "opj_jpip_transcode" references the file
+[9.876s]    "/usr/bin/opj_jpip_transcode"
+[9.876s] but this file does not exist.  Possible reasons include:
+[9.877s] * The file was deleted, renamed, or moved to another location.
+[9.877s] * An install or uninstall procedure did not complete successfully.
+[9.877s] * The installation package was faulty and contained
+[9.877s]    "/usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGTargets.cmake"
+[9.877s] but not all the files it references.
+[9.877s] 
+[9.877s] -- The imported target "opj_jpip_test" references the file
+[9.877s]    "/usr/bin/opj_jpip_test"
+[9.877s] but this file does not exist.  Possible reasons include:
+[9.877s] * The file was deleted, renamed, or moved to another location.
+[9.877s] * An install or uninstall procedure did not complete successfully.
+[9.877s] * The installation package was faulty and contained
+[9.877s]    "/usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGTargets.cmake"
+[9.877s] but not all the files it references.
+[9.878s] 
+[9.878s] -- Found system OpenJPEG: openjp2 (found version "2.4.0")
+[9.917s] -- Found OpenEXR: /usr/lib/x86_64-linux-gnu/libIlmImf-2_5.so
+[9.917s] -- libva: missing va.h header (VA_INCLUDE_DIR)
+[9.919s] -- IPPICV: Downloading ippicv_2021.11.0_lnx_intel64_20240201_general.tgz from https://raw.githubusercontent.com/opencv/opencv_3rdparty/fd27188235d85e552de31425e7ea0f53ba73ba53/ippicv/ippicv_2021.11.0_lnx_intel64_20240201_general.tgz
+[10.549s] -- found Intel IPP (ICV version): 2021.11.0 [2021.11.0]
+[10.550s] -- at: /home/arno/BasestationRoombaV3/build/OpenCV/3rdparty/ippicv/ippicv_lnx/icv
+[10.551s] -- found Intel IPP Integration Wrappers sources: 2021.11.0
+[10.551s] -- at: /home/arno/BasestationRoombaV3/build/OpenCV/3rdparty/ippicv/ippicv_lnx/iw
+[10.573s] -- Could not find OpenBLAS include. Turning OpenBLAS_FOUND off
+[10.573s] -- Could not find OpenBLAS lib. Turning OpenBLAS_FOUND off
+[10.580s] -- Could NOT find Atlas (missing: Atlas_CLAPACK_INCLUDE_DIR Atlas_CBLAS_LIBRARY Atlas_BLAS_LIBRARY) 
+[10.584s] -- Looking for sgemm_
+[10.657s] -- Looking for sgemm_ - not found
+[10.659s] -- Looking for pthread.h
+[10.734s] -- Looking for pthread.h - found
+[10.734s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.817s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.818s] -- Found Threads: TRUE  
+[10.871s] -- Looking for sgemm_
+[10.944s] -- Looking for sgemm_ - found
+[10.945s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libblas.so  
+[10.947s] -- Looking for cheev_
+[11.022s] -- Looking for cheev_ - not found
+[11.036s] -- Looking for cheev_
+[11.098s] -- Looking for cheev_ - not found
+[11.098s] -- Looking for cheev_
+[11.197s] -- Looking for cheev_ - found
+[11.197s] -- Found LAPACK: /usr/lib/x86_64-linux-gnu/liblapack.so;/usr/lib/x86_64-linux-gnu/libblas.so  
+[11.201s] -- Performing Test HAVE_CXX_WNO_DEPRECATED
+[11.297s] -- Performing Test HAVE_CXX_WNO_DEPRECATED - Success
+[11.298s] -- Performing Test HAVE_CXX_WNO_MISSING_PROTOTYPES
+[11.387s] -- Performing Test HAVE_CXX_WNO_MISSING_PROTOTYPES - Failed
+[11.387s] -- Performing Test HAVE_CXX_WNO_MISSING_DECLARATIONS
+[11.496s] -- Performing Test HAVE_CXX_WNO_MISSING_DECLARATIONS - Success
+[11.497s] -- Performing Test HAVE_CXX_WNO_SHADOW
+[11.605s] -- Performing Test HAVE_CXX_WNO_SHADOW - Success
+[11.605s] -- Performing Test HAVE_CXX_WNO_UNUSED_PARAMETER
+[11.711s] -- Performing Test HAVE_CXX_WNO_UNUSED_PARAMETER - Success
+[11.711s] -- Performing Test HAVE_CXX_WNO_UNUSED_LOCAL_TYPEDEFS
+[11.819s] -- Performing Test HAVE_CXX_WNO_UNUSED_LOCAL_TYPEDEFS - Success
+[11.820s] -- Performing Test HAVE_CXX_WNO_SIGN_COMPARE
+[11.925s] -- Performing Test HAVE_CXX_WNO_SIGN_COMPARE - Success
+[11.926s] -- Performing Test HAVE_CXX_WNO_SIGN_PROMO
+[12.029s] -- Performing Test HAVE_CXX_WNO_SIGN_PROMO - Success
+[12.029s] -- Performing Test HAVE_CXX_WNO_UNDEF
+[12.113s] -- Performing Test HAVE_CXX_WNO_UNDEF - Success
+[12.114s] -- Performing Test HAVE_CXX_WNO_TAUTOLOGICAL_UNDEFINED_COMPARE
+[12.203s] -- Performing Test HAVE_CXX_WNO_TAUTOLOGICAL_UNDEFINED_COMPARE - Failed
+[12.204s] -- Performing Test HAVE_CXX_WNO_IGNORED_QUALIFIERS
+[12.289s] -- Performing Test HAVE_CXX_WNO_IGNORED_QUALIFIERS - Success
+[12.289s] -- Performing Test HAVE_CXX_WNO_EXTRA
+[12.392s] -- Performing Test HAVE_CXX_WNO_EXTRA - Success
+[12.393s] -- Performing Test HAVE_CXX_WNO_UNUSED_FUNCTION
+[12.502s] -- Performing Test HAVE_CXX_WNO_UNUSED_FUNCTION - Success
+[12.503s] -- Performing Test HAVE_CXX_WNO_UNUSED_CONST_VARIABLE
+[12.600s] -- Performing Test HAVE_CXX_WNO_UNUSED_CONST_VARIABLE - Success
+[12.600s] -- Performing Test HAVE_CXX_WNO_SHORTEN_64_TO_32
+[12.669s] -- Performing Test HAVE_CXX_WNO_SHORTEN_64_TO_32 - Failed
+[12.669s] -- Performing Test HAVE_CXX_WNO_INVALID_OFFSETOF
+[12.745s] -- Performing Test HAVE_CXX_WNO_INVALID_OFFSETOF - Success
+[12.745s] -- Performing Test HAVE_CXX_WNO_ENUM_COMPARE_SWITCH
+[12.816s] -- Performing Test HAVE_CXX_WNO_ENUM_COMPARE_SWITCH - Failed
+[12.816s] -- Performing Test HAVE_CXX_WNO_SUGGEST_OVERRIDE
+[12.888s] -- Performing Test HAVE_CXX_WNO_SUGGEST_OVERRIDE - Success
+[12.888s] -- Performing Test HAVE_CXX_WNO_INCONSISTENT_MISSING_OVERRIDE
+[12.965s] -- Performing Test HAVE_CXX_WNO_INCONSISTENT_MISSING_OVERRIDE - Failed
+[12.966s] -- Performing Test HAVE_CXX_WNO_IMPLICIT_FALLTHROUGH
+[13.037s] -- Performing Test HAVE_CXX_WNO_IMPLICIT_FALLTHROUGH - Success
+[13.037s] -- Performing Test HAVE_CXX_WNO_ARRAY_BOUNDS
+[13.106s] -- Performing Test HAVE_CXX_WNO_ARRAY_BOUNDS - Success
+[13.106s] -- Performing Test HAVE_CXX_WNO_STRINGOP_OVERFLOW
+[13.182s] -- Performing Test HAVE_CXX_WNO_STRINGOP_OVERFLOW - Success
+[13.182s] -- Performing Test HAVE_CXX_WNO_STRINGOP_OVERREAD
+[13.267s] -- Performing Test HAVE_CXX_WNO_STRINGOP_OVERREAD - Success
+[13.267s] -- Performing Test HAVE_CXX_WNO_EXTRA_SEMI
+[13.337s] -- Performing Test HAVE_CXX_WNO_EXTRA_SEMI - Success
+[13.337s] -- Performing Test HAVE_CXX_WNO_COMMA
+[13.418s] -- Performing Test HAVE_CXX_WNO_COMMA - Failed
+[13.418s] -- Performing Test HAVE_CXX_WNO_CLASS_MEMACCESS
+[13.489s] -- Performing Test HAVE_CXX_WNO_CLASS_MEMACCESS - Success
+[13.584s] -- Found Java: /usr/bin/java (found version "11.0.22") 
+[13.592s] -- Found JNI: /usr/lib/jvm/default-java/lib/libjawt.so  
+[15.992s] -- Found VTK 9.1.0
+[16.004s] -- Looking for dlerror in dl
+[16.066s] -- Looking for dlerror in dl - found
+[16.066s] -- Performing Test HAVE_C_WNO_IMPLICIT_FALLTHROUGH
+[16.124s] -- Performing Test HAVE_C_WNO_IMPLICIT_FALLTHROUGH - Success
+[16.124s] -- Performing Test HAVE_C_WNO_UNDEF
+[16.182s] -- Performing Test HAVE_C_WNO_UNDEF - Success
+[16.182s] -- Performing Test HAVE_C_WNO_SIGN_COMPARE
+[16.241s] -- Performing Test HAVE_C_WNO_SIGN_COMPARE - Success
+[16.241s] -- Performing Test HAVE_C_WNO_STRICT_PROTOTYPES
+[16.299s] -- Performing Test HAVE_C_WNO_STRICT_PROTOTYPES - Success
+[16.314s] -- ADE: Downloading v0.1.2d.zip from https://github.com/opencv/ade/archive/v0.1.2d.zip
+[16.337s] -- Checking for module 'gtk+-3.0'
+[16.358s] --   Found gtk+-3.0, version 3.24.33
+[16.418s] -- Checking for module 'gtk+-2.0'
+[16.420s] --   No package 'gtk+-2.0' found
+[16.421s] -- Checking for module 'gthread-2.0>=2.32'
+[16.432s] --   Found gthread-2.0, version 2.72.4
+[16.490s] -- Checking for modules 'libavcodec;libavformat;libavutil;libswscale'
+[16.507s] --   Found libavcodec, version 58.134.100
+[16.516s] --   Found libavformat, version 58.76.100
+[16.525s] --   Found libavutil, version 56.70.100
+[16.535s] --   Found libswscale, version 5.9.100
+[16.565s] -- Checking for module 'libavresample'
+[16.567s] --   No package 'libavresample' found
+[16.939s] -- Checking for module 'gstreamer-base-1.0'
+[16.964s] --   Found gstreamer-base-1.0, version 1.20.3
+[16.999s] -- Checking for module 'gstreamer-app-1.0'
+[17.010s] --   Found gstreamer-app-1.0, version 1.20.1
+[17.048s] -- Checking for module 'gstreamer-riff-1.0'
+[17.061s] --   Found gstreamer-riff-1.0, version 1.20.1
+[17.097s] -- Checking for module 'gstreamer-pbutils-1.0'
+[17.108s] --   Found gstreamer-pbutils-1.0, version 1.20.1
+[17.145s] -- Checking for module 'gstreamer-video-1.0'
+[17.158s] --   Found gstreamer-video-1.0, version 1.20.1
+[17.194s] -- Checking for module 'gstreamer-audio-1.0'
+[17.207s] --   Found gstreamer-audio-1.0, version 1.20.1
+[17.336s] -- Checking for module 'libdc1394-2'
+[17.348s] --   Found libdc1394-2, version 2.2.6
+[17.529s] -- Allocator metrics storage type: 'long long'
+[17.551s] -- Excluding from source files list: <BUILD>/modules/core/test/test_intrin256.lasx.cpp
+[17.589s] -- Excluding from source files list: modules/imgproc/src/imgwarp.lasx.cpp
+[17.590s] -- Excluding from source files list: modules/imgproc/src/resize.lasx.cpp
+[17.645s] -- Registering hook 'INIT_MODULE_SOURCES_opencv_dnn': /home/arno/BasestationRoombaV3/src/camera/opencv/modules/dnn/cmake/hooks/INIT_MODULE_SOURCES_opencv_dnn.cmake
+[17.693s] -- opencv_dnn: filter out cuda4dnn source code
+[17.706s] -- Excluding from source files list: modules/dnn/src/layers/cpu_kernels/conv_winograd_f63.neon.cpp
+[17.710s] -- Excluding from source files list: <BUILD>/modules/dnn/layers/layers_common.rvv.cpp
+[17.711s] -- Excluding from source files list: <BUILD>/modules/dnn/layers/layers_common.lasx.cpp
+[17.711s] -- Excluding from source files list: <BUILD>/modules/dnn/int8layers/layers_common.rvv.cpp
+[17.712s] -- Excluding from source files list: <BUILD>/modules/dnn/int8layers/layers_common.lasx.cpp
+[17.712s] -- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/conv_block.neon.cpp
+[17.713s] -- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/conv_block.neon_fp16.cpp
+[17.713s] -- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/conv_depthwise.rvv.cpp
+[17.714s] -- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/conv_depthwise.lasx.cpp
+[17.714s] -- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/conv_winograd_f63.neon_fp16.cpp
+[17.715s] -- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/fast_gemm_kernels.neon.cpp
+[17.716s] -- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/fast_gemm_kernels.lasx.cpp
+[17.758s] -- Performing Test HAVE_CXX_WNO_DEPRECATED_DECLARATIONS
+[17.831s] -- Performing Test HAVE_CXX_WNO_DEPRECATED_DECLARATIONS - Success
+[17.864s] -- highgui: using builtin backend: GTK3
+[17.977s] -- Found 'misc' Python modules from /home/arno/BasestationRoombaV3/src/camera/opencv/modules/python/package/extra_modules
+[17.977s] -- Found 'mat_wrapper;utils' Python modules from /home/arno/BasestationRoombaV3/src/camera/opencv/modules/core/misc/python/package
+[17.978s] -- Found 'gapi' Python modules from /home/arno/BasestationRoombaV3/src/camera/opencv/modules/gapi/misc/python/package
+[18.051s] -- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL
+[18.121s] -- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL - Success
+[18.121s] -- Performing Test HAVE_CXX_WNO_UNUSED_PRIVATE_FIELD
+[18.194s] -- Performing Test HAVE_CXX_WNO_UNUSED_PRIVATE_FIELD - Failed
+[18.196s] -- Found 'misc' Python modules from /home/arno/BasestationRoombaV3/src/camera/opencv/modules/python/package/extra_modules
+[18.196s] -- Found 'mat_wrapper;utils' Python modules from /home/arno/BasestationRoombaV3/src/camera/opencv/modules/core/misc/python/package
+[18.197s] -- Found 'gapi' Python modules from /home/arno/BasestationRoombaV3/src/camera/opencv/modules/gapi/misc/python/package
+[18.230s] -- 
+[18.231s] -- General configuration for OpenCV 4.9.0-dev =====================================
+[18.231s] --   Version control:               4.9.0-456-g1d9a4120fa
+[18.231s] -- 
+[18.231s] --   Platform:
+[18.231s] --     Timestamp:                   2024-05-18T18:51:42Z
+[18.231s] --     Host:                        Linux 6.5.0-28-generic x86_64
+[18.232s] --     CMake:                       3.22.1
+[18.232s] --     CMake generator:             Unix Makefiles
+[18.232s] --     CMake build tool:            /usr/bin/gmake
+[18.232s] --     Configuration:               Release
+[18.232s] -- 
+[18.232s] --   CPU/HW features:
+[18.233s] --     Baseline:                    SSE SSE2 SSE3
+[18.233s] --       requested:                 SSE3
+[18.233s] --     Dispatched code generation:  SSE4_1 SSE4_2 FP16 AVX AVX2 AVX512_SKX
+[18.233s] --       requested:                 SSE4_1 SSE4_2 AVX FP16 AVX2 AVX512_SKX
+[18.233s] --       SSE4_1 (18 files):         + SSSE3 SSE4_1
+[18.234s] --       SSE4_2 (2 files):          + SSSE3 SSE4_1 POPCNT SSE4_2
+[18.234s] --       FP16 (1 files):            + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 AVX
+[18.234s] --       AVX (9 files):             + SSSE3 SSE4_1 POPCNT SSE4_2 AVX
+[18.234s] --       AVX2 (38 files):           + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2
+[18.234s] --       AVX512_SKX (8 files):      + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2 AVX_512F AVX512_COMMON AVX512_SKX
+[18.234s] -- 
+[18.235s] --   C/C++:
+[18.235s] --     Built as dynamic libs?:      YES
+[18.235s] --     C++ standard:                11
+[18.235s] --     C++ Compiler:                /usr/bin/c++  (ver 11.4.0)
+[18.235s] --     C++ flags (Release):         -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG
+[18.235s] --     C++ flags (Debug):           -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG
+[18.236s] --     C Compiler:                  /usr/bin/cc
+[18.236s] --     C flags (Release):           -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -O3 -DNDEBUG  -DNDEBUG
+[18.236s] --     C flags (Debug):             -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -g  -O0 -DDEBUG -D_DEBUG
+[18.236s] --     Linker flags (Release):      -Wl,--exclude-libs,libippicv.a -Wl,--exclude-libs,libippiw.a   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  
+[18.236s] --     Linker flags (Debug):        -Wl,--exclude-libs,libippicv.a -Wl,--exclude-libs,libippiw.a   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  
+[18.236s] --     ccache:                      NO
+[18.237s] --     Precompiled headers:         NO
+[18.242s] --     Extra dependencies:          dl m pthread rt
+[18.242s] --     3rdparty dependencies:
+[18.242s] -- 
+[18.242s] --   OpenCV modules:
+[18.243s] --     To be built:                 calib3d core dnn features2d flann gapi highgui imgcodecs imgproc java ml objdetect photo python3 stitching ts video videoio
+[18.243s] --     Disabled:                    world
+[18.243s] --     Disabled by dependency:      -
+[18.243s] --     Unavailable:                 python2
+[18.244s] --     Applications:                tests perf_tests apps
+[18.245s] --     Documentation:               NO
+[18.245s] --     Non-free algorithms:         NO
+[18.245s] -- 
+[18.245s] --   GUI:                           GTK3
+[18.245s] --     GTK+:                        YES (ver 3.24.33)
+[18.246s] --       GThread :                  YES (ver 2.72.4)
+[18.246s] --       GtkGlExt:                  NO
+[18.246s] --     VTK support:                 YES (ver 9.1.0)
+[18.246s] -- 
+[18.246s] --   Media I/O: 
+[18.247s] --     ZLib:                        /usr/lib/x86_64-linux-gnu/libz.so (ver 1.2.11)
+[18.247s] --     JPEG:                        /usr/lib/x86_64-linux-gnu/libjpeg.so (ver 80)
+[18.247s] --     WEBP:                        /usr/lib/x86_64-linux-gnu/libwebp.so (ver encoder: 0x020f)
+[18.247s] --     PNG:                         /usr/lib/x86_64-linux-gnu/libpng.so (ver 1.6.37)
+[18.247s] --     TIFF:                        /usr/lib/x86_64-linux-gnu/libtiff.so (ver 42 / 4.3.0)
+[18.248s] --     JPEG 2000:                   OpenJPEG (ver 2.4.0)
+[18.248s] --     OpenEXR:                     /usr/lib/x86_64-linux-gnu/libImath-2_5.so /usr/lib/x86_64-linux-gnu/libIlmImf-2_5.so /usr/lib/x86_64-linux-gnu/libIex-2_5.so /usr/lib/x86_64-linux-gnu/libHalf-2_5.so /usr/lib/x86_64-linux-gnu/libIlmThread-2_5.so (ver 2_5)
+[18.248s] --     HDR:                         YES
+[18.248s] --     SUNRASTER:                   YES
+[18.249s] --     PXM:                         YES
+[18.249s] --     PFM:                         YES
+[18.249s] -- 
+[18.249s] --   Video I/O:
+[18.249s] --     DC1394:                      YES (2.2.6)
+[18.249s] --     FFMPEG:                      YES
+[18.250s] --       avcodec:                   YES (58.134.100)
+[18.250s] --       avformat:                  YES (58.76.100)
+[18.250s] --       avutil:                    YES (56.70.100)
+[18.250s] --       swscale:                   YES (5.9.100)
+[18.250s] --       avresample:                NO
+[18.251s] --     GStreamer:                   YES (1.20.3)
+[18.251s] --     v4l/v4l2:                    YES (linux/videodev2.h)
+[18.252s] -- 
+[18.252s] --   Parallel framework:            pthreads
+[18.252s] -- 
+[18.252s] --   Trace:                         YES (with Intel ITT)
+[18.253s] -- 
+[18.253s] --   Other third-party libraries:
+[18.253s] --     Intel IPP:                   2021.11.0 [2021.11.0]
+[18.253s] --            at:                   /home/arno/BasestationRoombaV3/build/OpenCV/3rdparty/ippicv/ippicv_lnx/icv
+[18.253s] --     Intel IPP IW:                sources (2021.11.0)
+[18.253s] --               at:                /home/arno/BasestationRoombaV3/build/OpenCV/3rdparty/ippicv/ippicv_lnx/iw
+[18.254s] --     VA:                          NO
+[18.254s] --     Lapack:                      NO
+[18.254s] --     Eigen:                       YES (ver 3.4.0)
+[18.254s] --     Custom HAL:                  NO
+[18.254s] --     Protobuf:                    build (3.19.1)
+[18.255s] --     Flatbuffers:                 builtin/3rdparty (23.5.9)
+[18.255s] -- 
+[18.255s] --   OpenCL:                        YES (no extra features)
+[18.256s] --     Include path:                /home/arno/BasestationRoombaV3/src/camera/opencv/3rdparty/include/opencl/1.2
+[18.256s] --     Link libraries:              Dynamic load
+[18.256s] -- 
+[18.256s] --   Python 3:
+[18.256s] --     Interpreter:                 /usr/bin/python3 (ver 3.10.12)
+[18.256s] --     Libraries:                   /usr/lib/x86_64-linux-gnu/libpython3.10.so (ver 3.10.12)
+[18.257s] --     Limited API:                 NO
+[18.257s] --     numpy:                       /usr/lib/python3/dist-packages/numpy/core/include (ver 1.21.5)
+[18.257s] --     install path:                lib/python3.10/dist-packages/cv2/python-3.10
+[18.257s] -- 
+[18.258s] --   Python (for build):            /usr/bin/python3
+[18.258s] -- 
+[18.258s] --   Java:                          
+[18.258s] --     ant:                         NO
+[18.258s] --     Java:                        YES (ver 11.0.22)
+[18.259s] --     JNI:                         /usr/lib/jvm/default-java/include /usr/lib/jvm/default-java/include/linux /usr/lib/jvm/default-java/include
+[18.259s] --     Java wrappers:               YES (JAVA)
+[18.259s] --     Java tests:                  NO
+[18.259s] -- 
+[18.260s] --   Install to:                    /home/arno/BasestationRoombaV3/install/OpenCV
+[18.260s] -- -----------------------------------------------------------------
+[18.260s] -- 
+[18.979s] -- Configuring done
+[19.459s] -- Generating done
+[19.473s] -- Build files have been written to: /home/arno/BasestationRoombaV3/build/OpenCV

@@ -1,0 +1,43 @@
+[0.031s] Invoking command in '/home/arno/BasestationRoombaV3/build/bgsegm': /usr/bin/cmake /home/arno/BasestationRoombaV3/src/camera/opencv_contrib/modules/bgsegm -DCMAKE_INSTALL_PREFIX=/home/arno/BasestationRoombaV3/install/bgsegm
+[0.056s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.057s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.057s]   contain a literal, direct call to the project() command.  Add a line of
+[0.057s]   code such as
+[0.057s] 
+[0.057s]     project(ProjectName)
+[0.057s] 
+[0.057s]   near the top of the file, but after cmake_minimum_required().
+[0.057s] 
+[0.058s]   CMake is pretending there is a "project(Project)" command on the first
+[0.058s]   line.
+[0.058s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.058s] [0m
+[0.188s] -- The C compiler identification is GNU 11.4.0
+[0.334s] -- The CXX compiler identification is GNU 11.4.0
+[0.352s] -- Detecting C compiler ABI info
+[0.496s] -- Detecting C compiler ABI info - done
+[0.523s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.523s] -- Detecting C compile features
+[0.525s] -- Detecting C compile features - done
+[0.534s] -- Detecting CXX compiler ABI info
+[0.703s] -- Detecting CXX compiler ABI info - done
+[0.734s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.735s] -- Detecting CXX compile features
+[0.739s] -- Detecting CXX compile features - done
+[0.741s] [31mCMake Error at CMakeLists.txt:2 (ocv_define_module):
+[0.741s]   Unknown CMake command "ocv_define_module".
+[0.741s] 
+[0.741s] [0m
+[0.742s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.742s]   No cmake_minimum_required command is present.  A line of code such as
+[0.742s] 
+[0.743s]     cmake_minimum_required(VERSION 3.22)
+[0.743s] 
+[0.743s]   should be added at the top of the file.  The version specified may be lower
+[0.743s]   if you wish to support older CMake versions for this project.  For more
+[0.743s]   information run "cmake --help-policy CMP0000".
+[0.743s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.744s] [0m
+[0.744s] -- Configuring incomplete, errors occurred!
+[0.745s] See also "/home/arno/BasestationRoombaV3/build/bgsegm/CMakeFiles/CMakeOutput.log".
+[0.768s] Invoked command in '/home/arno/BasestationRoombaV3/build/bgsegm' returned '1': /usr/bin/cmake /home/arno/BasestationRoombaV3/src/camera/opencv_contrib/modules/bgsegm -DCMAKE_INSTALL_PREFIX=/home/arno/BasestationRoombaV3/install/bgsegm

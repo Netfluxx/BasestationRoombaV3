@@ -1,0 +1,1189 @@
+[0.000000] (-) TimerEvent: {}
+[0.000137] (OpenCV) JobQueued: {'identifier': 'OpenCV', 'dependencies': OrderedDict()}
+[0.000180] (alphamat) JobQueued: {'identifier': 'alphamat', 'dependencies': OrderedDict()}
+[0.000203] (aruco) JobQueued: {'identifier': 'aruco', 'dependencies': OrderedDict()}
+[0.000220] (bgsegm) JobQueued: {'identifier': 'bgsegm', 'dependencies': OrderedDict()}
+[0.000236] (bioinspired) JobQueued: {'identifier': 'bioinspired', 'dependencies': OrderedDict()}
+[0.000254] (cannops) JobQueued: {'identifier': 'cannops', 'dependencies': OrderedDict()}
+[0.000271] (ccalib) JobQueued: {'identifier': 'ccalib', 'dependencies': OrderedDict()}
+[0.000287] (cnn_3dobj) JobQueued: {'identifier': 'cnn_3dobj', 'dependencies': OrderedDict()}
+[0.000304] (cudaarithm) JobQueued: {'identifier': 'cudaarithm', 'dependencies': OrderedDict()}
+[0.000320] (cudabgsegm) JobQueued: {'identifier': 'cudabgsegm', 'dependencies': OrderedDict()}
+[0.000337] (cudacodec) JobQueued: {'identifier': 'cudacodec', 'dependencies': OrderedDict()}
+[0.000353] (cudafeatures2d) JobQueued: {'identifier': 'cudafeatures2d', 'dependencies': OrderedDict()}
+[0.000369] (cudafilters) JobQueued: {'identifier': 'cudafilters', 'dependencies': OrderedDict()}
+[0.000385] (cudaimgproc) JobQueued: {'identifier': 'cudaimgproc', 'dependencies': OrderedDict()}
+[0.000402] (cudalegacy) JobQueued: {'identifier': 'cudalegacy', 'dependencies': OrderedDict()}
+[0.000418] (cudaobjdetect) JobQueued: {'identifier': 'cudaobjdetect', 'dependencies': OrderedDict()}
+[0.000434] (cudaoptflow) JobQueued: {'identifier': 'cudaoptflow', 'dependencies': OrderedDict()}
+[0.000450] (cudastereo) JobQueued: {'identifier': 'cudastereo', 'dependencies': OrderedDict()}
+[0.000467] (cudawarping) JobQueued: {'identifier': 'cudawarping', 'dependencies': OrderedDict()}
+[0.000487] (cudev) JobQueued: {'identifier': 'cudev', 'dependencies': OrderedDict()}
+[0.000504] (cvv) JobQueued: {'identifier': 'cvv', 'dependencies': OrderedDict()}
+[0.000520] (datasets) JobQueued: {'identifier': 'datasets', 'dependencies': OrderedDict()}
+[0.000536] (dnn_objdetect) JobQueued: {'identifier': 'dnn_objdetect', 'dependencies': OrderedDict()}
+[0.000553] (dnn_superres) JobQueued: {'identifier': 'dnn_superres', 'dependencies': OrderedDict()}
+[0.000568] (dpm) JobQueued: {'identifier': 'dpm', 'dependencies': OrderedDict()}
+[0.000585] (freetype) JobQueued: {'identifier': 'freetype', 'dependencies': OrderedDict()}
+[0.000601] (fuzzy) JobQueued: {'identifier': 'fuzzy', 'dependencies': OrderedDict()}
+[0.000616] (hdf) JobQueued: {'identifier': 'hdf', 'dependencies': OrderedDict()}
+[0.000632] (img_hash) JobQueued: {'identifier': 'img_hash', 'dependencies': OrderedDict()}
+[0.000649] (intensity_transform) JobQueued: {'identifier': 'intensity_transform', 'dependencies': OrderedDict()}
+[0.000665] (julia) JobQueued: {'identifier': 'julia', 'dependencies': OrderedDict()}
+[0.000698] (line_descriptor) JobQueued: {'identifier': 'line_descriptor', 'dependencies': OrderedDict()}
+[0.000716] (matlab) JobQueued: {'identifier': 'matlab', 'dependencies': OrderedDict()}
+[0.000735] (mcc) JobQueued: {'identifier': 'mcc', 'dependencies': OrderedDict()}
+[0.000754] (microver) JobQueued: {'identifier': 'microver', 'dependencies': OrderedDict()}
+[0.000773] (optflow) JobQueued: {'identifier': 'optflow', 'dependencies': OrderedDict()}
+[0.000792] (ovis) JobQueued: {'identifier': 'ovis', 'dependencies': OrderedDict()}
+[0.000810] (phase_unwrapping) JobQueued: {'identifier': 'phase_unwrapping', 'dependencies': OrderedDict()}
+[0.000829] (plot) JobQueued: {'identifier': 'plot', 'dependencies': OrderedDict()}
+[0.000848] (quality) JobQueued: {'identifier': 'quality', 'dependencies': OrderedDict()}
+[0.000867] (rapid) JobQueued: {'identifier': 'rapid', 'dependencies': OrderedDict()}
+[0.000886] (rgbd) JobQueued: {'identifier': 'rgbd', 'dependencies': OrderedDict()}
+[0.000905] (rover_input_pkg) JobQueued: {'identifier': 'rover_input_pkg', 'dependencies': OrderedDict()}
+[0.000924] (saliency) JobQueued: {'identifier': 'saliency', 'dependencies': OrderedDict()}
+[0.000943] (sfm) JobQueued: {'identifier': 'sfm', 'dependencies': OrderedDict()}
+[0.000985] (shape) JobQueued: {'identifier': 'shape', 'dependencies': OrderedDict()}
+[0.001023] (signal) JobQueued: {'identifier': 'signal', 'dependencies': OrderedDict()}
+[0.001045] (stereo) JobQueued: {'identifier': 'stereo', 'dependencies': OrderedDict()}
+[0.001064] (structured_light) JobQueued: {'identifier': 'structured_light', 'dependencies': OrderedDict()}
+[0.001083] (superres) JobQueued: {'identifier': 'superres', 'dependencies': OrderedDict()}
+[0.001103] (surface_matching) JobQueued: {'identifier': 'surface_matching', 'dependencies': OrderedDict()}
+[0.001122] (text) JobQueued: {'identifier': 'text', 'dependencies': OrderedDict()}
+[0.001141] (tracking) JobQueued: {'identifier': 'tracking', 'dependencies': OrderedDict()}
+[0.001159] (videostab) JobQueued: {'identifier': 'videostab', 'dependencies': OrderedDict()}
+[0.001178] (viz) JobQueued: {'identifier': 'viz', 'dependencies': OrderedDict()}
+[0.001197] (wechat_qrcode) JobQueued: {'identifier': 'wechat_qrcode', 'dependencies': OrderedDict()}
+[0.001216] (xfeatures2d) JobQueued: {'identifier': 'xfeatures2d', 'dependencies': OrderedDict()}
+[0.001235] (xobjdetect) JobQueued: {'identifier': 'xobjdetect', 'dependencies': OrderedDict()}
+[0.001254] (xphoto) JobQueued: {'identifier': 'xphoto', 'dependencies': OrderedDict()}
+[0.001273] (face) JobQueued: {'identifier': 'face', 'dependencies': OrderedDict([('OpenCV', '/home/arno/BasestationRoombaV3/install/OpenCV')])}
+[0.001296] (hfs) JobQueued: {'identifier': 'hfs', 'dependencies': OrderedDict([('OpenCV', '/home/arno/BasestationRoombaV3/install/OpenCV')])}
+[0.001317] (reg) JobQueued: {'identifier': 'reg', 'dependencies': OrderedDict([('OpenCV', '/home/arno/BasestationRoombaV3/install/OpenCV')])}
+[0.001338] (ximgproc) JobQueued: {'identifier': 'ximgproc', 'dependencies': OrderedDict([('OpenCV', '/home/arno/BasestationRoombaV3/install/OpenCV')])}
+[0.001359] (OpenCV) JobStarted: {'identifier': 'OpenCV'}
+[0.009211] (alphamat) JobStarted: {'identifier': 'alphamat'}
+[0.012429] (aruco) JobStarted: {'identifier': 'aruco'}
+[0.016112] (bgsegm) JobStarted: {'identifier': 'bgsegm'}
+[0.019457] (bioinspired) JobStarted: {'identifier': 'bioinspired'}
+[0.022394] (cannops) JobStarted: {'identifier': 'cannops'}
+[0.025377] (ccalib) JobStarted: {'identifier': 'ccalib'}
+[0.029950] (cnn_3dobj) JobStarted: {'identifier': 'cnn_3dobj'}
+[0.036851] (OpenCV) JobProgress: {'identifier': 'OpenCV', 'progress': 'cmake'}
+[0.037153] (OpenCV) Command: {'cmd': ['/usr/bin/cmake', '/home/arno/BasestationRoombaV3/src/camera/opencv', '-DCMAKE_INSTALL_PREFIX=/home/arno/BasestationRoombaV3/install/OpenCV'], 'cwd': '/home/arno/BasestationRoombaV3/build/OpenCV', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arno'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arno'), ('OLDPWD', '/home/arno/BasestationRoombaV3/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('MANAGERPID', '1918'), ('SYSTEMD_EXEC_PID', '2107'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4106'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arno'), ('JOURNAL_STREAM', '8:28305'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arno'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/laptopal:@/tmp/.ICE-unix/2073,unix/laptopal:/tmp/.ICE-unix/2073'), ('INVOCATION_ID', '5e1cf68fff414b398405193fd087cb66'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EP21N2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install/rover_input_pkg:/home/arno/BasestationRoombaV3/install/microver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:0d1bca8e-69b2-4b91-8d10-94b5fd5874f2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arno/BasestationRoombaV3/build/OpenCV'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install/rover_input_pkg:/home/arno/BasestationRoombaV3/install/microver')]), 'shell': False}
+[0.039564] (alphamat) JobProgress: {'identifier': 'alphamat', 'progress': 'cmake'}
+[0.039834] (alphamat) Command: {'cmd': ['/usr/bin/cmake', '/home/arno/BasestationRoombaV3/src/camera/opencv_contrib/modules/alphamat', '-DCMAKE_INSTALL_PREFIX=/home/arno/BasestationRoombaV3/install/alphamat'], 'cwd': '/home/arno/BasestationRoombaV3/build/alphamat', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arno'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arno'), ('OLDPWD', '/home/arno/BasestationRoombaV3/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('MANAGERPID', '1918'), ('SYSTEMD_EXEC_PID', '2107'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4106'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arno'), ('JOURNAL_STREAM', '8:28305'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arno'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/laptopal:@/tmp/.ICE-unix/2073,unix/laptopal:/tmp/.ICE-unix/2073'), ('INVOCATION_ID', '5e1cf68fff414b398405193fd087cb66'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EP21N2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install/rover_input_pkg:/home/arno/BasestationRoombaV3/install/microver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:0d1bca8e-69b2-4b91-8d10-94b5fd5874f2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arno/BasestationRoombaV3/build/alphamat'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install/rover_input_pkg:/home/arno/BasestationRoombaV3/install/microver')]), 'shell': False}
+[0.041173] (aruco) JobProgress: {'identifier': 'aruco', 'progress': 'cmake'}
+[0.041436] (aruco) Command: {'cmd': ['/usr/bin/cmake', '/home/arno/BasestationRoombaV3/src/camera/opencv_contrib/modules/aruco', '-DCMAKE_INSTALL_PREFIX=/home/arno/BasestationRoombaV3/install/aruco'], 'cwd': '/home/arno/BasestationRoombaV3/build/aruco', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arno'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arno'), ('OLDPWD', '/home/arno/BasestationRoombaV3/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('MANAGERPID', '1918'), ('SYSTEMD_EXEC_PID', '2107'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4106'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arno'), ('JOURNAL_STREAM', '8:28305'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arno'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/laptopal:@/tmp/.ICE-unix/2073,unix/laptopal:/tmp/.ICE-unix/2073'), ('INVOCATION_ID', '5e1cf68fff414b398405193fd087cb66'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EP21N2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install/rover_input_pkg:/home/arno/BasestationRoombaV3/install/microver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:0d1bca8e-69b2-4b91-8d10-94b5fd5874f2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arno/BasestationRoombaV3/build/aruco'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install/rover_input_pkg:/home/arno/BasestationRoombaV3/install/microver')]), 'shell': False}
+[0.043662] (bgsegm) JobProgress: {'identifier': 'bgsegm', 'progress': 'cmake'}
+[0.044345] (bgsegm) Command: {'cmd': ['/usr/bin/cmake', '/home/arno/BasestationRoombaV3/src/camera/opencv_contrib/modules/bgsegm', '-DCMAKE_INSTALL_PREFIX=/home/arno/BasestationRoombaV3/install/bgsegm'], 'cwd': '/home/arno/BasestationRoombaV3/build/bgsegm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arno'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arno'), ('OLDPWD', '/home/arno/BasestationRoombaV3/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('MANAGERPID', '1918'), ('SYSTEMD_EXEC_PID', '2107'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4106'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arno'), ('JOURNAL_STREAM', '8:28305'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arno'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/laptopal:@/tmp/.ICE-unix/2073,unix/laptopal:/tmp/.ICE-unix/2073'), ('INVOCATION_ID', '5e1cf68fff414b398405193fd087cb66'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EP21N2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install/rover_input_pkg:/home/arno/BasestationRoombaV3/install/microver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:0d1bca8e-69b2-4b91-8d10-94b5fd5874f2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arno/BasestationRoombaV3/build/bgsegm'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install/rover_input_pkg:/home/arno/BasestationRoombaV3/install/microver')]), 'shell': False}
+[0.048440] (bioinspired) JobProgress: {'identifier': 'bioinspired', 'progress': 'cmake'}
+[0.048531] (bioinspired) Command: {'cmd': ['/usr/bin/cmake', '/home/arno/BasestationRoombaV3/src/camera/opencv_contrib/modules/bioinspired', '-DCMAKE_INSTALL_PREFIX=/home/arno/BasestationRoombaV3/install/bioinspired'], 'cwd': '/home/arno/BasestationRoombaV3/build/bioinspired', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arno'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arno'), ('OLDPWD', '/home/arno/BasestationRoombaV3/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('MANAGERPID', '1918'), ('SYSTEMD_EXEC_PID', '2107'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4106'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arno'), ('JOURNAL_STREAM', '8:28305'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arno'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/laptopal:@/tmp/.ICE-unix/2073,unix/laptopal:/tmp/.ICE-unix/2073'), ('INVOCATION_ID', '5e1cf68fff414b398405193fd087cb66'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EP21N2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install/rover_input_pkg:/home/arno/BasestationRoombaV3/install/microver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:0d1bca8e-69b2-4b91-8d10-94b5fd5874f2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arno/BasestationRoombaV3/build/bioinspired'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install/rover_input_pkg:/home/arno/BasestationRoombaV3/install/microver')]), 'shell': False}
+[0.052454] (cannops) JobProgress: {'identifier': 'cannops', 'progress': 'cmake'}
+[0.052527] (cannops) Command: {'cmd': ['/usr/bin/cmake', '/home/arno/BasestationRoombaV3/src/camera/opencv_contrib/modules/cannops', '-DCMAKE_INSTALL_PREFIX=/home/arno/BasestationRoombaV3/install/cannops'], 'cwd': '/home/arno/BasestationRoombaV3/build/cannops', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arno'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arno'), ('OLDPWD', '/home/arno/BasestationRoombaV3/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('MANAGERPID', '1918'), ('SYSTEMD_EXEC_PID', '2107'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4106'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arno'), ('JOURNAL_STREAM', '8:28305'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arno'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/laptopal:@/tmp/.ICE-unix/2073,unix/laptopal:/tmp/.ICE-unix/2073'), ('INVOCATION_ID', '5e1cf68fff414b398405193fd087cb66'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EP21N2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install/rover_input_pkg:/home/arno/BasestationRoombaV3/install/microver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:0d1bca8e-69b2-4b91-8d10-94b5fd5874f2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arno/BasestationRoombaV3/build/cannops'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install/rover_input_pkg:/home/arno/BasestationRoombaV3/install/microver')]), 'shell': False}
+[0.055951] (ccalib) JobProgress: {'identifier': 'ccalib', 'progress': 'cmake'}
+[0.056002] (ccalib) Command: {'cmd': ['/usr/bin/cmake', '/home/arno/BasestationRoombaV3/src/camera/opencv_contrib/modules/ccalib', '-DCMAKE_INSTALL_PREFIX=/home/arno/BasestationRoombaV3/install/ccalib'], 'cwd': '/home/arno/BasestationRoombaV3/build/ccalib', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arno'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arno'), ('OLDPWD', '/home/arno/BasestationRoombaV3/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('MANAGERPID', '1918'), ('SYSTEMD_EXEC_PID', '2107'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4106'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arno'), ('JOURNAL_STREAM', '8:28305'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arno'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/laptopal:@/tmp/.ICE-unix/2073,unix/laptopal:/tmp/.ICE-unix/2073'), ('INVOCATION_ID', '5e1cf68fff414b398405193fd087cb66'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EP21N2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install/rover_input_pkg:/home/arno/BasestationRoombaV3/install/microver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:0d1bca8e-69b2-4b91-8d10-94b5fd5874f2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arno/BasestationRoombaV3/build/ccalib'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install/rover_input_pkg:/home/arno/BasestationRoombaV3/install/microver')]), 'shell': False}
+[0.061274] (alphamat) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.064137] (alphamat) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.064341] (alphamat) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.064594] (alphamat) StderrLine: {'line': b'  code such as\n'}
+[0.066271] (alphamat) StderrLine: {'line': b'\n'}
+[0.067827] (alphamat) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.068026] (alphamat) StderrLine: {'line': b'\n'}
+[0.068202] (alphamat) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.068360] (alphamat) StderrLine: {'line': b'\n'}
+[0.068515] (alphamat) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.068672] (alphamat) StderrLine: {'line': b'  line.\n'}
+[0.068824] (alphamat) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.068978] (alphamat) StderrLine: {'line': b'\x1b[0m\n'}
+[0.069169] (aruco) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.069360] (aruco) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.069512] (aruco) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.070229] (aruco) StderrLine: {'line': b'  code such as\n'}
+[0.070358] (aruco) StderrLine: {'line': b'\n'}
+[0.070468] (aruco) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.070639] (aruco) StderrLine: {'line': b'\n'}
+[0.070790] (aruco) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.070931] (aruco) StderrLine: {'line': b'\n'}
+[0.071184] (aruco) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.071850] (aruco) StderrLine: {'line': b'  line.\n'}
+[0.072230] (aruco) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.072401] (aruco) StderrLine: {'line': b'\x1b[0m\n'}
+[0.072565] (bgsegm) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.072928] (bgsegm) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.073089] (bgsegm) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.073255] (bgsegm) StderrLine: {'line': b'  code such as\n'}
+[0.073392] (bgsegm) StderrLine: {'line': b'\n'}
+[0.073485] (bgsegm) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.073574] (bgsegm) StderrLine: {'line': b'\n'}
+[0.073662] (bgsegm) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.073751] (bgsegm) StderrLine: {'line': b'\n'}
+[0.073838] (bgsegm) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.073942] (bgsegm) StderrLine: {'line': b'  line.\n'}
+[0.074028] (bgsegm) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.074138] (bgsegm) StderrLine: {'line': b'\x1b[0m\n'}
+[0.074286] (bioinspired) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.074483] (bioinspired) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.074653] (bioinspired) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.074825] (bioinspired) StderrLine: {'line': b'  code such as\n'}
+[0.074999] (bioinspired) StderrLine: {'line': b'\n'}
+[0.075170] (bioinspired) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.075334] (bioinspired) StderrLine: {'line': b'\n'}
+[0.075498] (bioinspired) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.075689] (bioinspired) StderrLine: {'line': b'\n'}
+[0.075864] (bioinspired) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.076039] (bioinspired) StderrLine: {'line': b'  line.\n'}
+[0.076222] (bioinspired) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.076402] (bioinspired) StderrLine: {'line': b'\x1b[0m\n'}
+[0.076570] (cannops) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.076792] (cannops) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.076980] (cannops) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.077164] (cannops) StderrLine: {'line': b'  code such as\n'}
+[0.077347] (cannops) StderrLine: {'line': b'\n'}
+[0.077529] (cannops) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.077730] (cannops) StderrLine: {'line': b'\n'}
+[0.077917] (cannops) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.078092] (cannops) StderrLine: {'line': b'\n'}
+[0.078265] (cannops) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.078439] (cannops) StderrLine: {'line': b'  line.\n'}
+[0.078658] (cannops) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.078836] (cannops) StderrLine: {'line': b'\x1b[0m\n'}
+[0.079011] (cnn_3dobj) JobProgress: {'identifier': 'cnn_3dobj', 'progress': 'cmake'}
+[0.079077] (cnn_3dobj) Command: {'cmd': ['/usr/bin/cmake', '/home/arno/BasestationRoombaV3/src/camera/opencv_contrib/modules/cnn_3dobj', '-DCMAKE_INSTALL_PREFIX=/home/arno/BasestationRoombaV3/install/cnn_3dobj'], 'cwd': '/home/arno/BasestationRoombaV3/build/cnn_3dobj', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arno'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arno'), ('OLDPWD', '/home/arno/BasestationRoombaV3/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_CH.UTF-8'), ('MANAGERPID', '1918'), ('SYSTEMD_EXEC_PID', '2107'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4106'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arno'), ('JOURNAL_STREAM', '8:28305'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arno'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/laptopal:@/tmp/.ICE-unix/2073,unix/laptopal:/tmp/.ICE-unix/2073'), ('INVOCATION_ID', '5e1cf68fff414b398405193fd087cb66'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EP21N2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install/rover_input_pkg:/home/arno/BasestationRoombaV3/install/microver:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:0d1bca8e-69b2-4b91-8d10-94b5fd5874f2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arno/BasestationRoombaV3/build/cnn_3dobj'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arno/BasestationRoombaV3/install/rover_input_pkg:/home/arno/BasestationRoombaV3/install/microver')]), 'shell': False}
+[0.080719] (OpenCV) StdoutLine: {'line': b"-- 'Release' build type is used by default. Use CMAKE_BUILD_TYPE to specify build type (Release or Debug)\n"}
+[0.098382] (-) TimerEvent: {}
+[0.198884] (-) TimerEvent: {}
+[0.202562] (cannops) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.203040] (bioinspired) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.203881] (alphamat) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.204181] (bgsegm) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.205404] (aruco) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.273575] (OpenCV) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.299011] (-) TimerEvent: {}
+[0.340291] (cannops) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.345084] (bioinspired) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.349535] (alphamat) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.350255] (bgsegm) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.350600] (aruco) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.361669] (cannops) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.363341] (bioinspired) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.368594] (bgsegm) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.369518] (aruco) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.370167] (OpenCV) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.370490] (alphamat) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.386797] (OpenCV) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399129] (-) TimerEvent: {}
+[0.499638] (-) TimerEvent: {}
+[0.505515] (cannops) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.508544] (bioinspired) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.511989] (bgsegm) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.512903] (aruco) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.518588] (alphamat) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.532812] (cannops) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.534302] (cannops) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.535559] (cannops) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.537527] (bioinspired) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.538100] (bioinspired) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.539180] (bgsegm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.539380] (bioinspired) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.539732] (bgsegm) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.540881] (bgsegm) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.547249] (bioinspired) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.547949] (alphamat) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.548932] (alphamat) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.549912] (bgsegm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.550650] (alphamat) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.555451] (aruco) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.555985] (aruco) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.557229] (aruco) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.560567] (cannops) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.560904] (alphamat) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.566013] (aruco) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.574930] (OpenCV) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.599207] (OpenCV) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.599707] (-) TimerEvent: {}
+[0.600787] (OpenCV) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.602312] (OpenCV) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.609918] (OpenCV) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.699898] (-) TimerEvent: {}
+[0.719221] (bgsegm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.727869] (cannops) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.729199] (bioinspired) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.737914] (aruco) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.745446] (alphamat) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.750344] (bgsegm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.751037] (bgsegm) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.754837] (bgsegm) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.756706] (bgsegm) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:2 (ocv_define_module):\n'}
+[0.756979] (bgsegm) StderrLine: {'line': b'  Unknown CMake command "ocv_define_module".\n'}
+[0.757189] (bgsegm) StderrLine: {'line': b'\n'}
+[0.757678] (bgsegm) StderrLine: {'line': b'\x1b[0m\n'}
+[0.758149] (bgsegm) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.758364] (bgsegm) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.758559] (bgsegm) StderrLine: {'line': b'\n'}
+[0.758800] (bgsegm) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.758982] (bgsegm) StderrLine: {'line': b'\n'}
+[0.759148] (bgsegm) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.759311] (bgsegm) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.759472] (bgsegm) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.759707] (bgsegm) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.759868] (bgsegm) StderrLine: {'line': b'\x1b[0m\n'}
+[0.760031] (bgsegm) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.761372] (bgsegm) StdoutLine: {'line': b'See also "/home/arno/BasestationRoombaV3/build/bgsegm/CMakeFiles/CMakeOutput.log".\n'}
+[0.761708] (cannops) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.763793] (cannops) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.765394] (bioinspired) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.766926] (bioinspired) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.767179] (OpenCV) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.767580] (bioinspired) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.767795] (bioinspired) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.768347] (bioinspired) StdoutLine: {'line': b'See also "/home/arno/BasestationRoombaV3/build/bioinspired/CMakeFiles/CMakeOutput.log".\n'}
+[0.769427] (cannops) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:2 (ocv_module_disable):\n'}
+[0.770530] (cannops) StderrLine: {'line': b'  Unknown CMake command "ocv_module_disable".\n'}
+[0.771687] (cannops) StderrLine: {'line': b'\n'}
+[0.771899] (cannops) StderrLine: {'line': b'\x1b[0m\n'}
+[0.773325] (cannops) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.773503] (cannops) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.773673] (cannops) StderrLine: {'line': b'\n'}
+[0.773895] (cannops) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.774061] (cannops) StderrLine: {'line': b'\n'}
+[0.774230] (cannops) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.774400] (cannops) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.774573] (cannops) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.774799] (cannops) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.774967] (cannops) StderrLine: {'line': b'\x1b[0m\n'}
+[0.775130] (bioinspired) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:2 (ocv_warnings_disable):\n'}
+[0.775333] (bioinspired) StderrLine: {'line': b'  Unknown CMake command "ocv_warnings_disable".\n'}
+[0.775485] (bioinspired) StderrLine: {'line': b'\n'}
+[0.775635] (bioinspired) StderrLine: {'line': b'\x1b[0m\n'}
+[0.775784] (bioinspired) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.775937] (bioinspired) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.776282] (bioinspired) StderrLine: {'line': b'\n'}
+[0.776450] (bioinspired) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.776612] (bioinspired) StderrLine: {'line': b'\n'}
+[0.776770] (bioinspired) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.776928] (bioinspired) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.777082] (bioinspired) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.777190] (bioinspired) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.777375] (bioinspired) StderrLine: {'line': b'\x1b[0m\n'}
+[0.777645] (cannops) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.777763] (cannops) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.777867] (cannops) StdoutLine: {'line': b'See also "/home/arno/BasestationRoombaV3/build/cannops/CMakeFiles/CMakeOutput.log".\n'}
+[0.777971] (ccalib) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.778121] (ccalib) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.778274] (ccalib) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.778377] (ccalib) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.778479] (ccalib) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.778581] (ccalib) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.778835] (ccalib) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.778980] (ccalib) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.779085] (ccalib) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.779214] (ccalib) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.779319] (ccalib) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.779460] (ccalib) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.779566] (ccalib) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.779670] (ccalib) StdoutLine: {'line': b'See also "/home/arno/BasestationRoombaV3/build/ccalib/CMakeFiles/CMakeOutput.log".\n'}
+[0.780010] (ccalib) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.780319] (ccalib) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.780815] (ccalib) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.781007] (ccalib) StderrLine: {'line': b'  code such as\n'}
+[0.781111] (ccalib) StderrLine: {'line': b'\n'}
+[0.781213] (ccalib) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.781314] (ccalib) StderrLine: {'line': b'\n'}
+[0.781447] (ccalib) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.781549] (ccalib) StderrLine: {'line': b'\n'}
+[0.781649] (ccalib) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.781750] (ccalib) StderrLine: {'line': b'  line.\n'}
+[0.781849] (ccalib) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.781951] (ccalib) StderrLine: {'line': b'\x1b[0m\n'}
+[0.782051] (ccalib) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:2 (ocv_define_module):\n'}
+[0.782153] (ccalib) StderrLine: {'line': b'  Unknown CMake command "ocv_define_module".\n'}
+[0.782553] (ccalib) StderrLine: {'line': b'\n'}
+[0.782962] (ccalib) StderrLine: {'line': b'\x1b[0m\n'}
+[0.783065] (ccalib) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.783163] (ccalib) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.783269] (ccalib) StderrLine: {'line': b'\n'}
+[0.783366] (ccalib) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.783462] (ccalib) StderrLine: {'line': b'\n'}
+[0.783558] (ccalib) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.783665] (ccalib) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.783757] (ccalib) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.783853] (ccalib) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.783955] (ccalib) StderrLine: {'line': b'\x1b[0m\n'}
+[0.784049] (bgsegm) CommandEnded: {'returncode': 1}
+[0.784549] (bgsegm) JobEnded: {'identifier': 'bgsegm', 'rc': 1}
+[0.785026] (aruco) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.785166] (aruco) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.785283] (cnn_3dobj) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.785412] (cnn_3dobj) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.785513] (cnn_3dobj) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.785626] (cnn_3dobj) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.785718] (cnn_3dobj) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.785810] (cnn_3dobj) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.785902] (cnn_3dobj) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.785993] (cnn_3dobj) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.786092] (cnn_3dobj) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.786188] (cnn_3dobj) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.786291] (cnn_3dobj) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.786390] (cnn_3dobj) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.786487] (cnn_3dobj) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.786600] (cnn_3dobj) StdoutLine: {'line': b'-- Generating done\n'}
+[0.786700] (cnn_3dobj) StdoutLine: {'line': b'-- Build files have been written to: /home/arno/BasestationRoombaV3/build/cnn_3dobj\n'}
+[0.786803] (aruco) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.786904] (cnn_3dobj) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.787068] (cnn_3dobj) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.787166] (cnn_3dobj) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.787260] (cnn_3dobj) StderrLine: {'line': b'  code such as\n'}
+[0.787354] (cnn_3dobj) StderrLine: {'line': b'\n'}
+[0.787448] (cnn_3dobj) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.787541] (cnn_3dobj) StderrLine: {'line': b'\n'}
+[0.787642] (cnn_3dobj) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.787737] (cnn_3dobj) StderrLine: {'line': b'\n'}
+[0.787831] (cnn_3dobj) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.787925] (cnn_3dobj) StderrLine: {'line': b'  line.\n'}
+[0.788018] (cnn_3dobj) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.788113] (cnn_3dobj) StderrLine: {'line': b'\x1b[0m\n'}
+[0.788233] (cnn_3dobj) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.788335] (cnn_3dobj) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.788429] (cnn_3dobj) StderrLine: {'line': b'\n'}
+[0.788523] (cnn_3dobj) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.788617] (cnn_3dobj) StderrLine: {'line': b'\n'}
+[0.788710] (cnn_3dobj) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.788805] (cnn_3dobj) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.788899] (cnn_3dobj) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.788994] (cnn_3dobj) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.789087] (cnn_3dobj) StderrLine: {'line': b'\x1b[0m\n'}
+[0.789182] (bioinspired) JobEnded: {'identifier': 'bioinspired', 'rc': 'SIGINT'}
+[0.789509] (cannops) JobEnded: {'identifier': 'cannops', 'rc': 'SIGINT'}
+[0.789818] (cnn_3dobj) JobEnded: {'identifier': 'cnn_3dobj', 'rc': 'SIGINT'}
+[0.790123] (aruco) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.790253] (aruco) StdoutLine: {'line': b'See also "/home/arno/BasestationRoombaV3/build/aruco/CMakeFiles/CMakeOutput.log".\n'}
+[0.790360] (aruco) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:2 (ocv_define_module):\n'}
+[0.790463] (aruco) StderrLine: {'line': b'  Unknown CMake command "ocv_define_module".\n'}
+[0.790561] (aruco) StderrLine: {'line': b'\n'}
+[0.790659] (aruco) StderrLine: {'line': b'\x1b[0m\n'}
+[0.790754] (aruco) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.790850] (aruco) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.790947] (aruco) StderrLine: {'line': b'\n'}
+[0.791044] (aruco) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.791140] (aruco) StderrLine: {'line': b'\n'}
+[0.791234] (aruco) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.791339] (aruco) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.791434] (aruco) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.791528] (aruco) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.791635] (aruco) StderrLine: {'line': b'\x1b[0m\n'}
+[0.791724] (ccalib) JobEnded: {'identifier': 'ccalib', 'rc': 'SIGINT'}
+[0.792015] (alphamat) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.792133] (alphamat) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.792267] (alphamat) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.792362] (alphamat) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:3 (ocv_module_disable):\n'}
+[0.792455] (alphamat) StderrLine: {'line': b'  Unknown CMake command "ocv_module_disable".\n'}
+[0.792545] (alphamat) StderrLine: {'line': b'\n'}
+[0.792635] (alphamat) StderrLine: {'line': b'\x1b[0m\n'}
+[0.792724] (alphamat) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.792813] (alphamat) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.792903] (alphamat) StderrLine: {'line': b'\n'}
+[0.792991] (alphamat) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.793089] (alphamat) StderrLine: {'line': b'\n'}
+[0.793178] (alphamat) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.793268] (alphamat) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.793356] (alphamat) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.793444] (alphamat) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.793533] (alphamat) StderrLine: {'line': b'\x1b[0m\n'}
+[0.793621] (alphamat) StdoutLine: {'line': b'-- Module opencv_alphamat disabled because the following dependencies are not found: Eigen\n'}
+[0.793715] (alphamat) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.793808] (alphamat) StdoutLine: {'line': b'See also "/home/arno/BasestationRoombaV3/build/alphamat/CMakeFiles/CMakeOutput.log".\n'}
+[0.793900] (OpenCV) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.793998] (OpenCV) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.794089] (OpenCV) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.794181] (aruco) JobEnded: {'identifier': 'aruco', 'rc': 'SIGINT'}
+[0.794481] (alphamat) JobEnded: {'identifier': 'alphamat', 'rc': 'SIGINT'}
+[0.794794] (OpenCV) StdoutLine: {'line': b'-- Detected processor: x86_64\n'}
+[0.799986] (-) TimerEvent: {}
+[0.899796] (OpenCV) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.2") \n'}
+[0.900035] (-) TimerEvent: {}
+[0.919476] (OpenCV) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable exact version "3.10.12") \n'}
+[1.000190] (-) TimerEvent: {}
+[1.100493] (-) TimerEvent: {}
+[1.187838] (OpenCV) StdoutLine: {'line': b'-- Looking for ccache - not found\n'}
+[1.188087] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FSIGNED_CHAR\n'}
+[1.200639] (-) TimerEvent: {}
+[1.259197] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FSIGNED_CHAR - Success\n'}
+[1.259455] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_FSIGNED_CHAR\n'}
+[1.300779] (-) TimerEvent: {}
+[1.318000] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_FSIGNED_CHAR - Success\n'}
+[1.318250] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_W\n'}
+[1.384123] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_W - Success\n'}
+[1.384426] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_W\n'}
+[1.400919] (-) TimerEvent: {}
+[1.439188] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_W - Success\n'}
+[1.439401] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WALL\n'}
+[1.501065] (-) TimerEvent: {}
+[1.510333] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WALL - Success\n'}
+[1.510656] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WALL\n'}
+[1.572987] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WALL - Success\n'}
+[1.573296] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WRETURN_TYPE\n'}
+[1.601201] (-) TimerEvent: {}
+[1.640077] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WRETURN_TYPE - Success\n'}
+[1.640317] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WRETURN_TYPE\n'}
+[1.695412] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WRETURN_TYPE - Success\n'}
+[1.695631] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNON_VIRTUAL_DTOR\n'}
+[1.701301] (-) TimerEvent: {}
+[1.768083] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNON_VIRTUAL_DTOR - Success\n'}
+[1.768378] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WNON_VIRTUAL_DTOR\n'}
+[1.801449] (-) TimerEvent: {}
+[1.829529] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WNON_VIRTUAL_DTOR - Failed\n'}
+[1.829765] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WADDRESS\n'}
+[1.896395] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WADDRESS - Success\n'}
+[1.896683] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WADDRESS\n'}
+[1.901554] (-) TimerEvent: {}
+[1.956223] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WADDRESS - Success\n'}
+[1.956487] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WSEQUENCE_POINT\n'}
+[2.001668] (-) TimerEvent: {}
+[2.027866] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WSEQUENCE_POINT - Success\n'}
+[2.028144] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WSEQUENCE_POINT\n'}
+[2.084280] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WSEQUENCE_POINT - Success\n'}
+[2.084564] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WFORMAT\n'}
+[2.101820] (-) TimerEvent: {}
+[2.151792] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WFORMAT - Success\n'}
+[2.152020] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WFORMAT\n'}
+[2.201960] (-) TimerEvent: {}
+[2.208708] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WFORMAT - Success\n'}
+[2.208941] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WFORMAT_SECURITY\n'}
+[2.288829] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WFORMAT_SECURITY - Success\n'}
+[2.289096] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WFORMAT_SECURITY\n'}
+[2.302096] (-) TimerEvent: {}
+[2.347818] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WFORMAT_SECURITY - Success\n'}
+[2.348026] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WMISSING_DECLARATIONS\n'}
+[2.402237] (-) TimerEvent: {}
+[2.421932] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WMISSING_DECLARATIONS - Success\n'}
+[2.422187] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WMISSING_DECLARATIONS\n'}
+[2.481378] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WMISSING_DECLARATIONS - Success\n'}
+[2.481718] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WMISSING_PROTOTYPES\n'}
+[2.502380] (-) TimerEvent: {}
+[2.559193] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WMISSING_PROTOTYPES - Failed\n'}
+[2.559477] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WMISSING_PROTOTYPES\n'}
+[2.602519] (-) TimerEvent: {}
+[2.617692] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WMISSING_PROTOTYPES - Success\n'}
+[2.617913] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WSTRICT_PROTOTYPES\n'}
+[2.687697] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WSTRICT_PROTOTYPES - Failed\n'}
+[2.687882] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WSTRICT_PROTOTYPES\n'}
+[2.702660] (-) TimerEvent: {}
+[2.746941] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WSTRICT_PROTOTYPES - Success\n'}
+[2.747118] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WUNDEF\n'}
+[2.802798] (-) TimerEvent: {}
+[2.815551] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WUNDEF - Success\n'}
+[2.815751] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WUNDEF\n'}
+[2.872761] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WUNDEF - Success\n'}
+[2.872952] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WINIT_SELF\n'}
+[2.902920] (-) TimerEvent: {}
+[2.947553] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WINIT_SELF - Success\n'}
+[2.947744] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WINIT_SELF\n'}
+[3.003065] (-) TimerEvent: {}
+[3.007193] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WINIT_SELF - Success\n'}
+[3.007478] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WPOINTER_ARITH\n'}
+[3.082334] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WPOINTER_ARITH - Success\n'}
+[3.082656] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WPOINTER_ARITH\n'}
+[3.103198] (-) TimerEvent: {}
+[3.137745] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WPOINTER_ARITH - Success\n'}
+[3.137930] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WSHADOW\n'}
+[3.203345] (-) TimerEvent: {}
+[3.214793] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WSHADOW - Success\n'}
+[3.215114] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WSHADOW\n'}
+[3.274579] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WSHADOW - Success\n'}
+[3.274887] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WSIGN_PROMO\n'}
+[3.303503] (-) TimerEvent: {}
+[3.347441] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WSIGN_PROMO - Success\n'}
+[3.347630] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WSIGN_PROMO\n'}
+[3.403657] (-) TimerEvent: {}
+[3.406036] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WSIGN_PROMO - Failed\n'}
+[3.406323] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WUNINITIALIZED\n'}
+[3.474603] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WUNINITIALIZED - Success\n'}
+[3.474816] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WUNINITIALIZED\n'}
+[3.503786] (-) TimerEvent: {}
+[3.538026] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WUNINITIALIZED - Success\n'}
+[3.538286] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WSUGGEST_OVERRIDE\n'}
+[3.603762] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WSUGGEST_OVERRIDE - Success\n'}
+[3.603950] (-) TimerEvent: {}
+[3.604106] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WSUGGEST_OVERRIDE\n'}
+[3.666469] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WSUGGEST_OVERRIDE - Failed\n'}
+[3.666761] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_DELETE_NON_VIRTUAL_DTOR\n'}
+[3.704121] (-) TimerEvent: {}
+[3.736563] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_DELETE_NON_VIRTUAL_DTOR - Success\n'}
+[3.736786] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WNO_DELETE_NON_VIRTUAL_DTOR\n'}
+[3.797417] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WNO_DELETE_NON_VIRTUAL_DTOR - Failed\n'}
+[3.797697] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_UNNAMED_TYPE_TEMPLATE_ARGS\n'}
+[3.804214] (-) TimerEvent: {}
+[3.870101] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_UNNAMED_TYPE_TEMPLATE_ARGS - Failed\n'}
+[3.870433] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WNO_UNNAMED_TYPE_TEMPLATE_ARGS\n'}
+[3.904333] (-) TimerEvent: {}
+[3.927450] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WNO_UNNAMED_TYPE_TEMPLATE_ARGS - Failed\n'}
+[3.927708] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_COMMENT\n'}
+[3.999204] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_COMMENT - Success\n'}
+[3.999482] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WNO_COMMENT\n'}
+[4.004411] (-) TimerEvent: {}
+[4.057454] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WNO_COMMENT - Success\n'}
+[4.057717] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WIMPLICIT_FALLTHROUGH_3\n'}
+[4.104520] (-) TimerEvent: {}
+[4.127359] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WIMPLICIT_FALLTHROUGH_3 - Success\n'}
+[4.127609] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WIMPLICIT_FALLTHROUGH_3\n'}
+[4.184310] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WIMPLICIT_FALLTHROUGH_3 - Success\n'}
+[4.184573] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_STRICT_OVERFLOW\n'}
+[4.204660] (-) TimerEvent: {}
+[4.260719] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_STRICT_OVERFLOW - Success\n'}
+[4.261069] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WNO_STRICT_OVERFLOW\n'}
+[4.304799] (-) TimerEvent: {}
+[4.316766] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WNO_STRICT_OVERFLOW - Success\n'}
+[4.317034] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FDIAGNOSTICS_SHOW_OPTION\n'}
+[4.390379] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FDIAGNOSTICS_SHOW_OPTION - Success\n'}
+[4.390690] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_FDIAGNOSTICS_SHOW_OPTION\n'}
+[4.404940] (-) TimerEvent: {}
+[4.449264] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_FDIAGNOSTICS_SHOW_OPTION - Success\n'}
+[4.449493] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_LONG_LONG\n'}
+[4.505089] (-) TimerEvent: {}
+[4.523781] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_LONG_LONG - Success\n'}
+[4.524068] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WNO_LONG_LONG\n'}
+[4.583152] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WNO_LONG_LONG - Success\n'}
+[4.583432] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_PTHREAD\n'}
+[4.605230] (-) TimerEvent: {}
+[4.651409] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_PTHREAD - Success\n'}
+[4.651644] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_PTHREAD\n'}
+[4.705370] (-) TimerEvent: {}
+[4.711903] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_PTHREAD - Success\n'}
+[4.712123] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FOMIT_FRAME_POINTER\n'}
+[4.779249] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FOMIT_FRAME_POINTER - Success\n'}
+[4.779486] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_FOMIT_FRAME_POINTER\n'}
+[4.805507] (-) TimerEvent: {}
+[4.834957] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_FOMIT_FRAME_POINTER - Success\n'}
+[4.835210] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FFUNCTION_SECTIONS\n'}
+[4.905652] (-) TimerEvent: {}
+[4.910290] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FFUNCTION_SECTIONS - Success\n'}
+[4.910542] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_FFUNCTION_SECTIONS\n'}
+[4.966568] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_FFUNCTION_SECTIONS - Success\n'}
+[4.966801] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FDATA_SECTIONS\n'}
+[5.005793] (-) TimerEvent: {}
+[5.038744] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FDATA_SECTIONS - Success\n'}
+[5.038978] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_FDATA_SECTIONS\n'}
+[5.094803] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_FDATA_SECTIONS - Success\n'}
+[5.097547] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MSSE (check file: cmake/checks/cpu_sse.cpp)\n'}
+[5.105913] (-) TimerEvent: {}
+[5.206191] (-) TimerEvent: {}
+[5.218497] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MSSE - Success\n'}
+[5.219146] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MSSE2 (check file: cmake/checks/cpu_sse2.cpp)\n'}
+[5.306329] (-) TimerEvent: {}
+[5.309691] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MSSE2 - Success\n'}
+[5.310163] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MSSE3 (check file: cmake/checks/cpu_sse3.cpp)\n'}
+[5.406472] (-) TimerEvent: {}
+[5.413322] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MSSE3 - Success\n'}
+[5.413837] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MSSSE3 (check file: cmake/checks/cpu_ssse3.cpp)\n'}
+[5.506600] (-) TimerEvent: {}
+[5.508495] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MSSSE3 - Success\n'}
+[5.508945] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MSSE4_1 (check file: cmake/checks/cpu_sse41.cpp)\n'}
+[5.606743] (-) TimerEvent: {}
+[5.622324] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MSSE4_1 - Success\n'}
+[5.622918] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MPOPCNT (check file: cmake/checks/cpu_popcnt.cpp)\n'}
+[5.689478] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MPOPCNT - Success\n'}
+[5.689901] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MSSE4_2 (check file: cmake/checks/cpu_sse42.cpp)\n'}
+[5.706882] (-) TimerEvent: {}
+[5.798650] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MSSE4_2 - Success\n'}
+[5.798999] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MF16C (check file: cmake/checks/cpu_fp16.cpp)\n'}
+[5.807001] (-) TimerEvent: {}
+[5.907312] (-) TimerEvent: {}
+[6.007655] (-) TimerEvent: {}
+[6.108069] (-) TimerEvent: {}
+[6.208406] (-) TimerEvent: {}
+[6.308761] (-) TimerEvent: {}
+[6.339837] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MF16C - Success\n'}
+[6.340342] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MFMA\n'}
+[6.405957] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MFMA - Success\n'}
+[6.406326] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MAVX (check file: cmake/checks/cpu_avx.cpp)\n'}
+[6.408815] (-) TimerEvent: {}
+[6.509048] (-) TimerEvent: {}
+[6.609442] (-) TimerEvent: {}
+[6.709794] (-) TimerEvent: {}
+[6.810146] (-) TimerEvent: {}
+[6.894244] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MAVX - Success\n'}
+[6.894635] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MAVX2 (check file: cmake/checks/cpu_avx2.cpp)\n'}
+[6.910282] (-) TimerEvent: {}
+[7.010598] (-) TimerEvent: {}
+[7.110943] (-) TimerEvent: {}
+[7.211287] (-) TimerEvent: {}
+[7.311641] (-) TimerEvent: {}
+[7.358139] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MAVX2 - Success\n'}
+[7.358700] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MAVX512F (check file: cmake/checks/cpu_avx512.cpp)\n'}
+[7.411793] (-) TimerEvent: {}
+[7.512134] (-) TimerEvent: {}
+[7.612528] (-) TimerEvent: {}
+[7.712865] (-) TimerEvent: {}
+[7.732855] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MAVX512F - Success\n'}
+[7.733348] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MAVX512F_MAVX512CD (check file: cmake/checks/cpu_avx512common.cpp)\n'}
+[7.812996] (-) TimerEvent: {}
+[7.913396] (-) TimerEvent: {}
+[8.013794] (-) TimerEvent: {}
+[8.114208] (-) TimerEvent: {}
+[8.195036] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MAVX512F_MAVX512CD - Success\n'}
+[8.196204] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MAVX512F_MAVX512CD_MAVX512VL_MAVX512BW_MAVX512DQ (check file: cmake/checks/cpu_avx512skx.cpp)\n'}
+[8.214312] (-) TimerEvent: {}
+[8.314628] (-) TimerEvent: {}
+[8.414973] (-) TimerEvent: {}
+[8.515309] (-) TimerEvent: {}
+[8.573565] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_MAVX512F_MAVX512CD_MAVX512VL_MAVX512BW_MAVX512DQ - Success\n'}
+[8.575087] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CPU_BASELINE_FLAGS\n'}
+[8.615461] (-) TimerEvent: {}
+[8.643466] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CPU_BASELINE_FLAGS - Success\n'}
+[8.646035] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CPU_DISPATCH_FLAGS_SSE4_1\n'}
+[8.712194] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CPU_DISPATCH_FLAGS_SSE4_1 - Success\n'}
+[8.714889] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CPU_DISPATCH_FLAGS_SSE4_2\n'}
+[8.715514] (-) TimerEvent: {}
+[8.782156] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CPU_DISPATCH_FLAGS_SSE4_2 - Success\n'}
+[8.784396] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CPU_DISPATCH_FLAGS_FP16\n'}
+[8.815672] (-) TimerEvent: {}
+[8.855791] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CPU_DISPATCH_FLAGS_FP16 - Success\n'}
+[8.859550] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX\n'}
+[8.915790] (-) TimerEvent: {}
+[8.929864] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX - Success\n'}
+[8.933721] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX2\n'}
+[9.013252] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX2 - Success\n'}
+[9.015883] (-) TimerEvent: {}
+[9.018317] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX512_SKX\n'}
+[9.100421] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CPU_DISPATCH_FLAGS_AVX512_SKX - Success\n'}
+[9.100923] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FVISIBILITY_HIDDEN\n'}
+[9.116032] (-) TimerEvent: {}
+[9.166173] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FVISIBILITY_HIDDEN - Success\n'}
+[9.166424] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_FVISIBILITY_HIDDEN\n'}
+[9.216190] (-) TimerEvent: {}
+[9.223669] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_FVISIBILITY_HIDDEN - Success\n'}
+[9.223963] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FVISIBILITY_INLINES_HIDDEN\n'}
+[9.294826] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_FVISIBILITY_INLINES_HIDDEN - Success\n'}
+[9.295136] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_FVISIBILITY_INLINES_HIDDEN\n'}
+[9.316308] (-) TimerEvent: {}
+[9.356518] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_FVISIBILITY_INLINES_HIDDEN - Failed\n'}
+[9.356771] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_LINK_AS_NEEDED\n'}
+[9.416425] (-) TimerEvent: {}
+[9.420533] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_LINK_AS_NEEDED - Success\n'}
+[9.420790] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_LINK_NO_UNDEFINED\n'}
+[9.490510] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_LINK_NO_UNDEFINED - Success\n'}
+[9.497415] (OpenCV) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.516561] (-) TimerEvent: {}
+[9.577341] (OpenCV) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.577961] (OpenCV) StdoutLine: {'line': b'-- Looking for posix_memalign\n'}
+[9.616712] (-) TimerEvent: {}
+[9.644098] (OpenCV) StdoutLine: {'line': b'-- Looking for posix_memalign - found\n'}
+[9.644394] (OpenCV) StdoutLine: {'line': b'-- Looking for malloc.h\n'}
+[9.714674] (OpenCV) StdoutLine: {'line': b'-- Looking for malloc.h - found\n'}
+[9.715050] (OpenCV) StdoutLine: {'line': b'-- Looking for memalign\n'}
+[9.716823] (-) TimerEvent: {}
+[9.789647] (OpenCV) StdoutLine: {'line': b'-- Looking for memalign - found\n'}
+[9.806357] (OpenCV) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found suitable version "1.2.11", minimum required is "1.2.3") \n'}
+[9.816944] (-) TimerEvent: {}
+[9.854370] (OpenCV) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[9.861902] (OpenCV) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[9.865481] (OpenCV) StdoutLine: {'line': b'-- Found WebP: /usr/lib/x86_64-linux-gnu/libwebp.so  \n'}
+[9.872795] (OpenCV) StdoutLine: {'line': b'-- The imported target "openjpip" references the file\n'}
+[9.872920] (OpenCV) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libopenjpip.so.2.4.0"\n'}
+[9.873003] (OpenCV) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[9.873081] (OpenCV) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[9.873156] (OpenCV) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[9.873231] (OpenCV) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[9.873304] (OpenCV) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGTargets.cmake"\n'}
+[9.873378] (OpenCV) StdoutLine: {'line': b'but not all the files it references.\n'}
+[9.873663] (OpenCV) StdoutLine: {'line': b'\n'}
+[9.873760] (OpenCV) StdoutLine: {'line': b'-- The imported target "opj_decompress" references the file\n'}
+[9.873841] (OpenCV) StdoutLine: {'line': b'   "/usr/bin/opj_decompress"\n'}
+[9.873915] (OpenCV) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[9.873988] (OpenCV) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[9.874059] (OpenCV) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[9.874130] (OpenCV) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[9.874201] (OpenCV) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGTargets.cmake"\n'}
+[9.874271] (OpenCV) StdoutLine: {'line': b'but not all the files it references.\n'}
+[9.874341] (OpenCV) StdoutLine: {'line': b'\n'}
+[9.874411] (OpenCV) StdoutLine: {'line': b'-- The imported target "opj_compress" references the file\n'}
+[9.874482] (OpenCV) StdoutLine: {'line': b'   "/usr/bin/opj_compress"\n'}
+[9.874561] (OpenCV) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[9.874633] (OpenCV) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[9.874704] (OpenCV) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[9.874774] (OpenCV) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[9.874844] (OpenCV) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGTargets.cmake"\n'}
+[9.874914] (OpenCV) StdoutLine: {'line': b'but not all the files it references.\n'}
+[9.874983] (OpenCV) StdoutLine: {'line': b'\n'}
+[9.875052] (OpenCV) StdoutLine: {'line': b'-- The imported target "opj_dump" references the file\n'}
+[9.875122] (OpenCV) StdoutLine: {'line': b'   "/usr/bin/opj_dump"\n'}
+[9.875191] (OpenCV) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[9.875260] (OpenCV) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[9.875328] (OpenCV) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[9.875397] (OpenCV) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[9.875465] (OpenCV) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGTargets.cmake"\n'}
+[9.875533] (OpenCV) StdoutLine: {'line': b'but not all the files it references.\n'}
+[9.875602] (OpenCV) StdoutLine: {'line': b'\n'}
+[9.875671] (OpenCV) StdoutLine: {'line': b'-- The imported target "opj_jpip_addxml" references the file\n'}
+[9.875741] (OpenCV) StdoutLine: {'line': b'   "/usr/bin/opj_jpip_addxml"\n'}
+[9.875810] (OpenCV) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[9.875881] (OpenCV) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[9.875951] (OpenCV) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[9.876022] (OpenCV) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[9.876102] (OpenCV) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGTargets.cmake"\n'}
+[9.876189] (OpenCV) StdoutLine: {'line': b'but not all the files it references.\n'}
+[9.876263] (OpenCV) StdoutLine: {'line': b'\n'}
+[9.876335] (OpenCV) StdoutLine: {'line': b'-- The imported target "opj_server" references the file\n'}
+[9.876406] (OpenCV) StdoutLine: {'line': b'   "/usr/bin/opj_server"\n'}
+[9.876476] (OpenCV) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[9.876547] (OpenCV) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[9.876617] (OpenCV) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[9.876687] (OpenCV) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[9.876756] (OpenCV) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGTargets.cmake"\n'}
+[9.876824] (OpenCV) StdoutLine: {'line': b'but not all the files it references.\n'}
+[9.876893] (OpenCV) StdoutLine: {'line': b'\n'}
+[9.876962] (OpenCV) StdoutLine: {'line': b'-- The imported target "opj_dec_server" references the file\n'}
+[9.877032] (OpenCV) StdoutLine: {'line': b'   "/usr/bin/opj_dec_server"\n'}
+[9.877100] (OpenCV) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[9.877169] (OpenCV) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[9.877238] (OpenCV) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[9.877306] (OpenCV) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[9.877375] (OpenCV) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGTargets.cmake"\n'}
+[9.877444] (OpenCV) StdoutLine: {'line': b'but not all the files it references.\n'}
+[9.877528] (OpenCV) StdoutLine: {'line': b'\n'}
+[9.877606] (OpenCV) StdoutLine: {'line': b'-- The imported target "opj_jpip_transcode" references the file\n'}
+[9.877678] (OpenCV) StdoutLine: {'line': b'   "/usr/bin/opj_jpip_transcode"\n'}
+[9.877749] (OpenCV) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[9.877820] (OpenCV) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[9.877891] (OpenCV) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[9.877963] (OpenCV) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[9.878034] (OpenCV) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGTargets.cmake"\n'}
+[9.878107] (OpenCV) StdoutLine: {'line': b'but not all the files it references.\n'}
+[9.878184] (OpenCV) StdoutLine: {'line': b'\n'}
+[9.878257] (OpenCV) StdoutLine: {'line': b'-- The imported target "opj_jpip_test" references the file\n'}
+[9.878329] (OpenCV) StdoutLine: {'line': b'   "/usr/bin/opj_jpip_test"\n'}
+[9.878401] (OpenCV) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[9.878472] (OpenCV) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[9.878560] (OpenCV) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[9.878635] (OpenCV) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[9.878710] (OpenCV) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/openjpeg-2.4/OpenJPEGTargets.cmake"\n'}
+[9.878786] (OpenCV) StdoutLine: {'line': b'but not all the files it references.\n'}
+[9.878861] (OpenCV) StdoutLine: {'line': b'\n'}
+[9.878935] (OpenCV) StdoutLine: {'line': b'-- Found system OpenJPEG: openjp2 (found version "2.4.0")\n'}
+[9.917068] (-) TimerEvent: {}
+[9.918055] (OpenCV) StdoutLine: {'line': b'-- Found OpenEXR: /usr/lib/x86_64-linux-gnu/libIlmImf-2_5.so\n'}
+[9.918757] (OpenCV) StdoutLine: {'line': b'-- libva: missing va.h header (VA_INCLUDE_DIR)\n'}
+[9.919878] (OpenCV) StdoutLine: {'line': b'-- IPPICV: Downloading ippicv_2021.11.0_lnx_intel64_20240201_general.tgz from https://raw.githubusercontent.com/opencv/opencv_3rdparty/fd27188235d85e552de31425e7ea0f53ba73ba53/ippicv/ippicv_2021.11.0_lnx_intel64_20240201_general.tgz\n'}
+[10.017200] (-) TimerEvent: {}
+[10.117600] (-) TimerEvent: {}
+[10.217953] (-) TimerEvent: {}
+[10.318315] (-) TimerEvent: {}
+[10.418669] (-) TimerEvent: {}
+[10.519005] (-) TimerEvent: {}
+[10.550651] (OpenCV) StdoutLine: {'line': b'-- found Intel IPP (ICV version): 2021.11.0 [2021.11.0]\n'}
+[10.550827] (OpenCV) StdoutLine: {'line': b'-- at: /home/arno/BasestationRoombaV3/build/OpenCV/3rdparty/ippicv/ippicv_lnx/icv\n'}
+[10.551834] (OpenCV) StdoutLine: {'line': b'-- found Intel IPP Integration Wrappers sources: 2021.11.0\n'}
+[10.551943] (OpenCV) StdoutLine: {'line': b'-- at: /home/arno/BasestationRoombaV3/build/OpenCV/3rdparty/ippicv/ippicv_lnx/iw\n'}
+[10.573954] (OpenCV) StdoutLine: {'line': b'-- Could not find OpenBLAS include. Turning OpenBLAS_FOUND off\n'}
+[10.574142] (OpenCV) StdoutLine: {'line': b'-- Could not find OpenBLAS lib. Turning OpenBLAS_FOUND off\n'}
+[10.581719] (OpenCV) StdoutLine: {'line': b'-- Could NOT find Atlas (missing: Atlas_CLAPACK_INCLUDE_DIR Atlas_CBLAS_LIBRARY Atlas_BLAS_LIBRARY) \n'}
+[10.585557] (OpenCV) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[10.619156] (-) TimerEvent: {}
+[10.658416] (OpenCV) StdoutLine: {'line': b'-- Looking for sgemm_ - not found\n'}
+[10.660255] (OpenCV) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.719306] (-) TimerEvent: {}
+[10.735331] (OpenCV) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.735633] (OpenCV) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.818540] (OpenCV) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.819403] (-) TimerEvent: {}
+[10.819556] (OpenCV) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.872497] (OpenCV) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[10.919519] (-) TimerEvent: {}
+[10.945642] (OpenCV) StdoutLine: {'line': b'-- Looking for sgemm_ - found\n'}
+[10.946013] (OpenCV) StdoutLine: {'line': b'-- Found BLAS: /usr/lib/x86_64-linux-gnu/libblas.so  \n'}
+[10.948321] (OpenCV) StdoutLine: {'line': b'-- Looking for cheev_\n'}
+[11.019655] (-) TimerEvent: {}
+[11.023285] (OpenCV) StdoutLine: {'line': b'-- Looking for cheev_ - not found\n'}
+[11.037113] (OpenCV) StdoutLine: {'line': b'-- Looking for cheev_\n'}
+[11.098782] (OpenCV) StdoutLine: {'line': b'-- Looking for cheev_ - not found\n'}
+[11.099469] (OpenCV) StdoutLine: {'line': b'-- Looking for cheev_\n'}
+[11.119773] (-) TimerEvent: {}
+[11.197797] (OpenCV) StdoutLine: {'line': b'-- Looking for cheev_ - found\n'}
+[11.198242] (OpenCV) StdoutLine: {'line': b'-- Found LAPACK: /usr/lib/x86_64-linux-gnu/liblapack.so;/usr/lib/x86_64-linux-gnu/libblas.so  \n'}
+[11.202008] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_DEPRECATED\n'}
+[11.219904] (-) TimerEvent: {}
+[11.298461] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_DEPRECATED - Success\n'}
+[11.298853] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_MISSING_PROTOTYPES\n'}
+[11.320020] (-) TimerEvent: {}
+[11.388266] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_MISSING_PROTOTYPES - Failed\n'}
+[11.388637] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_MISSING_DECLARATIONS\n'}
+[11.420193] (-) TimerEvent: {}
+[11.497580] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_MISSING_DECLARATIONS - Success\n'}
+[11.498191] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_SHADOW\n'}
+[11.520300] (-) TimerEvent: {}
+[11.606043] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_SHADOW - Success\n'}
+[11.606657] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_UNUSED_PARAMETER\n'}
+[11.620396] (-) TimerEvent: {}
+[11.712217] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_UNUSED_PARAMETER - Success\n'}
+[11.712663] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_UNUSED_LOCAL_TYPEDEFS\n'}
+[11.720504] (-) TimerEvent: {}
+[11.820459] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_UNUSED_LOCAL_TYPEDEFS - Success\n'}
+[11.820669] (-) TimerEvent: {}
+[11.821025] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_SIGN_COMPARE\n'}
+[11.920811] (-) TimerEvent: {}
+[11.926586] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_SIGN_COMPARE - Success\n'}
+[11.927106] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_SIGN_PROMO\n'}
+[12.020936] (-) TimerEvent: {}
+[12.030254] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_SIGN_PROMO - Success\n'}
+[12.030572] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_UNDEF\n'}
+[12.114730] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_UNDEF - Success\n'}
+[12.115010] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_TAUTOLOGICAL_UNDEFINED_COMPARE\n'}
+[12.120969] (-) TimerEvent: {}
+[12.204524] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_TAUTOLOGICAL_UNDEFINED_COMPARE - Failed\n'}
+[12.204832] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_IGNORED_QUALIFIERS\n'}
+[12.221112] (-) TimerEvent: {}
+[12.289889] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_IGNORED_QUALIFIERS - Success\n'}
+[12.290128] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_EXTRA\n'}
+[12.321250] (-) TimerEvent: {}
+[12.393450] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_EXTRA - Success\n'}
+[12.394109] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_UNUSED_FUNCTION\n'}
+[12.421395] (-) TimerEvent: {}
+[12.503137] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_UNUSED_FUNCTION - Success\n'}
+[12.503793] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_UNUSED_CONST_VARIABLE\n'}
+[12.521534] (-) TimerEvent: {}
+[12.601360] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_UNUSED_CONST_VARIABLE - Success\n'}
+[12.601626] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_SHORTEN_64_TO_32\n'}
+[12.621668] (-) TimerEvent: {}
+[12.669840] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_SHORTEN_64_TO_32 - Failed\n'}
+[12.670090] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_INVALID_OFFSETOF\n'}
+[12.721823] (-) TimerEvent: {}
+[12.745780] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_INVALID_OFFSETOF - Success\n'}
+[12.746146] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_ENUM_COMPARE_SWITCH\n'}
+[12.817378] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_ENUM_COMPARE_SWITCH - Failed\n'}
+[12.817718] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_SUGGEST_OVERRIDE\n'}
+[12.821924] (-) TimerEvent: {}
+[12.889411] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_SUGGEST_OVERRIDE - Success\n'}
+[12.889768] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_INCONSISTENT_MISSING_OVERRIDE\n'}
+[12.922083] (-) TimerEvent: {}
+[12.966588] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_INCONSISTENT_MISSING_OVERRIDE - Failed\n'}
+[12.966826] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_IMPLICIT_FALLTHROUGH\n'}
+[13.022185] (-) TimerEvent: {}
+[13.038373] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_IMPLICIT_FALLTHROUGH - Success\n'}
+[13.038629] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_ARRAY_BOUNDS\n'}
+[13.107438] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_ARRAY_BOUNDS - Success\n'}
+[13.107727] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_STRINGOP_OVERFLOW\n'}
+[13.122324] (-) TimerEvent: {}
+[13.182976] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_STRINGOP_OVERFLOW - Success\n'}
+[13.183330] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_STRINGOP_OVERREAD\n'}
+[13.222472] (-) TimerEvent: {}
+[13.267824] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_STRINGOP_OVERREAD - Success\n'}
+[13.268015] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_EXTRA_SEMI\n'}
+[13.322624] (-) TimerEvent: {}
+[13.337851] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_EXTRA_SEMI - Success\n'}
+[13.338167] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_COMMA\n'}
+[13.419321] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_COMMA - Failed\n'}
+[13.419770] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_CLASS_MEMACCESS\n'}
+[13.422719] (-) TimerEvent: {}
+[13.489939] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_CLASS_MEMACCESS - Success\n'}
+[13.522870] (-) TimerEvent: {}
+[13.585528] (OpenCV) StdoutLine: {'line': b'-- Found Java: /usr/bin/java (found version "11.0.22") \n'}
+[13.592886] (OpenCV) StdoutLine: {'line': b'-- Found JNI: /usr/lib/jvm/default-java/lib/libjawt.so  \n'}
+[13.623016] (-) TimerEvent: {}
+[13.723324] (-) TimerEvent: {}
+[13.823605] (-) TimerEvent: {}
+[13.923909] (-) TimerEvent: {}
+[14.024242] (-) TimerEvent: {}
+[14.124615] (-) TimerEvent: {}
+[14.224942] (-) TimerEvent: {}
+[14.325432] (-) TimerEvent: {}
+[14.425764] (-) TimerEvent: {}
+[14.526042] (-) TimerEvent: {}
+[14.626388] (-) TimerEvent: {}
+[14.726734] (-) TimerEvent: {}
+[14.827091] (-) TimerEvent: {}
+[14.927403] (-) TimerEvent: {}
+[15.027748] (-) TimerEvent: {}
+[15.128099] (-) TimerEvent: {}
+[15.228494] (-) TimerEvent: {}
+[15.328808] (-) TimerEvent: {}
+[15.429099] (-) TimerEvent: {}
+[15.529441] (-) TimerEvent: {}
+[15.629770] (-) TimerEvent: {}
+[15.730089] (-) TimerEvent: {}
+[15.830497] (-) TimerEvent: {}
+[15.930849] (-) TimerEvent: {}
+[15.993163] (OpenCV) StdoutLine: {'line': b'-- Found VTK 9.1.0\n'}
+[16.005237] (OpenCV) StdoutLine: {'line': b'-- Looking for dlerror in dl\n'}
+[16.031002] (-) TimerEvent: {}
+[16.067217] (OpenCV) StdoutLine: {'line': b'-- Looking for dlerror in dl - found\n'}
+[16.067598] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WNO_IMPLICIT_FALLTHROUGH\n'}
+[16.124758] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WNO_IMPLICIT_FALLTHROUGH - Success\n'}
+[16.125443] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WNO_UNDEF\n'}
+[16.131067] (-) TimerEvent: {}
+[16.182889] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WNO_UNDEF - Success\n'}
+[16.183158] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WNO_SIGN_COMPARE\n'}
+[16.231207] (-) TimerEvent: {}
+[16.241931] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WNO_SIGN_COMPARE - Success\n'}
+[16.242334] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WNO_STRICT_PROTOTYPES\n'}
+[16.299855] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_C_WNO_STRICT_PROTOTYPES - Success\n'}
+[16.315583] (OpenCV) StdoutLine: {'line': b'-- ADE: Downloading v0.1.2d.zip from https://github.com/opencv/ade/archive/v0.1.2d.zip\n'}
+[16.331337] (-) TimerEvent: {}
+[16.338582] (OpenCV) StdoutLine: {'line': b"-- Checking for module 'gtk+-3.0'\n"}
+[16.359535] (OpenCV) StdoutLine: {'line': b'--   Found gtk+-3.0, version 3.24.33\n'}
+[16.419164] (OpenCV) StdoutLine: {'line': b"-- Checking for module 'gtk+-2.0'\n"}
+[16.421603] (OpenCV) StdoutLine: {'line': b"--   No package 'gtk+-2.0' found\n"}
+[16.422330] (OpenCV) StdoutLine: {'line': b"-- Checking for module 'gthread-2.0>=2.32'\n"}
+[16.431456] (-) TimerEvent: {}
+[16.433232] (OpenCV) StdoutLine: {'line': b'--   Found gthread-2.0, version 2.72.4\n'}
+[16.491166] (OpenCV) StdoutLine: {'line': b"-- Checking for modules 'libavcodec;libavformat;libavutil;libswscale'\n"}
+[16.507936] (OpenCV) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[16.516830] (OpenCV) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[16.526526] (OpenCV) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[16.531578] (-) TimerEvent: {}
+[16.536270] (OpenCV) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[16.566544] (OpenCV) StdoutLine: {'line': b"-- Checking for module 'libavresample'\n"}
+[16.568499] (OpenCV) StdoutLine: {'line': b"--   No package 'libavresample' found\n"}
+[16.631732] (-) TimerEvent: {}
+[16.732092] (-) TimerEvent: {}
+[16.832461] (-) TimerEvent: {}
+[16.932819] (-) TimerEvent: {}
+[16.940622] (OpenCV) StdoutLine: {'line': b"-- Checking for module 'gstreamer-base-1.0'\n"}
+[16.964950] (OpenCV) StdoutLine: {'line': b'--   Found gstreamer-base-1.0, version 1.20.3\n'}
+[17.000081] (OpenCV) StdoutLine: {'line': b"-- Checking for module 'gstreamer-app-1.0'\n"}
+[17.010869] (OpenCV) StdoutLine: {'line': b'--   Found gstreamer-app-1.0, version 1.20.1\n'}
+[17.032931] (-) TimerEvent: {}
+[17.049510] (OpenCV) StdoutLine: {'line': b"-- Checking for module 'gstreamer-riff-1.0'\n"}
+[17.062309] (OpenCV) StdoutLine: {'line': b'--   Found gstreamer-riff-1.0, version 1.20.1\n'}
+[17.098212] (OpenCV) StdoutLine: {'line': b"-- Checking for module 'gstreamer-pbutils-1.0'\n"}
+[17.109648] (OpenCV) StdoutLine: {'line': b'--   Found gstreamer-pbutils-1.0, version 1.20.1\n'}
+[17.133084] (-) TimerEvent: {}
+[17.146567] (OpenCV) StdoutLine: {'line': b"-- Checking for module 'gstreamer-video-1.0'\n"}
+[17.159183] (OpenCV) StdoutLine: {'line': b'--   Found gstreamer-video-1.0, version 1.20.1\n'}
+[17.195592] (OpenCV) StdoutLine: {'line': b"-- Checking for module 'gstreamer-audio-1.0'\n"}
+[17.207753] (OpenCV) StdoutLine: {'line': b'--   Found gstreamer-audio-1.0, version 1.20.1\n'}
+[17.233207] (-) TimerEvent: {}
+[17.333582] (-) TimerEvent: {}
+[17.337209] (OpenCV) StdoutLine: {'line': b"-- Checking for module 'libdc1394-2'\n"}
+[17.349303] (OpenCV) StdoutLine: {'line': b'--   Found libdc1394-2, version 2.2.6\n'}
+[17.433707] (-) TimerEvent: {}
+[17.530523] (OpenCV) StdoutLine: {'line': b"-- Allocator metrics storage type: 'long long'\n"}
+[17.533793] (-) TimerEvent: {}
+[17.552369] (OpenCV) StdoutLine: {'line': b'-- Excluding from source files list: <BUILD>/modules/core/test/test_intrin256.lasx.cpp\n'}
+[17.590007] (OpenCV) StdoutLine: {'line': b'-- Excluding from source files list: modules/imgproc/src/imgwarp.lasx.cpp\n'}
+[17.590869] (OpenCV) StdoutLine: {'line': b'-- Excluding from source files list: modules/imgproc/src/resize.lasx.cpp\n'}
+[17.633923] (-) TimerEvent: {}
+[17.646261] (OpenCV) StdoutLine: {'line': b"-- Registering hook 'INIT_MODULE_SOURCES_opencv_dnn': /home/arno/BasestationRoombaV3/src/camera/opencv/modules/dnn/cmake/hooks/INIT_MODULE_SOURCES_opencv_dnn.cmake\n"}
+[17.694210] (OpenCV) StdoutLine: {'line': b'-- opencv_dnn: filter out cuda4dnn source code\n'}
+[17.707690] (OpenCV) StdoutLine: {'line': b'-- Excluding from source files list: modules/dnn/src/layers/cpu_kernels/conv_winograd_f63.neon.cpp\n'}
+[17.711489] (OpenCV) StdoutLine: {'line': b'-- Excluding from source files list: <BUILD>/modules/dnn/layers/layers_common.rvv.cpp\n'}
+[17.711806] (OpenCV) StdoutLine: {'line': b'-- Excluding from source files list: <BUILD>/modules/dnn/layers/layers_common.lasx.cpp\n'}
+[17.712587] (OpenCV) StdoutLine: {'line': b'-- Excluding from source files list: <BUILD>/modules/dnn/int8layers/layers_common.rvv.cpp\n'}
+[17.712874] (OpenCV) StdoutLine: {'line': b'-- Excluding from source files list: <BUILD>/modules/dnn/int8layers/layers_common.lasx.cpp\n'}
+[17.713625] (OpenCV) StdoutLine: {'line': b'-- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/conv_block.neon.cpp\n'}
+[17.713945] (OpenCV) StdoutLine: {'line': b'-- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/conv_block.neon_fp16.cpp\n'}
+[17.714655] (OpenCV) StdoutLine: {'line': b'-- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/conv_depthwise.rvv.cpp\n'}
+[17.714977] (OpenCV) StdoutLine: {'line': b'-- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/conv_depthwise.lasx.cpp\n'}
+[17.715637] (OpenCV) StdoutLine: {'line': b'-- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/conv_winograd_f63.neon_fp16.cpp\n'}
+[17.716343] (OpenCV) StdoutLine: {'line': b'-- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/fast_gemm_kernels.neon.cpp\n'}
+[17.716809] (OpenCV) StdoutLine: {'line': b'-- Excluding from source files list: <BUILD>/modules/dnn/layers/cpu_kernels/fast_gemm_kernels.lasx.cpp\n'}
+[17.734057] (-) TimerEvent: {}
+[17.759372] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_DEPRECATED_DECLARATIONS\n'}
+[17.832076] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_DEPRECATED_DECLARATIONS - Success\n'}
+[17.834161] (-) TimerEvent: {}
+[17.865027] (OpenCV) StdoutLine: {'line': b'-- highgui: using builtin backend: GTK3\n'}
+[17.934314] (-) TimerEvent: {}
+[17.978249] (OpenCV) StdoutLine: {'line': b"-- Found 'misc' Python modules from /home/arno/BasestationRoombaV3/src/camera/opencv/modules/python/package/extra_modules\n"}
+[17.978783] (OpenCV) StdoutLine: {'line': b"-- Found 'mat_wrapper;utils' Python modules from /home/arno/BasestationRoombaV3/src/camera/opencv/modules/core/misc/python/package\n"}
+[17.979289] (OpenCV) StdoutLine: {'line': b"-- Found 'gapi' Python modules from /home/arno/BasestationRoombaV3/src/camera/opencv/modules/gapi/misc/python/package\n"}
+[18.034405] (-) TimerEvent: {}
+[18.052658] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL\n'}
+[18.122003] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL - Success\n'}
+[18.122317] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_UNUSED_PRIVATE_FIELD\n'}
+[18.134545] (-) TimerEvent: {}
+[18.195432] (OpenCV) StdoutLine: {'line': b'-- Performing Test HAVE_CXX_WNO_UNUSED_PRIVATE_FIELD - Failed\n'}
+[18.196925] (OpenCV) StdoutLine: {'line': b"-- Found 'misc' Python modules from /home/arno/BasestationRoombaV3/src/camera/opencv/modules/python/package/extra_modules\n"}
+[18.197334] (OpenCV) StdoutLine: {'line': b"-- Found 'mat_wrapper;utils' Python modules from /home/arno/BasestationRoombaV3/src/camera/opencv/modules/core/misc/python/package\n"}
+[18.197795] (OpenCV) StdoutLine: {'line': b"-- Found 'gapi' Python modules from /home/arno/BasestationRoombaV3/src/camera/opencv/modules/gapi/misc/python/package\n"}
+[18.231495] (OpenCV) StdoutLine: {'line': b'-- \n'}
+[18.231856] (OpenCV) StdoutLine: {'line': b'-- General configuration for OpenCV 4.9.0-dev =====================================\n'}
+[18.232041] (OpenCV) StdoutLine: {'line': b'--   Version control:               4.9.0-456-g1d9a4120fa\n'}
+[18.232218] (OpenCV) StdoutLine: {'line': b'-- \n'}
+[18.232379] (OpenCV) StdoutLine: {'line': b'--   Platform:\n'}
+[18.232549] (OpenCV) StdoutLine: {'line': b'--     Timestamp:                   2024-05-18T18:51:42Z\n'}
+[18.232691] (OpenCV) StdoutLine: {'line': b'--     Host:                        Linux 6.5.0-28-generic x86_64\n'}
+[18.232833] (OpenCV) StdoutLine: {'line': b'--     CMake:                       3.22.1\n'}
+[18.233036] (OpenCV) StdoutLine: {'line': b'--     CMake generator:             Unix Makefiles\n'}
+[18.233196] (OpenCV) StdoutLine: {'line': b'--     CMake build tool:            /usr/bin/gmake\n'}
+[18.233353] (OpenCV) StdoutLine: {'line': b'--     Configuration:               Release\n'}
+[18.233488] (OpenCV) StdoutLine: {'line': b'-- \n'}
+[18.233623] (OpenCV) StdoutLine: {'line': b'--   CPU/HW features:\n'}
+[18.233759] (OpenCV) StdoutLine: {'line': b'--     Baseline:                    SSE SSE2 SSE3\n'}
+[18.233941] (OpenCV) StdoutLine: {'line': b'--       requested:                 SSE3\n'}
+[18.234118] (OpenCV) StdoutLine: {'line': b'--     Dispatched code generation:  SSE4_1 SSE4_2 FP16 AVX AVX2 AVX512_SKX\n'}
+[18.234280] (OpenCV) StdoutLine: {'line': b'--       requested:                 SSE4_1 SSE4_2 AVX FP16 AVX2 AVX512_SKX\n'}
+[18.234443] (OpenCV) StdoutLine: {'line': b'--       SSE4_1 (18 files):         + SSSE3 SSE4_1\n'}
+[18.234577] (-) TimerEvent: {}
+[18.234759] (OpenCV) StdoutLine: {'line': b'--       SSE4_2 (2 files):          + SSSE3 SSE4_1 POPCNT SSE4_2\n'}
+[18.234936] (OpenCV) StdoutLine: {'line': b'--       FP16 (1 files):            + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 AVX\n'}
+[18.235077] (OpenCV) StdoutLine: {'line': b'--       AVX (9 files):             + SSSE3 SSE4_1 POPCNT SSE4_2 AVX\n'}
+[18.235240] (OpenCV) StdoutLine: {'line': b'--       AVX2 (38 files):           + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2\n'}
+[18.235387] (OpenCV) StdoutLine: {'line': b'--       AVX512_SKX (8 files):      + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2 AVX_512F AVX512_COMMON AVX512_SKX\n'}
+[18.235604] (OpenCV) StdoutLine: {'line': b'-- \n'}
+[18.235776] (OpenCV) StdoutLine: {'line': b'--   C/C++:\n'}
+[18.235958] (OpenCV) StdoutLine: {'line': b'--     Built as dynamic libs?:      YES\n'}
+[18.236124] (OpenCV) StdoutLine: {'line': b'--     C++ standard:                11\n'}
+[18.236280] (OpenCV) StdoutLine: {'line': b'--     C++ Compiler:                /usr/bin/c++  (ver 11.4.0)\n'}
+[18.236462] (OpenCV) StdoutLine: {'line': b'--     C++ flags (Release):         -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG\n'}
+[18.236654] (OpenCV) StdoutLine: {'line': b'--     C++ flags (Debug):           -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG\n'}
+[18.236831] (OpenCV) StdoutLine: {'line': b'--     C Compiler:                  /usr/bin/cc\n'}
+[18.236994] (OpenCV) StdoutLine: {'line': b'--     C flags (Release):           -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -O3 -DNDEBUG  -DNDEBUG\n'}
+[18.237154] (OpenCV) StdoutLine: {'line': b'--     C flags (Debug):             -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -g  -O0 -DDEBUG -D_DEBUG\n'}
+[18.237340] (OpenCV) StdoutLine: {'line': b'--     Linker flags (Release):      -Wl,--exclude-libs,libippicv.a -Wl,--exclude-libs,libippiw.a   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  \n'}
+[18.237482] (OpenCV) StdoutLine: {'line': b'--     Linker flags (Debug):        -Wl,--exclude-libs,libippicv.a -Wl,--exclude-libs,libippiw.a   -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  \n'}
+[18.237643] (OpenCV) StdoutLine: {'line': b'--     ccache:                      NO\n'}
+[18.237812] (OpenCV) StdoutLine: {'line': b'--     Precompiled headers:         NO\n'}
+[18.243121] (OpenCV) StdoutLine: {'line': b'--     Extra dependencies:          dl m pthread rt\n'}
+[18.243301] (OpenCV) StdoutLine: {'line': b'--     3rdparty dependencies:\n'}
+[18.243499] (OpenCV) StdoutLine: {'line': b'-- \n'}
+[18.243670] (OpenCV) StdoutLine: {'line': b'--   OpenCV modules:\n'}
+[18.244000] (OpenCV) StdoutLine: {'line': b'--     To be built:                 calib3d core dnn features2d flann gapi highgui imgcodecs imgproc java ml objdetect photo python3 stitching ts video videoio\n'}
+[18.244229] (OpenCV) StdoutLine: {'line': b'--     Disabled:                    world\n'}
+[18.244426] (OpenCV) StdoutLine: {'line': b'--     Disabled by dependency:      -\n'}
+[18.244700] (OpenCV) StdoutLine: {'line': b'--     Unavailable:                 python2\n'}
+[18.245376] (OpenCV) StdoutLine: {'line': b'--     Applications:                tests perf_tests apps\n'}
+[18.245871] (OpenCV) StdoutLine: {'line': b'--     Documentation:               NO\n'}
+[18.246134] (OpenCV) StdoutLine: {'line': b'--     Non-free algorithms:         NO\n'}
+[18.246291] (OpenCV) StdoutLine: {'line': b'-- \n'}
+[18.246531] (OpenCV) StdoutLine: {'line': b'--   GUI:                           GTK3\n'}
+[18.246708] (OpenCV) StdoutLine: {'line': b'--     GTK+:                        YES (ver 3.24.33)\n'}
+[18.246852] (OpenCV) StdoutLine: {'line': b'--       GThread :                  YES (ver 2.72.4)\n'}
+[18.247016] (OpenCV) StdoutLine: {'line': b'--       GtkGlExt:                  NO\n'}
+[18.247174] (OpenCV) StdoutLine: {'line': b'--     VTK support:                 YES (ver 9.1.0)\n'}
+[18.247423] (OpenCV) StdoutLine: {'line': b'-- \n'}
+[18.247634] (OpenCV) StdoutLine: {'line': b'--   Media I/O: \n'}
+[18.247821] (OpenCV) StdoutLine: {'line': b'--     ZLib:                        /usr/lib/x86_64-linux-gnu/libz.so (ver 1.2.11)\n'}
+[18.247970] (OpenCV) StdoutLine: {'line': b'--     JPEG:                        /usr/lib/x86_64-linux-gnu/libjpeg.so (ver 80)\n'}
+[18.248139] (OpenCV) StdoutLine: {'line': b'--     WEBP:                        /usr/lib/x86_64-linux-gnu/libwebp.so (ver encoder: 0x020f)\n'}
+[18.248361] (OpenCV) StdoutLine: {'line': b'--     PNG:                         /usr/lib/x86_64-linux-gnu/libpng.so (ver 1.6.37)\n'}
+[18.248600] (OpenCV) StdoutLine: {'line': b'--     TIFF:                        /usr/lib/x86_64-linux-gnu/libtiff.so (ver 42 / 4.3.0)\n'}
+[18.248814] (OpenCV) StdoutLine: {'line': b'--     JPEG 2000:                   OpenJPEG (ver 2.4.0)\n'}
+[18.249109] (OpenCV) StdoutLine: {'line': b'--     OpenEXR:                     /usr/lib/x86_64-linux-gnu/libImath-2_5.so /usr/lib/x86_64-linux-gnu/libIlmImf-2_5.so /usr/lib/x86_64-linux-gnu/libIex-2_5.so /usr/lib/x86_64-linux-gnu/libHalf-2_5.so /usr/lib/x86_64-linux-gnu/libIlmThread-2_5.so (ver 2_5)\n'}
+[18.249383] (OpenCV) StdoutLine: {'line': b'--     HDR:                         YES\n'}
+[18.249577] (OpenCV) StdoutLine: {'line': b'--     SUNRASTER:                   YES\n'}
+[18.249823] (OpenCV) StdoutLine: {'line': b'--     PXM:                         YES\n'}
+[18.250032] (OpenCV) StdoutLine: {'line': b'--     PFM:                         YES\n'}
+[18.250224] (OpenCV) StdoutLine: {'line': b'-- \n'}
+[18.250397] (OpenCV) StdoutLine: {'line': b'--   Video I/O:\n'}
+[18.250544] (OpenCV) StdoutLine: {'line': b'--     DC1394:                      YES (2.2.6)\n'}
+[18.250710] (OpenCV) StdoutLine: {'line': b'--     FFMPEG:                      YES\n'}
+[18.250908] (OpenCV) StdoutLine: {'line': b'--       avcodec:                   YES (58.134.100)\n'}
+[18.251139] (OpenCV) StdoutLine: {'line': b'--       avformat:                  YES (58.76.100)\n'}
+[18.251342] (OpenCV) StdoutLine: {'line': b'--       avutil:                    YES (56.70.100)\n'}
+[18.251567] (OpenCV) StdoutLine: {'line': b'--       swscale:                   YES (5.9.100)\n'}
+[18.251742] (OpenCV) StdoutLine: {'line': b'--       avresample:                NO\n'}
+[18.251947] (OpenCV) StdoutLine: {'line': b'--     GStreamer:                   YES (1.20.3)\n'}
+[18.252379] (OpenCV) StdoutLine: {'line': b'--     v4l/v4l2:                    YES (linux/videodev2.h)\n'}
+[18.252917] (OpenCV) StdoutLine: {'line': b'-- \n'}
+[18.253115] (OpenCV) StdoutLine: {'line': b'--   Parallel framework:            pthreads\n'}
+[18.253370] (OpenCV) StdoutLine: {'line': b'-- \n'}
+[18.253572] (OpenCV) StdoutLine: {'line': b'--   Trace:                         YES (with Intel ITT)\n'}
+[18.253789] (OpenCV) StdoutLine: {'line': b'-- \n'}
+[18.253975] (OpenCV) StdoutLine: {'line': b'--   Other third-party libraries:\n'}
+[18.254152] (OpenCV) StdoutLine: {'line': b'--     Intel IPP:                   2021.11.0 [2021.11.0]\n'}
+[18.254320] (OpenCV) StdoutLine: {'line': b'--            at:                   /home/arno/BasestationRoombaV3/build/OpenCV/3rdparty/ippicv/ippicv_lnx/icv\n'}
+[18.254472] (OpenCV) StdoutLine: {'line': b'--     Intel IPP IW:                sources (2021.11.0)\n'}
+[18.254639] (OpenCV) StdoutLine: {'line': b'--               at:                /home/arno/BasestationRoombaV3/build/OpenCV/3rdparty/ippicv/ippicv_lnx/iw\n'}
+[18.254809] (OpenCV) StdoutLine: {'line': b'--     VA:                          NO\n'}
+[18.254987] (OpenCV) StdoutLine: {'line': b'--     Lapack:                      NO\n'}
+[18.255256] (OpenCV) StdoutLine: {'line': b'--     Eigen:                       YES (ver 3.4.0)\n'}
+[18.255473] (OpenCV) StdoutLine: {'line': b'--     Custom HAL:                  NO\n'}
+[18.255696] (OpenCV) StdoutLine: {'line': b'--     Protobuf:                    build (3.19.1)\n'}
+[18.255881] (OpenCV) StdoutLine: {'line': b'--     Flatbuffers:                 builtin/3rdparty (23.5.9)\n'}
+[18.256370] (OpenCV) StdoutLine: {'line': b'-- \n'}
+[18.256580] (OpenCV) StdoutLine: {'line': b'--   OpenCL:                        YES (no extra features)\n'}
+[18.256820] (OpenCV) StdoutLine: {'line': b'--     Include path:                /home/arno/BasestationRoombaV3/src/camera/opencv/3rdparty/include/opencl/1.2\n'}
+[18.257027] (OpenCV) StdoutLine: {'line': b'--     Link libraries:              Dynamic load\n'}
+[18.257206] (OpenCV) StdoutLine: {'line': b'-- \n'}
+[18.257375] (OpenCV) StdoutLine: {'line': b'--   Python 3:\n'}
+[18.257545] (OpenCV) StdoutLine: {'line': b'--     Interpreter:                 /usr/bin/python3 (ver 3.10.12)\n'}
+[18.257741] (OpenCV) StdoutLine: {'line': b'--     Libraries:                   /usr/lib/x86_64-linux-gnu/libpython3.10.so (ver 3.10.12)\n'}
+[18.257969] (OpenCV) StdoutLine: {'line': b'--     Limited API:                 NO\n'}
+[18.258198] (OpenCV) StdoutLine: {'line': b'--     numpy:                       /usr/lib/python3/dist-packages/numpy/core/include (ver 1.21.5)\n'}
+[18.258433] (OpenCV) StdoutLine: {'line': b'--     install path:                lib/python3.10/dist-packages/cv2/python-3.10\n'}
+[18.258616] (OpenCV) StdoutLine: {'line': b'-- \n'}
+[18.258799] (OpenCV) StdoutLine: {'line': b'--   Python (for build):            /usr/bin/python3\n'}
+[18.258980] (OpenCV) StdoutLine: {'line': b'-- \n'}
+[18.259155] (OpenCV) StdoutLine: {'line': b'--   Java:                          \n'}
+[18.259370] (OpenCV) StdoutLine: {'line': b'--     ant:                         NO\n'}
+[18.259602] (OpenCV) StdoutLine: {'line': b'--     Java:                        YES (ver 11.0.22)\n'}
+[18.259872] (OpenCV) StdoutLine: {'line': b'--     JNI:                         /usr/lib/jvm/default-java/include /usr/lib/jvm/default-java/include/linux /usr/lib/jvm/default-java/include\n'}
+[18.260094] (OpenCV) StdoutLine: {'line': b'--     Java wrappers:               YES (JAVA)\n'}
+[18.260421] (OpenCV) StdoutLine: {'line': b'--     Java tests:                  NO\n'}
+[18.260621] (OpenCV) StdoutLine: {'line': b'-- \n'}
+[18.260811] (OpenCV) StdoutLine: {'line': b'--   Install to:                    /home/arno/BasestationRoombaV3/install/OpenCV\n'}
+[18.261009] (OpenCV) StdoutLine: {'line': b'-- -----------------------------------------------------------------\n'}
+[18.261152] (OpenCV) StdoutLine: {'line': b'-- \n'}
+[18.334723] (-) TimerEvent: {}
+[18.435112] (-) TimerEvent: {}
+[18.535485] (-) TimerEvent: {}
+[18.635858] (-) TimerEvent: {}
+[18.736235] (-) TimerEvent: {}
+[18.836594] (-) TimerEvent: {}
+[18.936955] (-) TimerEvent: {}
+[18.979993] (OpenCV) StdoutLine: {'line': b'-- Configuring done\n'}
+[19.037073] (-) TimerEvent: {}
+[19.137457] (-) TimerEvent: {}
+[19.237758] (-) TimerEvent: {}
+[19.338124] (-) TimerEvent: {}
+[19.438448] (-) TimerEvent: {}
+[19.460690] (OpenCV) StdoutLine: {'line': b'-- Generating done\n'}
+[19.474625] (OpenCV) StdoutLine: {'line': b'-- Build files have been written to: /home/arno/BasestationRoombaV3/build/OpenCV\n'}
+[19.523215] (OpenCV) JobEnded: {'identifier': 'OpenCV', 'rc': 'SIGINT'}
+[19.533746] (cudaarithm) JobSkipped: {'identifier': 'cudaarithm'}
+[19.533828] (cudabgsegm) JobSkipped: {'identifier': 'cudabgsegm'}
+[19.533858] (cudacodec) JobSkipped: {'identifier': 'cudacodec'}
+[19.533882] (cudafeatures2d) JobSkipped: {'identifier': 'cudafeatures2d'}
+[19.533904] (cudafilters) JobSkipped: {'identifier': 'cudafilters'}
+[19.533926] (cudaimgproc) JobSkipped: {'identifier': 'cudaimgproc'}
+[19.533948] (cudalegacy) JobSkipped: {'identifier': 'cudalegacy'}
+[19.533969] (cudaobjdetect) JobSkipped: {'identifier': 'cudaobjdetect'}
+[19.533990] (cudaoptflow) JobSkipped: {'identifier': 'cudaoptflow'}
+[19.534011] (cudastereo) JobSkipped: {'identifier': 'cudastereo'}
+[19.534032] (cudawarping) JobSkipped: {'identifier': 'cudawarping'}
+[19.534053] (cudev) JobSkipped: {'identifier': 'cudev'}
+[19.534075] (cvv) JobSkipped: {'identifier': 'cvv'}
+[19.534096] (datasets) JobSkipped: {'identifier': 'datasets'}
+[19.534117] (dnn_objdetect) JobSkipped: {'identifier': 'dnn_objdetect'}
+[19.534138] (dnn_superres) JobSkipped: {'identifier': 'dnn_superres'}
+[19.534160] (dpm) JobSkipped: {'identifier': 'dpm'}
+[19.534181] (freetype) JobSkipped: {'identifier': 'freetype'}
+[19.534202] (fuzzy) JobSkipped: {'identifier': 'fuzzy'}
+[19.534223] (hdf) JobSkipped: {'identifier': 'hdf'}
+[19.534244] (img_hash) JobSkipped: {'identifier': 'img_hash'}
+[19.534265] (intensity_transform) JobSkipped: {'identifier': 'intensity_transform'}
+[19.534286] (julia) JobSkipped: {'identifier': 'julia'}
+[19.534309] (line_descriptor) JobSkipped: {'identifier': 'line_descriptor'}
+[19.534330] (matlab) JobSkipped: {'identifier': 'matlab'}
+[19.534365] (mcc) JobSkipped: {'identifier': 'mcc'}
+[19.534390] (microver) JobSkipped: {'identifier': 'microver'}
+[19.534414] (optflow) JobSkipped: {'identifier': 'optflow'}
+[19.534439] (ovis) JobSkipped: {'identifier': 'ovis'}
+[19.534464] (phase_unwrapping) JobSkipped: {'identifier': 'phase_unwrapping'}
+[19.534489] (plot) JobSkipped: {'identifier': 'plot'}
+[19.534514] (quality) JobSkipped: {'identifier': 'quality'}
+[19.534574] (rapid) JobSkipped: {'identifier': 'rapid'}
+[19.534603] (rgbd) JobSkipped: {'identifier': 'rgbd'}
+[19.534628] (rover_input_pkg) JobSkipped: {'identifier': 'rover_input_pkg'}
+[19.534653] (saliency) JobSkipped: {'identifier': 'saliency'}
+[19.534678] (sfm) JobSkipped: {'identifier': 'sfm'}
+[19.534702] (shape) JobSkipped: {'identifier': 'shape'}
+[19.534726] (signal) JobSkipped: {'identifier': 'signal'}
+[19.534750] (stereo) JobSkipped: {'identifier': 'stereo'}
+[19.534774] (structured_light) JobSkipped: {'identifier': 'structured_light'}
+[19.534798] (superres) JobSkipped: {'identifier': 'superres'}
+[19.534822] (surface_matching) JobSkipped: {'identifier': 'surface_matching'}
+[19.534875] (text) JobSkipped: {'identifier': 'text'}
+[19.534903] (tracking) JobSkipped: {'identifier': 'tracking'}
+[19.534927] (videostab) JobSkipped: {'identifier': 'videostab'}
+[19.534952] (viz) JobSkipped: {'identifier': 'viz'}
+[19.534976] (wechat_qrcode) JobSkipped: {'identifier': 'wechat_qrcode'}
+[19.535000] (xfeatures2d) JobSkipped: {'identifier': 'xfeatures2d'}
+[19.535024] (xobjdetect) JobSkipped: {'identifier': 'xobjdetect'}
+[19.535048] (xphoto) JobSkipped: {'identifier': 'xphoto'}
+[19.535098] (face) JobSkipped: {'identifier': 'face'}
+[19.535150] (hfs) JobSkipped: {'identifier': 'hfs'}
+[19.535177] (reg) JobSkipped: {'identifier': 'reg'}
+[19.535222] (ximgproc) JobSkipped: {'identifier': 'ximgproc'}
+[19.535273] (-) EventReactorShutdown: {}

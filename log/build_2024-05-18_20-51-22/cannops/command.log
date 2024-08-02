@@ -1,0 +1,1 @@
+Invoking command in '/home/arno/BasestationRoombaV3/build/cannops': /usr/bin/cmake /home/arno/BasestationRoombaV3/src/camera/opencv_contrib/modules/cannops -DCMAKE_INSTALL_PREFIX=/home/arno/BasestationRoombaV3/install/cannops

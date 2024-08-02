@@ -1,0 +1,42 @@
+[0.030s] Invoking command in '/home/arno/BasestationRoombaV3/build/aruco': /usr/bin/cmake /home/arno/BasestationRoombaV3/src/camera/opencv_contrib/modules/aruco -DCMAKE_INSTALL_PREFIX=/home/arno/BasestationRoombaV3/install/aruco
+[0.056s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.056s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.057s]   contain a literal, direct call to the project() command.  Add a line of
+[0.057s]   code such as
+[0.057s] 
+[0.058s]     project(ProjectName)
+[0.058s] 
+[0.058s]   near the top of the file, but after cmake_minimum_required().
+[0.058s] 
+[0.059s]   CMake is pretending there is a "project(Project)" command on the first
+[0.059s]   line.
+[0.059s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.059s] [0m
+[0.193s] -- The C compiler identification is GNU 11.4.0
+[0.338s] -- The CXX compiler identification is GNU 11.4.0
+[0.357s] -- Detecting C compiler ABI info
+[0.500s] -- Detecting C compiler ABI info - done
+[0.543s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.543s] -- Detecting C compile features
+[0.544s] -- Detecting C compile features - done
+[0.553s] -- Detecting CXX compiler ABI info
+[0.725s] -- Detecting CXX compiler ABI info - done
+[0.772s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.772s] -- Detecting CXX compile features
+[0.774s] -- Detecting CXX compile features - done
+[0.777s] -- Configuring incomplete, errors occurred!
+[0.777s] See also "/home/arno/BasestationRoombaV3/build/aruco/CMakeFiles/CMakeOutput.log".
+[0.777s] [31mCMake Error at CMakeLists.txt:2 (ocv_define_module):
+[0.777s]   Unknown CMake command "ocv_define_module".
+[0.778s] 
+[0.778s] [0m
+[0.778s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.778s]   No cmake_minimum_required command is present.  A line of code such as
+[0.778s] 
+[0.778s]     cmake_minimum_required(VERSION 3.22)
+[0.778s] 
+[0.778s]   should be added at the top of the file.  The version specified may be lower
+[0.778s]   if you wish to support older CMake versions for this project.  For more
+[0.778s]   information run "cmake --help-policy CMP0000".
+[0.779s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.779s] [0m
