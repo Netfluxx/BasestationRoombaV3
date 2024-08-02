@@ -68,7 +68,9 @@ void loop() {
           break;
         case 4:
           slave_addr = SLAVE_4;
-          break//Master Arduino Code
+          break
+          
+//Master Arduino Code
 
 #include <Wire.h>
 
