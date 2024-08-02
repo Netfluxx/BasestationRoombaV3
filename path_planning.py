@@ -1,5 +1,8 @@
 import math
 
+ROVER_SIZE = 2 #2x2 square on the grid
+
+
 DIRECTIONS = [  # [delta_x, delta_y]
     [-1, 0],    # left
     [0, -1],    # down
@@ -14,9 +17,19 @@ DIRECTIONS = [  # [delta_x, delta_y]
 def get_heuristic(x, y, goal_x, goal_y):
     return math.sqrt((x - goal_x) ** 2 + (y - goal_y) ** 2)
 
-def check_cell(x, y, closed, grid):
+def check_in_bounds(x, y, grid):
     if 0 <= x < len(grid) and 0 <= y < len(grid[0]):
+        return True
+    return False
+
+
+def check_cell(x, y, closed, grid):
+    if check_in_bounds(x, y, grid):
         if closed[x][y] == 0 and grid[x][y] == 0:
+            #check aroudn the current position to see if there is enough spac efor the rover to fit and/or turn
+            
+            ####IMPlEMENT HERE
+
             return True
     return False
 
@@ -60,7 +73,7 @@ def search(grid, init, goal, cost):
             raise ValueError("A* unable to find solution")
         else:
             cell.sort()     # Sorts in ascending order with respect to f
-            cell.reverse()  # Last cell now has the smallest 
+            cell.reverse()  # Last cell now has the smallest cost
             next_cell = cell.pop()
             x, y, g = next_cell[2], next_cell[3], next_cell[1]
             
